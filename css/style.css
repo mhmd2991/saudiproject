@@ -230,7 +230,7 @@ main .container .search-results {
     padding: 5px 10px;
 }
 
-.sectorcontent .allsector .box .sectortitle > div{
+.sectorcontent .allsector .box .sectortitle > div {
     display: flex;
     align-items: center;
     gap: 20px;
@@ -352,7 +352,7 @@ main .container .search-results {
     opacity: 1;
 }
 
-.allsector .box.active .sectortitle{
+.allsector .box.active .sectortitle {
     background-color: #f2f2f2;
     border-color: transparent;
 }
@@ -485,4 +485,249 @@ input[type=checkbox]:checked:before {
     .sectorcontent .sectorinfo {
         flex-basis: 100%;
     }
+}
+
+/*iwaa Page*/
+.container .iwaacontent {
+    margin-top: 100px;
+    background-color: var(--whiteColor);
+    min-height: 200vh;
+}
+
+.container .iwaacontent .navbar {
+    padding: 40px 30px;
+    position: relative;
+}
+
+.container .iwaacontent .navbar .cu1,
+.container .iwaacontent .navbar .cu2,
+.container .iwaacontent .navbar .cu3,
+.container .iwaacontent .navbar .cu4,
+.container .iwaacontent .navbar .cu5 {
+    position: absolute;
+    border: 5px solid #2c2a6b;
+    padding: 100px;
+}
+
+.container .iwaacontent .navbar .cu1,
+.container .iwaacontent .navbar .cu3,
+.container .iwaacontent .navbar .cu5 {
+    border-right: 0px;
+    border-radius: 30px 0 0 30px;
+    left: 0;
+}
+
+.container .iwaacontent .navbar .cu1 {
+    top: 13px;
+}
+
+.container .iwaacontent .navbar .cu3 {
+    top: 363px;
+}
+
+.container .iwaacontent .navbar .cu5 {
+    top: 713px;
+}
+
+.container .iwaacontent .navbar .cu2,
+.container .iwaacontent .navbar .cu4 {
+    border-left: 0px;
+    border-radius: 0px 30px 30px 0px;
+    right: 0;
+}
+
+.container .iwaacontent .navbar .cu2 {
+    top: 188px;
+}
+
+.container .iwaacontent .navbar .cu4 {
+    top: 538px;
+}
+
+.container .iwaacontent .navbar .st1,
+.container .iwaacontent .navbar .st2,
+.container .iwaacontent .navbar .st3,
+.container .iwaacontent .navbar .st4,
+.container .iwaacontent .navbar .st5,
+.container .iwaacontent .navbar .st6 {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: relative;
+}
+
+.container .iwaacontent .navbar .st6 {
+    justify-content: center;
+}
+
+.container .iwaacontent .navbar .st1::before {
+    content: "";
+    position: absolute;
+    width: 18px;
+    height: 18px;
+    background-color: #2c2a6b;
+    border-radius: 50%;
+    right: 0;
+}
+
+.container .iwaacontent .navbar .st1::after,
+.container .iwaacontent .navbar .st2::after,
+.container .iwaacontent .navbar .st3::after,
+.container .iwaacontent .navbar .st4::after,
+.container .iwaacontent .navbar .st5::after,
+.container .iwaacontent .navbar .st6::after {
+    content: "";
+    position: absolute;
+    width: 96%;
+    height: 5px;
+    background-color: #2c2a6b;
+    right: 0;
+}
+
+.container .iwaacontent .navbar .st2::after {
+    top: 188px;
+    width: 80%;
+    right: 57px;
+}
+
+.container .iwaacontent .navbar .st3::after {
+    top: 363px;
+    width: 80%;
+    right: 60px;
+}
+
+.container .iwaacontent .navbar .st4::after {
+    width: 80%;
+    right: 57px;
+    top: 538px;
+}
+
+.container .iwaacontent .navbar .st5::after {
+    right: 60px;
+    width: 80%;
+    top: 713px;
+}
+
+.container .iwaacontent .navbar .st6::after {
+    width: 80%;
+    right: 60px;
+    top: 888px;
+}
+
+.container .iwaacontent .navbar .st1 li,
+.container .iwaacontent .navbar .st2 li,
+.container .iwaacontent .navbar .st3 li,
+.container .iwaacontent .navbar .st4 li,
+.container .iwaacontent .navbar .st5 li,
+.container .iwaacontent .navbar .st6 li {
+    position: relative;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    color: var(--whiteColor);
+    border-radius: 50%;
+    background-color: #2c2a6b;
+    font-weight: 300;
+    cursor: pointer;
+    z-index: 100;
+}
+
+.container .iwaacontent .navbar .st2 li {
+    top: 176px;
+}
+
+.container .iwaacontent .navbar .st3 li {
+    top: 350px;
+}
+
+.container .iwaacontent .navbar .st4 li {
+    top: 526px;
+}
+
+.container .iwaacontent .navbar .st5 li {
+    top: 700px;
+}
+
+.container .iwaacontent .navbar .st6 li {
+    background-color: #999999;
+    top: 875px;
+}
+
+.container .iwaacontent .navbar .st1 li:nth-child(3),
+.container .iwaacontent .navbar .st1 li:nth-child(4) {
+    background-color: #56bbe8;
+}
+
+.container .iwaacontent .navbar .st5 li:nth-child(2),
+.container .iwaacontent .navbar .st5 li:nth-child(3),
+.container .iwaacontent .navbar .st5 li:nth-child(4) {
+    background-color: #999999;
+}
+
+.container .iwaacontent .navbar .st1 li::before,
+.container .iwaacontent .navbar .st2 li::before,
+.container .iwaacontent .navbar .st3 li::before,
+.container .iwaacontent .navbar .st4 li::before,
+.container .iwaacontent .navbar .st5 li::before,
+.container .iwaacontent .navbar .st6 li::before{
+    content: "";
+    position: absolute;
+    width: 38px;
+    height: 38px;
+    border-radius: 50%;
+    border: 1px solid #2c2a6b;
+    top: -5px;
+    left: -5px;
+}
+
+.container .iwaacontent .navbar .st1 li:nth-child(-n+3)::after,
+.container .iwaacontent .navbar .st3 li:nth-child(-n+3)::after,
+.container .iwaacontent .navbar .st5 li:nth-child(-n+3)::after {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-top: 15px solid transparent;
+    border-bottom: 15px solid transparent;
+    border-right: 15px solid #56bbe8;
+    right: 160px;
+}
+
+.container .iwaacontent .navbar .st1 li:last-of-type::after,
+.container .iwaacontent .navbar .st3 li:last-of-type::after,
+.container .iwaacontent .navbar .st5 li:last-of-type::after {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
+    border-top: 15px solid #56bbe8;
+    right: 160px;
+    top: 104px;
+}
+
+.container .iwaacontent .navbar .st2 li:nth-last-child(-n+4)::after,
+.container .iwaacontent .navbar .st4 li:nth-last-child(-n+4)::after {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-top: 15px solid transparent;
+    border-bottom: 15px solid transparent;
+    border-left: 15px solid #56bbe8;
+    left: 182px;
+}
+
+.container .iwaacontent .navbar .st2 li:first-of-type::after,
+.container .iwaacontent .navbar .st4 li:first-of-type::after {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
+    border-top: 15px solid #56bbe8;
+    left: 161px;
+    top: 115px;
 }

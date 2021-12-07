@@ -337,6 +337,61 @@ main .container .search-results {
     opacity: 1;
 }
 
+.sectorcontent .allsector .topbox {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+input[type="checkbox"] {
+    cursor: pointer;
+    padding: 5px;
+    width: 20px;
+    height: 20px;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    -o-appearance: none;
+    outline: none;
+    content: none;
+    text-align: center;
+    line-height: 1.4;
+    position: relative;
+
+}
+
+input[type=checkbox]:before {
+    font-family: "FontAwesome";
+    content: "\f00c";
+    font-size: 15px;
+    color: transparent !important;
+    background: var(--whiteColor);
+    display: block;
+    width: 20px;
+    height: 20px;
+    margin-right: -5px;
+    margin-top: -5px;
+    border: 1px solid #5D99C6;
+}
+
+input[type=checkbox]:checked:before {
+
+    color: #B3B3B3 !important;
+}
+
+.sectorcontent .allsector .topbox p {
+    color: #B3B3B3;
+    font-weight: 300;
+    cursor: pointer;
+}
+
+.sectorcontent .allsector .topbox .checkall {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
 .sectorcontent .allsector .box .sectordetails p a {
     color: #B3B3B3;
     font-weight: 300;
@@ -344,6 +399,24 @@ main .container .search-results {
 
 .sectorcontent .allsector .box .sectordetails p a:hover {
     text-decoration: underline;
+}
+
+.sectorcontent .allsector .box .sectordetails .last {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.sectorcontent .allsector .box .sectordetails p .plus {
+    font-weight: 300;
+}
+
+.sectorcontent .allsector .box .sectordetails .sub {
+    display: none;
+}
+
+.sectorcontent .allsector .box .sectordetails .sub.active {
+    display: block;
 }
 
 .sectorcontent .sectorinfo .part {

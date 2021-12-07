@@ -116,6 +116,11 @@ main .container {
     flex-direction: column;
 }
 
+main .bg {
+    background: url(../images/background.png) no-repeat;
+    background-size: cover;
+}
+
 main .container .input-form {
     width: 50%;
     margin: 100px auto 0;
@@ -201,7 +206,7 @@ main .container .search-results {
 }
 
 .sectorcontent .allsector {
-    flex-basis: 40%;
+    flex-basis: 30%;
     padding: 60px 20px;
     border-left: 2px solid #F2F2F2;
 }
@@ -211,9 +216,6 @@ main .container .search-results {
 }
 
 .sectorcontent .allsector .box {
-    /*border: 1px solid #B3B3B3;
-    border-radius: 5px;
-    padding: 5px 10px;*/
     margin-bottom: 10px;
     cursor: pointer;
 }
@@ -240,10 +242,18 @@ main .container .search-results {
     width: 100%;
     gap: 30px;
     margin-bottom: 30px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    border-radius: 20px;
+    border: 2px solid transparent;
+}
+
+.sectorcontent .sectorinfo .box:hover{
+    border: 2px solid #ccc;
 }
 
 .sectorcontent .sectorinfo {
-    flex-basis: 60%;
+    flex-basis: 65%;
     padding: 60px 30px;
 }
 
@@ -320,7 +330,7 @@ main .container .search-results {
 
 .sectorcontent .sectorinfo .box .right .codetitle {
     color: #B3B3B3;
-    font-weight: 300;
+    font-weight: 500;
 }
 
 .sectorcontent .sectorinfo .box .right .codenum {
@@ -362,6 +372,8 @@ main .container .search-results {
     justify-content: space-between;
     flex-wrap: wrap;
     margin-bottom: 15px;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 10px;
 }
 
 input[type="checkbox"] {
@@ -392,16 +404,17 @@ input[type=checkbox]:before {
     margin-right: -5px;
     margin-top: -5px;
     border: 1px solid #5D99C6;
+    border-radius: 4px;
 }
 
 input[type=checkbox]:checked:before {
 
-    color: #B3B3B3 !important;
+    color: #5d99c6 !important;
 }
 
 .sectorcontent .allsector .topbox p {
-    color: #B3B3B3;
-    font-weight: 300;
+    color: #5d99c6;
+    font-weight: 500;
     cursor: pointer;
 }
 
@@ -428,7 +441,7 @@ input[type=checkbox]:checked:before {
 }
 
 .sectorcontent .allsector .box .sectordetails p .plus {
-    font-weight: 300;
+    font-weight: 500;
 }
 
 .sectorcontent .allsector .box .sectordetails .sub {

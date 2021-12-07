@@ -341,6 +341,7 @@ main .container .search-results {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    flex-wrap: wrap;
     margin-bottom: 15px;
 }
 
@@ -434,6 +435,11 @@ input[type=checkbox]:checked:before {
         padding-bottom: 20px;
         border-bottom: 1px solid #bcbcbc;
     }
+    .sectorcontent .allsector .topbox .checkall {
+        gap: 10px;
+        margin-bottom: 20px;
+    }
+    
 }
 
 @media(max-width: 613px) {

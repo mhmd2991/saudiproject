@@ -16,31 +16,40 @@
     <div class="container">
         <div class="sectorcontent">
             <div class="allsector">
-                <h3>القطاعات</h3>
+              <h3>القطاعات</h3>
+               <div class="topbox">
+                   <div class="checkall">
+                       <input type="checkbox" onClick="toggle(this)" >
+                       <p>اختر الكل</p>
+                   </div>
+                   <p id="sort"><i class="fas fa-angle-down"></i> فرز حسب الابجدية</p>
+               </div>
                 <div class="box">
-                    <div class="sectortitle">قطاع السياحة<i class="fas fa-angle-down"></i></div>
+                    <div class="sectortitle"><input type="checkbox" value="tourism" id="tourism" class="checktitle" name="checksection">قطاع السياحة<i class="fas fa-angle-down"></i></div>
                     <div class="sectordetails">
                         <p><a href="#">الايواء السياحي</a></p>
                         <p><a href="#">الفنادق</a></p>
                         <p><a href="#">الفنادق التراثية</a></p>
                         <p><a href="#">فنادق الاستشفاء</a></p>
-                        <p><a href="#">فنادق البوتيك</a></p>
-                        <p><a href="#">الفلل الفندقية</a></p>
-                        <p><a href="#">الشقق المخدومة</a></p>
-                        <p><a href="#">بيوت العطلات (الشاليهات)</a></p>
-                        <p><a href="#">النزل السياحية</a></p>
-                        <p><a href="#">المنتجعات</a></p>
-                        <p><a href="#">وحدات المشاركة بالوقت</a></p>
-                        <p><a href="#">فنادق الكبائن</a></p>
-                        <p><a href="#">المخيمات</a></p>
-                        <p><a href="#">أنشطة وكالات السياحة والسفر</a></p>
-                        <p><a href="#">تنظيم رحلات سياحية</a></p>
-                        <p><a href="#">أنشطة الأدلاء السياحيين</a></p>
-                        <p><a href="#">حجز وحدات الإيواء السياحي وتسويقها</a></p>
+                        <p class="last"><a href="#">فنادق البوتيك</a> <span class="plus">+ المزيد</span></p>
+                        <div class="sub">
+                            <p><a href="#">الفلل الفندقية</a></p>
+                            <p><a href="#">الشقق المخدومة</a></p>
+                            <p><a href="#">بيوت العطلات (الشاليهات)</a></p>
+                            <p><a href="#">النزل السياحية</a></p>
+                            <p><a href="#">المنتجعات</a></p>
+                            <p><a href="#">وحدات المشاركة بالوقت</a></p>
+                            <p><a href="#">فنادق الكبائن</a></p>
+                            <p><a href="#">المخيمات</a></p>
+                            <p><a href="#">أنشطة وكالات السياحة والسفر</a></p>
+                            <p><a href="#">تنظيم رحلات سياحية</a></p>
+                            <p><a href="#">أنشطة الأدلاء السياحيين</a></p>
+                            <p><a href="#">حجز وحدات الإيواء السياحي وتسويقها</a></p>
+                        </div>
                     </div>
                 </div>
                 <div class="box">
-                    <div class="sectortitle">قطاع التعليم<i class="fas fa-angle-down"></i></div>
+                    <div class="sectortitle"><input type="checkbox" id="education" value="education" class="checktitle" name="checksection">قطاع التعليم<i class="fas fa-angle-down"></i></div>
                     <div class="sectordetails">
                         <p><a href="#">قطاع التعليم</a></p>
                         <p><a href="#"></a></p>
@@ -50,7 +59,7 @@
                     </div>
                 </div>
                 <div class="box">
-                    <div class="sectortitle">قطاع الصحة<i class="fas fa-angle-down"></i></div>
+                    <div class="sectortitle"><input type="checkbox" value="health" class="checktitle" name="checksection">قطاع الصحة<i class="fas fa-angle-down"></i></div>
                     <div class="sectordetails">
                         <p><a href="#"></a></p>
                         <p><a href="#"></a></p>
@@ -60,7 +69,7 @@
                     </div>
                 </div>
                 <div class="box">
-                    <div class="sectortitle">قطاع النقل<i class="fas fa-angle-down"></i></div>
+                    <div class="sectortitle"><input type="checkbox" value="transport" class="checktitle" name="checksection">قطاع النقل<i class="fas fa-angle-down"></i></div>
                     <div class="sectordetails">
                         <p><a href="#"></a></p>
                         <p><a href="#"></a></p>
@@ -70,7 +79,7 @@
                     </div>
                 </div>
                 <div class="box">
-                    <div class="sectortitle">القطاع البلدي<i class="fas fa-angle-down"></i></div>
+                    <div class="sectortitle"><input type="checkbox" value="municipality" class="checktitle" name="checksection">القطاع البلدي<i class="fas fa-angle-down"></i></div>
                     <div class="sectordetails">
                         <p><a href="#"></a></p>
                         <p><a href="#"></a></p>
@@ -80,7 +89,7 @@
                     </div>
                 </div>
                 <div class="box">
-                    <div class="sectortitle">قطاع الاتصالات<i class="fas fa-angle-down"></i></div>
+                    <div class="sectortitle"><input type="checkbox" value="telecom" class="checktitle" name="checksection">قطاع الاتصالات<i class="fas fa-angle-down"></i></div>
                     <div class="sectordetails">
                         <p><a href="#"></a></p>
                         <p><a href="#"></a></p>
@@ -90,7 +99,7 @@
                     </div>
                 </div>
                 <div class="box">
-                    <div class="sectortitle">قطاع التجارة<i class="fas fa-angle-down"></i></div>
+                    <div class="sectortitle"><input type="checkbox" value="trade" class="checktitle" name="checksection">قطاع التجارة<i class="fas fa-angle-down"></i></div>
                     <div class="sectordetails">
                         <p><a href="#"></a></p>
                         <p><a href="#"></a></p>
@@ -100,7 +109,7 @@
                     </div>
                 </div>
                 <div class="box">
-                    <div class="sectortitle">قطاع الاعلام<i class="fas fa-angle-down"></i></div>
+                    <div class="sectortitle"><input type="checkbox" value="media" class="checktitle" name="checksection">قطاع الاعلام<i class="fas fa-angle-down"></i></div>
                     <div class="sectordetails">
                         <p><a href="#"></a></p>
                         <p><a href="#"></a></p>
@@ -456,8 +465,34 @@
                     </div>
                 </section>
                 <section class="part education">
+                    <div class="box">
+                        <div class="right">
+                            <img src="images/icon-1.svg" alt="tourism">
+                            <div class="code">
+                                <p class="codetitle">رقم الايزك</p>
+                                <p class="codenum">559002</p>
+                            </div>
+                        </div>
+                        <div class="left">
+                            <div class="top">
+                                <h3>سكن الطلاب</h3>
+                                <a href="" class="btn">اختر النشاط</a>
+                            </div>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed
+                                diam nonummy nibh euismod tincidunt ut laoreet dolore
+                                magna aliquam erat volutpat. Ut wisi enim ad minim veniam,
+                            </p>
+                        </div>
+                    </div>
 
                 </section>
+                <section class="part health"></section>
+                <section class="part transport"></section>
+                <section class="part municipality"></section>
+                <section class="part telecom"></section>
+                <section class="part trade"></section>
+                <section class="part media"></section>
             </div>
         </div>
     </div>

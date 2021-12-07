@@ -207,7 +207,7 @@ main .container .search-results {
     border-left: 2px solid #F2F2F2;
 }
 
-.sectorcontent .allsector h3{
+.sectorcontent .allsector h3 {
     margin-bottom: 20px;
 }
 
@@ -246,6 +246,7 @@ main .container .search-results {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .sectorcontent .sectorinfo .box .left .top h3 {
@@ -281,7 +282,7 @@ main .container .search-results {
     flex-basis: 20%;
 }
 
-.sectorcontent .sectorinfo .box .right img{
+.sectorcontent .sectorinfo .box .right img {
     width: 60px;
 }
 
@@ -336,12 +337,12 @@ main .container .search-results {
     opacity: 1;
 }
 
-.sectorcontent .allsector .box .sectordetails p a{
+.sectorcontent .allsector .box .sectordetails p a {
     color: #B3B3B3;
     font-weight: 300;
 }
 
-.sectorcontent .allsector .box .sectordetails p a:hover{
+.sectorcontent .allsector .box .sectordetails p a:hover {
     text-decoration: underline;
 }
 
@@ -351,4 +352,34 @@ main .container .search-results {
 
 .sectorcontent .sectorinfo .part.active {
     display: block;
+}
+
+@media(max-width: 767px) {
+    .sectorcontent .sectorinfo .box {
+        flex-direction: column;
+        margin-bottom: 50px;
+        padding-bottom: 20px;
+        border-bottom: 1px solid #bcbcbc;
+    }
+}
+
+@media(max-width: 613px) {
+    .sectorcontent .sectorinfo .box .left .top {
+        justify-content: center;
+        gap: 20px;
+    }
+}
+
+@media(max-width: 460px) {
+    .sectorcontent .sectorinfo .box .left .top h3 {
+        font-size: 20px;
+    }
+
+    .sectorcontent .allsector {
+        display: none;
+    }
+
+    .sectorcontent .sectorinfo {
+        flex-basis: 100%;
+    }
 }

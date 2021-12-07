@@ -212,9 +212,9 @@ main .container .search-results {
 }
 
 .sectorcontent .allsector .box {
-    border: 1px solid #B3B3B3;
+    /*border: 1px solid #B3B3B3;
     border-radius: 5px;
-    padding: 5px 10px;
+    padding: 5px 10px;*/
     margin-bottom: 10px;
     cursor: pointer;
 }
@@ -222,8 +222,12 @@ main .container .search-results {
 .sectorcontent .allsector .box .sectortitle {
     display: flex;
     align-items: center;
+    justify-content: space-between;
     gap: 15px;
     font-weight: 500;
+    border: 1px solid #B3B3B3;
+    border-radius: 5px;
+    padding: 5px 10px;
 }
 
 .sectorcontent .sectorinfo .box {
@@ -327,14 +331,24 @@ main .container .search-results {
     transition: all .5s ease-in-out;
 }
 
+.allsector .box .fa-angle-down {
+    color: #B3B3B3;
+}
+
 .allsector .box.active .fa-angle-down {
     transform: rotate(180deg);
+    color: var(--blackColor);
 }
 
 .allsector .box.active .sectordetails {
     max-height: 500px;
     visibility: visible;
     opacity: 1;
+}
+
+.allsector .box.active .sectortitle{
+    background-color: #f2f2f2;
+    border-color: transparent;
 }
 
 .sectorcontent .allsector .topbox {
@@ -435,10 +449,12 @@ input[type=checkbox]:checked:before {
         padding-bottom: 20px;
         border-bottom: 1px solid #bcbcbc;
     }
+
     .sectorcontent .allsector .topbox .checkall {
         gap: 10px;
         margin-bottom: 20px;
     }
+
     .sectorcontent .allsector .topbox {
         align-items: flex-start;
     }

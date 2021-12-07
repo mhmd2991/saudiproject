@@ -16,16 +16,21 @@
     <div class="container">
         <div class="sectorcontent">
             <div class="allsector">
-              <h3>القطاعات</h3>
-               <div class="topbox">
-                   <div class="checkall">
-                       <input type="checkbox" onClick="toggle(this)" >
-                       <p>اختر الكل</p>
-                   </div>
-                   <p id="sort"><i class="fas fa-angle-down"></i> فرز حسب الابجدية</p>
-               </div>
+                <h3>القطاعات</h3>
+                <div class="topbox">
+                    <div class="checkall">
+                        <input type="checkbox" onClick="toggle(this)">
+                        <p>اختر الكل</p>
+                    </div>
+                    <p id="sort"><i class="fas fa-angle-down"></i> فرز حسب الابجدية</p>
+                </div>
                 <div class="box">
-                    <div class="sectortitle"><input type="checkbox" value="tourism" id="tourism" class="checktitle" name="checksection">قطاع السياحة<i class="fas fa-angle-down"></i></div>
+                    <div class="sectortitle">
+                        <div>
+                            <input type="checkbox" value="tourism" id="tourism" class="checktitle" name="checksection"> قطاع السياحة
+                        </div>
+                        <i class="fas fa-angle-down"></i>
+                    </div>
                     <div class="sectordetails">
                         <p><a href="#">الايواء السياحي</a></p>
                         <p><a href="#">الفنادق</a></p>
@@ -49,453 +54,488 @@
                     </div>
                 </div>
                 <div class="box">
-                    <div class="sectortitle"><input type="checkbox" id="education" value="education" class="checktitle" name="checksection">قطاع التعليم<i class="fas fa-angle-down"></i></div>
-                    <div class="sectordetails">
-                        <p><a href="#">قطاع التعليم</a></p>
-                        <p><a href="#"></a></p>
-                        <p><a href="#"></a></p>
-                        <p><a href="#"></a></p>
-                        <p><a href="#"></a></p>
-                    </div>
-                </div>
-                <div class="box">
-                    <div class="sectortitle"><input type="checkbox" value="health" class="checktitle" name="checksection">قطاع الصحة<i class="fas fa-angle-down"></i></div>
-                    <div class="sectordetails">
-                        <p><a href="#"></a></p>
-                        <p><a href="#"></a></p>
-                        <p><a href="#"></a></p>
-                        <p><a href="#"></a></p>
-                        <p><a href="#"></a></p>
-                    </div>
-                </div>
-                <div class="box">
-                    <div class="sectortitle"><input type="checkbox" value="transport" class="checktitle" name="checksection">قطاع النقل<i class="fas fa-angle-down"></i></div>
-                    <div class="sectordetails">
-                        <p><a href="#"></a></p>
-                        <p><a href="#"></a></p>
-                        <p><a href="#"></a></p>
-                        <p><a href="#"></a></p>
-                        <p><a href="#"></a></p>
-                    </div>
-                </div>
-                <div class="box">
-                    <div class="sectortitle"><input type="checkbox" value="municipality" class="checktitle" name="checksection">القطاع البلدي<i class="fas fa-angle-down"></i></div>
-                    <div class="sectordetails">
-                        <p><a href="#"></a></p>
-                        <p><a href="#"></a></p>
-                        <p><a href="#"></a></p>
-                        <p><a href="#"></a></p>
-                        <p><a href="#"></a></p>
-                    </div>
-                </div>
-                <div class="box">
-                    <div class="sectortitle"><input type="checkbox" value="telecom" class="checktitle" name="checksection">قطاع الاتصالات<i class="fas fa-angle-down"></i></div>
-                    <div class="sectordetails">
-                        <p><a href="#"></a></p>
-                        <p><a href="#"></a></p>
-                        <p><a href="#"></a></p>
-                        <p><a href="#"></a></p>
-                        <p><a href="#"></a></p>
-                    </div>
-                </div>
-                <div class="box">
-                    <div class="sectortitle"><input type="checkbox" value="trade" class="checktitle" name="checksection">قطاع التجارة<i class="fas fa-angle-down"></i></div>
-                    <div class="sectordetails">
-                        <p><a href="#"></a></p>
-                        <p><a href="#"></a></p>
-                        <p><a href="#"></a></p>
-                        <p><a href="#"></a></p>
-                        <p><a href="#"></a></p>
-                    </div>
-                </div>
-                <div class="box">
-                    <div class="sectortitle"><input type="checkbox" value="media" class="checktitle" name="checksection">قطاع الاعلام<i class="fas fa-angle-down"></i></div>
-                    <div class="sectordetails">
-                        <p><a href="#"></a></p>
-                        <p><a href="#"></a></p>
-                        <p><a href="#"></a></p>
-                        <p><a href="#"></a></p>
-                        <p><a href="#"></a></p>
-                    </div>
-                </div>
-            </div>
-            <div class="sectorinfo">
-                <section class="part tourism">
-                    <div class="box">
-                        <div class="right">
-                            <img src="images/icon-1.svg" alt="tourism">
-                            <div class="code">
-                                <p class="codetitle">رقم الايزك</p>
-                                <p class="codenum">799014</p>
+                        <div class="sectortitle">
+                            <div>
+                                <input type="checkbox" id="education" value="education" class="checktitle" name="checksection"> قطاع التعليم
                             </div>
+                            <i class="fas fa-angle-down"></i>
                         </div>
-                        <div class="left">
-                            <div class="top">
-                                <h3>الايواء السياحي</h3>
-                                <a href="" class="btn">اختر النشاط</a>
+                        <div class="sectordetails">
+                            <p><a href="#">قطاع التعليم</a></p>
+                            <p><a href="#"></a></p>
+                            <p><a href="#"></a></p>
+                            <p><a href="#"></a></p>
+                            <p><a href="#"></a></p>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="sectortitle">
+                            <div>
+                                <input type="checkbox" value="health" class="checktitle" name="checksection"> قطاع الصحة
                             </div>
-                            <p>
-                                Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed
-                                diam nonummy nibh euismod tincidunt ut laoreet dolore
-                                magna aliquam erat volutpat. Ut wisi enim ad minim veniam,
-                            </p>
+                            <i class="fas fa-angle-down"></i>
+                        </div>
+                        <div class="sectordetails">
+                            <p><a href="#"></a></p>
+                            <p><a href="#"></a></p>
+                            <p><a href="#"></a></p>
+                            <p><a href="#"></a></p>
+                            <p><a href="#"></a></p>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="sectortitle">
+                            <div>
+                                <input type="checkbox" value="transport" class="checktitle" name="checksection"> قطاع النقل
+                            </div>
+                            <i class="fas fa-angle-down"></i>
+                        </div>
+                        <div class="sectordetails">
+                            <p><a href="#"></a></p>
+                            <p><a href="#"></a></p>
+                            <p><a href="#"></a></p>
+                            <p><a href="#"></a></p>
+                            <p><a href="#"></a></p>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="sectortitle">
+                            <div>
+                                <input type="checkbox" value="municipality" class="checktitle" name="checksection"> القطاع البلدي
+                            </div>
+                            <i class="fas fa-angle-down"></i>
+                        </div>
+                        <div class="sectordetails">
+                            <p><a href="#"></a></p>
+                            <p><a href="#"></a></p>
+                            <p><a href="#"></a></p>
+                            <p><a href="#"></a></p>
+                            <p><a href="#"></a></p>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="sectortitle">
+                            <div>
+                                <input type="checkbox" value="telecom" class="checktitle" name="checksection"> قطاع الاتصالات
+                            </div>
+                            <i class="fas fa-angle-down"></i>
+                        </div>
+                        <div class="sectordetails">
+                            <p><a href="#"></a></p>
+                            <p><a href="#"></a></p>
+                            <p><a href="#"></a></p>
+                            <p><a href="#"></a></p>
+                            <p><a href="#"></a></p>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="sectortitle">
+                            <div>
+                                <input type="checkbox" value="trade" class="checktitle" name="checksection"> قطاع التجارة
+                            </div>
+                            <i class="fas fa-angle-down"></i>
+                        </div>
+                        <div class="sectordetails">
+                            <p><a href="#"></a></p>
+                            <p><a href="#"></a></p>
+                            <p><a href="#"></a></p>
+                            <p><a href="#"></a></p>
+                            <p><a href="#"></a></p>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="sectortitle">
+                            <div>
+                                <input type="checkbox" value="media" class="checktitle" name="checksection"> قطاع الاعلام
+                            </div>
+                            <i class="fas fa-angle-down"></i>
+                        </div>
+                        <div class="sectordetails">
+                            <p><a href="#"></a></p>
+                            <p><a href="#"></a></p>
+                            <p><a href="#"></a></p>
+                            <p><a href="#"></a></p>
+                            <p><a href="#"></a></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="sectorinfo">
+                    <section class="part tourism">
+                        <div class="box">
+                            <div class="right">
+                                <img src="images/icon-1.svg" alt="tourism">
+                                <div class="code">
+                                    <p class="codetitle">رقم الايزك</p>
+                                    <p class="codenum">799014</p>
+                                </div>
+                            </div>
+                            <div class="left">
+                                <div class="top">
+                                    <h3>الايواء السياحي</h3>
+                                    <a href="" class="btn">اختر النشاط</a>
+                                </div>
+                                <p>
+                                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed
+                                    diam nonummy nibh euismod tincidunt ut laoreet dolore
+                                    magna aliquam erat volutpat. Ut wisi enim ad minim veniam,
+                                </p>
 
-                        </div>
-                    </div>
-                    <div class="box">
-                        <div class="right">
-                            <img src="images/icon-1.svg" alt="tourism">
-                            <div class="code">
-                                <p class="codetitle">رقم الايزك</p>
-                                <p class="codenum">551011</p>
                             </div>
                         </div>
-                        <div class="left">
-                            <div class="top">
-                                <h3>الفنادق</h3>
-                                <a href="" class="btn">اختر النشاط</a>
+                        <div class="box">
+                            <div class="right">
+                                <img src="images/icon-1.svg" alt="tourism">
+                                <div class="code">
+                                    <p class="codetitle">رقم الايزك</p>
+                                    <p class="codenum">551011</p>
+                                </div>
                             </div>
-                            <p>
-                                Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed
-                                diam nonummy nibh euismod tincidunt ut laoreet dolore
-                                magna aliquam erat volutpat. Ut wisi enim ad minim veniam,
-                            </p>
+                            <div class="left">
+                                <div class="top">
+                                    <h3>الفنادق</h3>
+                                    <a href="" class="btn">اختر النشاط</a>
+                                </div>
+                                <p>
+                                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed
+                                    diam nonummy nibh euismod tincidunt ut laoreet dolore
+                                    magna aliquam erat volutpat. Ut wisi enim ad minim veniam,
+                                </p>
 
-                        </div>
-                    </div>
-                    <div class="box">
-                        <div class="right">
-                            <img src="images/icon-1.svg" alt="tourism">
-                            <div class="code">
-                                <p class="codetitle">رقم الايزك</p>
-                                <p class="codenum">551013</p>
                             </div>
                         </div>
-                        <div class="left">
-                            <div class="top">
-                                <h3>الفنادق التراثية</h3>
-                                <a href="" class="btn">اختر النشاط</a>
+                        <div class="box">
+                            <div class="right">
+                                <img src="images/icon-1.svg" alt="tourism">
+                                <div class="code">
+                                    <p class="codetitle">رقم الايزك</p>
+                                    <p class="codenum">551013</p>
+                                </div>
                             </div>
-                            <p>
-                                Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed
-                                diam nonummy nibh euismod tincidunt ut laoreet dolore
-                                magna aliquam erat volutpat. Ut wisi enim ad minim veniam,
-                            </p>
-                        </div>
-                    </div>
-                    <div class="box">
-                        <div class="right">
-                            <img src="images/icon-1.svg" alt="tourism">
-                            <div class="code">
-                                <p class="codetitle">رقم الايزك</p>
-                                <p class="codenum">551014</p>
-                            </div>
-                        </div>
-                        <div class="left">
-                            <div class="top">
-                                <h3>فنادق الاستشفاء</h3>
-                                <a href="" class="btn">اختر النشاط</a>
-                            </div>
-                            <p>
-                                Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed
-                                diam nonummy nibh euismod tincidunt ut laoreet dolore
-                                magna aliquam erat volutpat. Ut wisi enim ad minim veniam,
-                            </p>
-                        </div>
-                    </div>
-                    <div class="box">
-                        <div class="right">
-                            <img src="images/icon-1.svg" alt="tourism">
-                            <div class="code">
-                                <p class="codetitle">رقم الايزك</p>
-                                <p class="codenum">551015</p>
+                            <div class="left">
+                                <div class="top">
+                                    <h3>الفنادق التراثية</h3>
+                                    <a href="" class="btn">اختر النشاط</a>
+                                </div>
+                                <p>
+                                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed
+                                    diam nonummy nibh euismod tincidunt ut laoreet dolore
+                                    magna aliquam erat volutpat. Ut wisi enim ad minim veniam,
+                                </p>
                             </div>
                         </div>
-                        <div class="left">
-                            <div class="top">
-                                <h3>فنادق البوتيك</h3>
-                                <a href="" class="btn">اختر النشاط</a>
+                        <div class="box">
+                            <div class="right">
+                                <img src="images/icon-1.svg" alt="tourism">
+                                <div class="code">
+                                    <p class="codetitle">رقم الايزك</p>
+                                    <p class="codenum">551014</p>
+                                </div>
                             </div>
-                            <p>
-                                Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed
-                                diam nonummy nibh euismod tincidunt ut laoreet dolore
-                                magna aliquam erat volutpat. Ut wisi enim ad minim veniam,
-                            </p>
-                        </div>
-                    </div>
-                    <div class="box">
-                        <div class="right">
-                            <img src="images/icon-1.svg" alt="tourism">
-                            <div class="code">
-                                <p class="codetitle">رقم الايزك</p>
-                                <p class="codenum">551023</p>
-                            </div>
-                        </div>
-                        <div class="left">
-                            <div class="top">
-                                <h3>الفلل الفندقية</h3>
-                                <a href="" class="btn">اختر النشاط</a>
-                            </div>
-                            <p>
-                                Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed
-                                diam nonummy nibh euismod tincidunt ut laoreet dolore
-                                magna aliquam erat volutpat. Ut wisi enim ad minim veniam,
-                            </p>
-                        </div>
-                    </div>
-                    <div class="box">
-                        <div class="right">
-                            <img src="images/icon-1.svg" alt="tourism">
-                            <div class="code">
-                                <p class="codetitle">رقم الايزك</p>
-                                <p class="codenum">551025</p>
+                            <div class="left">
+                                <div class="top">
+                                    <h3>فنادق الاستشفاء</h3>
+                                    <a href="" class="btn">اختر النشاط</a>
+                                </div>
+                                <p>
+                                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed
+                                    diam nonummy nibh euismod tincidunt ut laoreet dolore
+                                    magna aliquam erat volutpat. Ut wisi enim ad minim veniam,
+                                </p>
                             </div>
                         </div>
-                        <div class="left">
-                            <div class="top">
-                                <h3>الشقق المخدومة</h3>
-                                <a href="" class="btn">اختر النشاط</a>
+                        <div class="box">
+                            <div class="right">
+                                <img src="images/icon-1.svg" alt="tourism">
+                                <div class="code">
+                                    <p class="codetitle">رقم الايزك</p>
+                                    <p class="codenum">551015</p>
+                                </div>
                             </div>
-                            <p>
-                                Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed
-                                diam nonummy nibh euismod tincidunt ut laoreet dolore
-                                magna aliquam erat volutpat. Ut wisi enim ad minim veniam,
-                            </p>
-                        </div>
-                    </div>
-                    <div class="box">
-                        <div class="right">
-                            <img src="images/icon-1.svg" alt="tourism">
-                            <div class="code">
-                                <p class="codetitle">رقم الايزك</p>
-                                <p class="codenum">551041</p>
-                            </div>
-                        </div>
-                        <div class="left">
-                            <div class="top">
-                                <h3>بيوت العطلات (الشاليهات)</h3>
-                                <a href="" class="btn">اختر النشاط</a>
-                            </div>
-                            <p>
-                                Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed
-                                diam nonummy nibh euismod tincidunt ut laoreet dolore
-                                magna aliquam erat volutpat. Ut wisi enim ad minim veniam,
-                            </p>
-                        </div>
-                    </div>
-                    <div class="box">
-                        <div class="right">
-                            <img src="images/icon-1.svg" alt="tourism">
-                            <div class="code">
-                                <p class="codetitle">رقم الايزك</p>
-                                <p class="codenum">551043</p>
+                            <div class="left">
+                                <div class="top">
+                                    <h3>فنادق البوتيك</h3>
+                                    <a href="" class="btn">اختر النشاط</a>
+                                </div>
+                                <p>
+                                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed
+                                    diam nonummy nibh euismod tincidunt ut laoreet dolore
+                                    magna aliquam erat volutpat. Ut wisi enim ad minim veniam,
+                                </p>
                             </div>
                         </div>
-                        <div class="left">
-                            <div class="top">
-                                <h3>النزل السياحية</h3>
-                                <a href="" class="btn">اختر النشاط</a>
+                        <div class="box">
+                            <div class="right">
+                                <img src="images/icon-1.svg" alt="tourism">
+                                <div class="code">
+                                    <p class="codetitle">رقم الايزك</p>
+                                    <p class="codenum">551023</p>
+                                </div>
                             </div>
-                            <p>
-                                Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed
-                                diam nonummy nibh euismod tincidunt ut laoreet dolore
-                                magna aliquam erat volutpat. Ut wisi enim ad minim veniam,
-                            </p>
-                        </div>
-                    </div>
-                    <div class="box">
-                        <div class="right">
-                            <img src="images/icon-1.svg" alt="tourism">
-                            <div class="code">
-                                <p class="codetitle">رقم الايزك</p>
-                                <p class="codenum">551044</p>
-                            </div>
-                        </div>
-                        <div class="left">
-                            <div class="top">
-                                <h3>المنتجعات</h3>
-                                <a href="" class="btn">اختر النشاط</a>
-                            </div>
-                            <p>
-                                Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed
-                                diam nonummy nibh euismod tincidunt ut laoreet dolore
-                                magna aliquam erat volutpat. Ut wisi enim ad minim veniam,
-                            </p>
-                        </div>
-                    </div>
-                    <div class="box">
-                        <div class="right">
-                            <img src="images/icon-1.svg" alt="tourism">
-                            <div class="code">
-                                <p class="codetitle">رقم الايزك</p>
-                                <p class="codenum">551060</p>
+                            <div class="left">
+                                <div class="top">
+                                    <h3>الفلل الفندقية</h3>
+                                    <a href="" class="btn">اختر النشاط</a>
+                                </div>
+                                <p>
+                                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed
+                                    diam nonummy nibh euismod tincidunt ut laoreet dolore
+                                    magna aliquam erat volutpat. Ut wisi enim ad minim veniam,
+                                </p>
                             </div>
                         </div>
-                        <div class="left">
-                            <div class="top">
-                                <h3>وحدات المشاركة بالوقت</h3>
-                                <a href="" class="btn">اختر النشاط</a>
+                        <div class="box">
+                            <div class="right">
+                                <img src="images/icon-1.svg" alt="tourism">
+                                <div class="code">
+                                    <p class="codetitle">رقم الايزك</p>
+                                    <p class="codenum">551025</p>
+                                </div>
                             </div>
-                            <p>
-                                Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed
-                                diam nonummy nibh euismod tincidunt ut laoreet dolore
-                                magna aliquam erat volutpat. Ut wisi enim ad minim veniam,
-                            </p>
-                        </div>
-                    </div>
-                    <div class="box">
-                        <div class="right">
-                            <img src="images/icon-1.svg" alt="tourism">
-                            <div class="code">
-                                <p class="codetitle">رقم الايزك</p>
-                                <p class="codenum">551071</p>
-                            </div>
-                        </div>
-                        <div class="left">
-                            <div class="top">
-                                <h3>فنادق الكبائن</h3>
-                                <a href="" class="btn">اختر النشاط</a>
-                            </div>
-                            <p>
-                                Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed
-                                diam nonummy nibh euismod tincidunt ut laoreet dolore
-                                magna aliquam erat volutpat. Ut wisi enim ad minim veniam,
-                            </p>
-                        </div>
-                    </div>
-                    <div class="box">
-                        <div class="right">
-                            <img src="images/icon-1.svg" alt="tourism">
-                            <div class="code">
-                                <p class="codetitle">رقم الايزك</p>
-                                <p class="codenum">552001</p>
+                            <div class="left">
+                                <div class="top">
+                                    <h3>الشقق المخدومة</h3>
+                                    <a href="" class="btn">اختر النشاط</a>
+                                </div>
+                                <p>
+                                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed
+                                    diam nonummy nibh euismod tincidunt ut laoreet dolore
+                                    magna aliquam erat volutpat. Ut wisi enim ad minim veniam,
+                                </p>
                             </div>
                         </div>
-                        <div class="left">
-                            <div class="top">
-                                <h3>المخيمات</h3>
-                                <a href="" class="btn">اختر النشاط</a>
+                        <div class="box">
+                            <div class="right">
+                                <img src="images/icon-1.svg" alt="tourism">
+                                <div class="code">
+                                    <p class="codetitle">رقم الايزك</p>
+                                    <p class="codenum">551041</p>
+                                </div>
                             </div>
-                            <p>
-                                Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed
-                                diam nonummy nibh euismod tincidunt ut laoreet dolore
-                                magna aliquam erat volutpat. Ut wisi enim ad minim veniam,
-                            </p>
-                        </div>
-                    </div>
-                    <div class="box">
-                        <div class="right">
-                            <img src="images/icon-1.svg" alt="tourism">
-                            <div class="code">
-                                <p class="codetitle">رقم الايزك</p>
-                                <p class="codenum">791101</p>
-                            </div>
-                        </div>
-                        <div class="left">
-                            <div class="top">
-                                <h3>أنشطة وكالات السياحة والسفر</h3>
-                                <a href="" class="btn">اختر النشاط</a>
-                            </div>
-                            <p>
-                                Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed
-                                diam nonummy nibh euismod tincidunt ut laoreet dolore
-                                magna aliquam erat volutpat. Ut wisi enim ad minim veniam,
-                            </p>
-                        </div>
-                    </div>
-                    <div class="box">
-                        <div class="right">
-                            <img src="images/icon-1.svg" alt="tourism">
-                            <div class="code">
-                                <p class="codetitle">رقم الايزك</p>
-                                <p class="codenum">791223</p>
+                            <div class="left">
+                                <div class="top">
+                                    <h3>بيوت العطلات (الشاليهات)</h3>
+                                    <a href="" class="btn">اختر النشاط</a>
+                                </div>
+                                <p>
+                                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed
+                                    diam nonummy nibh euismod tincidunt ut laoreet dolore
+                                    magna aliquam erat volutpat. Ut wisi enim ad minim veniam,
+                                </p>
                             </div>
                         </div>
-                        <div class="left">
-                            <div class="top">
-                                <h3>تنظيم رحلات سياحية</h3>
-                                <a href="" class="btn">اختر النشاط</a>
+                        <div class="box">
+                            <div class="right">
+                                <img src="images/icon-1.svg" alt="tourism">
+                                <div class="code">
+                                    <p class="codetitle">رقم الايزك</p>
+                                    <p class="codenum">551043</p>
+                                </div>
                             </div>
-                            <p>
-                                Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed
-                                diam nonummy nibh euismod tincidunt ut laoreet dolore
-                                magna aliquam erat volutpat. Ut wisi enim ad minim veniam,
-                            </p>
-                        </div>
-                    </div>
-                    <div class="box">
-                        <div class="right">
-                            <img src="images/icon-1.svg" alt="tourism">
-                            <div class="code">
-                                <p class="codetitle">رقم الايزك</p>
-                                <p class="codenum">791224</p>
-                            </div>
-                        </div>
-                        <div class="left">
-                            <div class="top">
-                                <h3>أنشطة الأدلاء السياحيين</h3>
-                                <a href="" class="btn">اختر النشاط</a>
-                            </div>
-                            <p>
-                                Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed
-                                diam nonummy nibh euismod tincidunt ut laoreet dolore
-                                magna aliquam erat volutpat. Ut wisi enim ad minim veniam,
-                            </p>
-                        </div>
-                    </div>
-                    <div class="box">
-                        <div class="right">
-                            <img src="images/icon-1.svg" alt="tourism">
-                            <div class="code">
-                                <p class="codetitle">رقم الايزك</p>
-                                <p class="codenum">799014</p>
+                            <div class="left">
+                                <div class="top">
+                                    <h3>النزل السياحية</h3>
+                                    <a href="" class="btn">اختر النشاط</a>
+                                </div>
+                                <p>
+                                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed
+                                    diam nonummy nibh euismod tincidunt ut laoreet dolore
+                                    magna aliquam erat volutpat. Ut wisi enim ad minim veniam,
+                                </p>
                             </div>
                         </div>
-                        <div class="left">
-                            <div class="top">
-                                <h3>حجز وحدات الإيواء السياحي وتسويقها</h3>
-                                <a href="" class="btn">اختر النشاط</a>
+                        <div class="box">
+                            <div class="right">
+                                <img src="images/icon-1.svg" alt="tourism">
+                                <div class="code">
+                                    <p class="codetitle">رقم الايزك</p>
+                                    <p class="codenum">551044</p>
+                                </div>
                             </div>
-                            <p>
-                                Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed
-                                diam nonummy nibh euismod tincidunt ut laoreet dolore
-                                magna aliquam erat volutpat. Ut wisi enim ad minim veniam,
-                            </p>
-                        </div>
-                    </div>
-                </section>
-                <section class="part education">
-                    <div class="box">
-                        <div class="right">
-                            <img src="images/icon-1.svg" alt="tourism">
-                            <div class="code">
-                                <p class="codetitle">رقم الايزك</p>
-                                <p class="codenum">559002</p>
+                            <div class="left">
+                                <div class="top">
+                                    <h3>المنتجعات</h3>
+                                    <a href="" class="btn">اختر النشاط</a>
+                                </div>
+                                <p>
+                                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed
+                                    diam nonummy nibh euismod tincidunt ut laoreet dolore
+                                    magna aliquam erat volutpat. Ut wisi enim ad minim veniam,
+                                </p>
                             </div>
                         </div>
-                        <div class="left">
-                            <div class="top">
-                                <h3>سكن الطلاب</h3>
-                                <a href="" class="btn">اختر النشاط</a>
+                        <div class="box">
+                            <div class="right">
+                                <img src="images/icon-1.svg" alt="tourism">
+                                <div class="code">
+                                    <p class="codetitle">رقم الايزك</p>
+                                    <p class="codenum">551060</p>
+                                </div>
                             </div>
-                            <p>
-                                Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed
-                                diam nonummy nibh euismod tincidunt ut laoreet dolore
-                                magna aliquam erat volutpat. Ut wisi enim ad minim veniam,
-                            </p>
+                            <div class="left">
+                                <div class="top">
+                                    <h3>وحدات المشاركة بالوقت</h3>
+                                    <a href="" class="btn">اختر النشاط</a>
+                                </div>
+                                <p>
+                                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed
+                                    diam nonummy nibh euismod tincidunt ut laoreet dolore
+                                    magna aliquam erat volutpat. Ut wisi enim ad minim veniam,
+                                </p>
+                            </div>
                         </div>
-                    </div>
+                        <div class="box">
+                            <div class="right">
+                                <img src="images/icon-1.svg" alt="tourism">
+                                <div class="code">
+                                    <p class="codetitle">رقم الايزك</p>
+                                    <p class="codenum">551071</p>
+                                </div>
+                            </div>
+                            <div class="left">
+                                <div class="top">
+                                    <h3>فنادق الكبائن</h3>
+                                    <a href="" class="btn">اختر النشاط</a>
+                                </div>
+                                <p>
+                                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed
+                                    diam nonummy nibh euismod tincidunt ut laoreet dolore
+                                    magna aliquam erat volutpat. Ut wisi enim ad minim veniam,
+                                </p>
+                            </div>
+                        </div>
+                        <div class="box">
+                            <div class="right">
+                                <img src="images/icon-1.svg" alt="tourism">
+                                <div class="code">
+                                    <p class="codetitle">رقم الايزك</p>
+                                    <p class="codenum">552001</p>
+                                </div>
+                            </div>
+                            <div class="left">
+                                <div class="top">
+                                    <h3>المخيمات</h3>
+                                    <a href="" class="btn">اختر النشاط</a>
+                                </div>
+                                <p>
+                                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed
+                                    diam nonummy nibh euismod tincidunt ut laoreet dolore
+                                    magna aliquam erat volutpat. Ut wisi enim ad minim veniam,
+                                </p>
+                            </div>
+                        </div>
+                        <div class="box">
+                            <div class="right">
+                                <img src="images/icon-1.svg" alt="tourism">
+                                <div class="code">
+                                    <p class="codetitle">رقم الايزك</p>
+                                    <p class="codenum">791101</p>
+                                </div>
+                            </div>
+                            <div class="left">
+                                <div class="top">
+                                    <h3>أنشطة وكالات السياحة والسفر</h3>
+                                    <a href="" class="btn">اختر النشاط</a>
+                                </div>
+                                <p>
+                                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed
+                                    diam nonummy nibh euismod tincidunt ut laoreet dolore
+                                    magna aliquam erat volutpat. Ut wisi enim ad minim veniam,
+                                </p>
+                            </div>
+                        </div>
+                        <div class="box">
+                            <div class="right">
+                                <img src="images/icon-1.svg" alt="tourism">
+                                <div class="code">
+                                    <p class="codetitle">رقم الايزك</p>
+                                    <p class="codenum">791223</p>
+                                </div>
+                            </div>
+                            <div class="left">
+                                <div class="top">
+                                    <h3>تنظيم رحلات سياحية</h3>
+                                    <a href="" class="btn">اختر النشاط</a>
+                                </div>
+                                <p>
+                                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed
+                                    diam nonummy nibh euismod tincidunt ut laoreet dolore
+                                    magna aliquam erat volutpat. Ut wisi enim ad minim veniam,
+                                </p>
+                            </div>
+                        </div>
+                        <div class="box">
+                            <div class="right">
+                                <img src="images/icon-1.svg" alt="tourism">
+                                <div class="code">
+                                    <p class="codetitle">رقم الايزك</p>
+                                    <p class="codenum">791224</p>
+                                </div>
+                            </div>
+                            <div class="left">
+                                <div class="top">
+                                    <h3>أنشطة الأدلاء السياحيين</h3>
+                                    <a href="" class="btn">اختر النشاط</a>
+                                </div>
+                                <p>
+                                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed
+                                    diam nonummy nibh euismod tincidunt ut laoreet dolore
+                                    magna aliquam erat volutpat. Ut wisi enim ad minim veniam,
+                                </p>
+                            </div>
+                        </div>
+                        <div class="box">
+                            <div class="right">
+                                <img src="images/icon-1.svg" alt="tourism">
+                                <div class="code">
+                                    <p class="codetitle">رقم الايزك</p>
+                                    <p class="codenum">799014</p>
+                                </div>
+                            </div>
+                            <div class="left">
+                                <div class="top">
+                                    <h3>حجز وحدات الإيواء السياحي وتسويقها</h3>
+                                    <a href="" class="btn">اختر النشاط</a>
+                                </div>
+                                <p>
+                                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed
+                                    diam nonummy nibh euismod tincidunt ut laoreet dolore
+                                    magna aliquam erat volutpat. Ut wisi enim ad minim veniam,
+                                </p>
+                            </div>
+                        </div>
+                    </section>
+                    <section class="part education">
+                        <div class="box">
+                            <div class="right">
+                                <img src="images/icon-1.svg" alt="tourism">
+                                <div class="code">
+                                    <p class="codetitle">رقم الايزك</p>
+                                    <p class="codenum">559002</p>
+                                </div>
+                            </div>
+                            <div class="left">
+                                <div class="top">
+                                    <h3>سكن الطلاب</h3>
+                                    <a href="" class="btn">اختر النشاط</a>
+                                </div>
+                                <p>
+                                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed
+                                    diam nonummy nibh euismod tincidunt ut laoreet dolore
+                                    magna aliquam erat volutpat. Ut wisi enim ad minim veniam,
+                                </p>
+                            </div>
+                        </div>
 
-                </section>
-                <section class="part health"></section>
-                <section class="part transport"></section>
-                <section class="part municipality"></section>
-                <section class="part telecom"></section>
-                <section class="part trade"></section>
-                <section class="part media"></section>
+                    </section>
+                    <section class="part health"></section>
+                    <section class="part transport"></section>
+                    <section class="part municipality"></section>
+                    <section class="part telecom"></section>
+                    <section class="part trade"></section>
+                    <section class="part media"></section>
+                </div>
             </div>
         </div>
-    </div>
 </main>
 <script src="https://kit.fontawesome.com/9e5ba2e3f5.js" crossorigin="anonymous"></script>
 <script src="js/database.js"></script>

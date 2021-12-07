@@ -439,7 +439,9 @@ input[type=checkbox]:checked:before {
         gap: 10px;
         margin-bottom: 20px;
     }
-    
+    .sectorcontent .allsector .topbox {
+        align-items: flex-start;
+    }
 }
 
 @media(max-width: 613px) {

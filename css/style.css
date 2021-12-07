@@ -230,6 +230,12 @@ main .container .search-results {
     padding: 5px 10px;
 }
 
+.sectorcontent .allsector .box .sectortitle > div{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
 .sectorcontent .sectorinfo .box {
     display: flex;
     width: 100%;

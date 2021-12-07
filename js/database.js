@@ -19,7 +19,7 @@ const database = [
         sectorName: "قطاع الصحة",
         sectorCode: "B201",
         sectorIcon: "icon-3.svg",
-        sectorN: "اealth",
+        sectorN: "health",
         info: [],
         desc: "شرح تفصيلي",
     },

@@ -10,13 +10,65 @@ function getTitle() {
 
         if (database[i].sectorCode === id) {
             let sectionName = document.querySelector(`.${database[i].sectorN}`);
+            let checkBox = document.querySelector(`#${database[i].sectorN}`);
             sectionName.classList.add("active");
-            
+            checkBox.checked = true;
         }
     }
 }
 
-const allSector = document.querySelector('.allsector');
+function checkSection() {
+    let checks = document.querySelectorAll(".checktitle");
+
+    checks.forEach((check) => {
+        check.addEventListener("click", function (e) {
+            let checkVal = check.value;
+            let section = document.querySelector(`.${checkVal}`);
+            if (check.checked) {
+                section.classList.add("active");
+            } else {
+                section.classList.remove("active");
+            }
+        });
+    });
+
+}
+
+function toggle(source) {
+    checkboxes = document.getElementsByName('checksection');
+    for (var i = 0, n = checkboxes.length; i < n; i++) {
+        checkboxes[i].checked = source.checked;
+        checkVal = checkboxes[i].value;
+        let section = document.querySelector(`.${checkVal}`);
+        if (source.checked) {
+            section.classList.add("active");
+        } else {
+            section.classList.remove("active");
+        }
+    }
+}
+
+checkSection();
+
+let faqs = document.querySelectorAll(".allsector .box .sectortitle");
+
+faqs.forEach((faq) => {
+    faq.addEventListener("click", function (e) {
+        faq.parentNode.classList.toggle("active");
+    });
+});
+
+let plus = document.querySelectorAll(".allsector .box .plus");
+
+plus.forEach((p) => {
+    p.addEventListener("click", function (e) {
+        p.parentNode.nextElementSibling.classList.toggle("active");
+    });
+});
+
+getTitle();
+
+/*const allSector = document.querySelector('.allsector');
 let active = null;
 
 allSector.addEventListener('click', e => {
@@ -31,7 +83,4 @@ allSector.addEventListener('click', e => {
   }
   active = box;
   box.classList.add('active');  
-});
-
-
-getTitle();
+});*/

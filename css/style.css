@@ -602,6 +602,16 @@ input[type=checkbox]:checked:before {
     top: 1288px;
 }
 
+.container .iwaacontent .navbar .st6::before {
+    content: "";
+    position: absolute;
+    width: 2px;
+    height: 16px;
+    background-color: #ccc;
+    right: 58px;
+    top: 1282px;
+}
+
 .container .iwaacontent .navbar .st1 li,
 .container .iwaacontent .navbar .st2 li,
 .container .iwaacontent .navbar .st3 li,
@@ -668,9 +678,9 @@ input[type=checkbox]:checked:before {
     left: -5px;
 }
 
-.container .iwaacontent .navbar .st1 li:nth-child(-n+3)::after,
-.container .iwaacontent .navbar .st3 li:nth-child(-n+3)::after,
-.container .iwaacontent .navbar .st5 li:nth-child(-n+3)::after {
+.container .iwaacontent .navbar .st1 li:nth-of-type(-n+3)::after,
+.container .iwaacontent .navbar .st3 li:nth-of-type(-n+3)::after,
+.container .iwaacontent .navbar .st5 li:nth-of-type(-n+3)::after {
     content: "";
     position: absolute;
     width: 0;
@@ -695,8 +705,8 @@ input[type=checkbox]:checked:before {
     top: 150px;
 }
 
-.container .iwaacontent .navbar .st2 li:nth-last-child(-n+4)::after,
-.container .iwaacontent .navbar .st4 li:nth-last-child(-n+4)::after {
+.container .iwaacontent .navbar .st2 li:nth-last-of-type(-n+4)::after,
+.container .iwaacontent .navbar .st4 li:nth-last-of-type(-n+4)::after {
     content: "";
     position: absolute;
     width: 0;
@@ -720,74 +730,147 @@ input[type=checkbox]:checked:before {
     top: 150px;
 }
 
+.container .iwaacontent .navbar .st1 .content,
+.container .iwaacontent .navbar .st2 .content,
+.container .iwaacontent .navbar .st3 .content,
+.container .iwaacontent .navbar .st4 .content,
+.container .iwaacontent .navbar .st5 .content,
+.container .iwaacontent .navbar .st6 .content {
+    position: absolute;
+    top: 45px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    cursor: pointer;
+}
+
+.container .iwaacontent .navbar .content img {
+    width: 60px;
+}
+
 .container .iwaacontent .navbar .st1 .box,
 .container .iwaacontent .navbar .st2 .box,
 .container .iwaacontent .navbar .st3 .box,
 .container .iwaacontent .navbar .st4 .box,
 .container .iwaacontent .navbar .st5 .box,
-.container .iwaacontent .navbar .st6 .box{
-    position: absolute;
+.container .iwaacontent .navbar .st6 .box {
     background-color: #f2f2f2;
-    padding: 10px 20px;
+    padding: 10px;
     border-radius: 10px;
     font-weight: 500;
+    max-width: 300px;
+    width: 100%;
+    min-height: 60px;
     color: var(--grayColor);
     text-align: center;
-    min-width: 200px;
-    min-height: 60px;
-    top: 75px;
+
 }
 
-.container .iwaacontent .navbar .st2 .box{
-    top: 330px;
+.container .iwaacontent .navbar .st2 .content {
+    top: 295px;
 }
 
-.container .iwaacontent .navbar .st3 .box{
+.container .iwaacontent .navbar .st3 .content {
     top: 565px;
 }
 
-.container .iwaacontent .navbar .st4 .box{
+.container .iwaacontent .navbar .st4 .content {
     top: 820px;
 }
 
-.container .iwaacontent .navbar .st5 .box{
+.container .iwaacontent .navbar .st5 .content {
     top: 1080px;
 }
 
-.container .iwaacontent .navbar .st6 .box{
+.container .iwaacontent .navbar .st6 .content {
     top: 1330px;
 }
 
-.container .iwaacontent .navbar .st1 .box1,
-.container .iwaacontent .navbar .st2 .box8,
-.container .iwaacontent .navbar .st3 .box9,
-.container .iwaacontent .navbar .st4 .box16,
-.container .iwaacontent .navbar .st5 .box17{
+.container .iwaacontent .navbar .st1 .c1,
+.container .iwaacontent .navbar .st2 .c8,
+.container .iwaacontent .navbar .st3 .c9,
+.container .iwaacontent .navbar .st4 .c16,
+.container .iwaacontent .navbar .st5 .c17 {
     right: 60px;
+    z-index: 300;
 }
 
-.container .iwaacontent .navbar .st1 .box2,
-.container .iwaacontent .navbar .st2 .box7,
-.container .iwaacontent .navbar .st3 .box10,
-.container .iwaacontent .navbar .st4 .box15,
-.container .iwaacontent .navbar .st5 .box18{
+.container .iwaacontent .navbar .st1 .c2,
+.container .iwaacontent .navbar .st2 .c7,
+.container .iwaacontent .navbar .st3 .c10,
+.container .iwaacontent .navbar .st4 .c15,
+.container .iwaacontent .navbar .st5 .c18 {
     right: 395px;
+    z-index: 300;
 }
 
-.container .iwaacontent .navbar .st1 .box3,
-.container .iwaacontent .navbar .st2 .box6,
-.container .iwaacontent .navbar .st3 .box11,
-.container .iwaacontent .navbar .st4 .box14,
-.container .iwaacontent .navbar .st5 .box19{
+.container .iwaacontent .navbar .st1 .c3,
+.container .iwaacontent .navbar .st2 .c6,
+.container .iwaacontent .navbar .st3 .c11,
+.container .iwaacontent .navbar .st4 .c14,
+.container .iwaacontent .navbar .st5 .c19 {
     right: 725px;
+    z-index: 300;
 }
 
-.container .iwaacontent .navbar .st1 .box4,
-.container .iwaacontent .navbar .st2 .box5,
-.container .iwaacontent .navbar .st3 .box12,
-.container .iwaacontent .navbar .st4 .box13,
-.container .iwaacontent .navbar .st5 .box20{
+.container .iwaacontent .navbar .st1 .c4,
+.container .iwaacontent .navbar .st2 .c5,
+.container .iwaacontent .navbar .st3 .c12,
+.container .iwaacontent .navbar .st4 .c13,
+.container .iwaacontent .navbar .st5 .c20 {
     right: 1043px;
+    z-index: 300;
+}
+
+.container .iwaacontent .navbar .st1 .c1,
+.container .iwaacontent .navbar .st2 .c8{
+    right: 40px;
+}
+
+.container .iwaacontent .navbar .st .content .info {
+    padding: 10px;
+    border-radius: 10px;
+    font-weight: 500;
+    max-width: 300px;
+    width: 100%;
+    min-height: 60px;
+    border: 1px solid #ccc;
+}
+
+.iwaacontent .navbar .st .content .info .top,
+.iwaacontent .navbar .st .content .info .bottom {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.iwaacontent .navbar .st .content .info .bottom {
+    margin-top: 10px;
+}
+
+.iwaacontent .navbar .st .content .info .top p,
+.iwaacontent .navbar .st .content .info .bottom p {
+    max-width: 200px;
+    font-weight: 300;
+    font-size: 12px;
+    color: var(--grayColor);
+}
+
+.iwaacontent .navbar .st .content .info,
+.iwaacontent .navbar .st .content img{
+    max-height: 0;
+    visibility: hidden;
+    opacity: 0;
+    transition: all .5s ease-in-out;
+}
+
+.iwaacontent .navbar .st .content:hover .info,
+.iwaacontent .navbar .st .content:hover img{
+    visibility: visible;
+    opacity: 1;
+    max-height: 200px;
 }
 
 

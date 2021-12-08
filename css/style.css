@@ -181,7 +181,7 @@ main .container .search-results {
     background-color: #f2f2f2;
 }
 
-.container .search-results  a {
+.container .search-results a {
     color: var(--grayColor);
     font-weight: 500;
     font-size: 25px;
@@ -720,7 +720,33 @@ input[type=checkbox]:checked:before {
     top: 115px;
 }
 
-@media(max-width: 767px) {
+@media(max-width: 1399px) and (min-width: 992px) {
+
+    .container .iwaacontent .navbar .st1 li:nth-child(-n+3)::after,
+    .container .iwaacontent .navbar .st3 li:nth-child(-n+3)::after,
+    .container .iwaacontent .navbar .st5 li:nth-child(-n+3)::after {
+        right: 116px;
+    }
+
+    .container .iwaacontent .navbar .st2 li:nth-last-child(-n+4)::after,
+    .container .iwaacontent .navbar .st4 li:nth-last-child(-n+4)::after {
+        left: 116px;
+    }
+
+    .container .iwaacontent .navbar .st2 li:first-of-type::after,
+    .container .iwaacontent .navbar .st4 li:first-of-type::after {
+        left: 107px;
+    }
+
+    .container .iwaacontent .navbar .st1 li:last-of-type::after,
+    .container .iwaacontent .navbar .st3 li:last-of-type::after,
+    .container .iwaacontent .navbar .st5 li:last-of-type::after {
+        right: 107px;
+    }
+
+}
+
+@media(max-width: 991px) {
 
     .container .iwaacontent .navbar .st1 li:nth-child(-n+3)::after,
     .container .iwaacontent .navbar .st3 li:nth-child(-n+3)::after,
@@ -742,6 +768,35 @@ input[type=checkbox]:checked:before {
     .container .iwaacontent .navbar .st3 li:last-of-type::after,
     .container .iwaacontent .navbar .st5 li:last-of-type::after {
         right: 82px;
+    }
+}
+
+@media(max-width: 700px) and (min-width: 601px) {
+    .container .iwaacontent .navbar {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .container .iwaacontent .navbar .st1 li:nth-child(-n+3)::after,
+    .container .iwaacontent .navbar .st3 li:nth-child(-n+3)::after,
+    .container .iwaacontent .navbar .st5 li:nth-child(-n+3)::after {
+        right: 75px;
+    }
+
+    .container .iwaacontent .navbar .st2 li:nth-last-child(-n+4)::after,
+    .container .iwaacontent .navbar .st4 li:nth-last-child(-n+4)::after {
+        left: 75px;
+    }
+
+    .container .iwaacontent .navbar .st2 li:first-of-type::after,
+    .container .iwaacontent .navbar .st4 li:first-of-type::after {
+        left: 68px;
+    }
+
+    .container .iwaacontent .navbar .st1 li:last-of-type::after,
+    .container .iwaacontent .navbar .st3 li:last-of-type::after,
+    .container .iwaacontent .navbar .st5 li:last-of-type::after {
+        right: 68px;
     }
 }
 
@@ -768,7 +823,7 @@ input[type=checkbox]:checked:before {
     .container .iwaacontent .navbar .st3::after,
     .container .iwaacontent .navbar .st4::after,
     .container .iwaacontent .navbar .st5::after,
-    .container .iwaacontent .navbar .st6::after{
+    .container .iwaacontent .navbar .st6::after {
         right: 40px;
     }
 }

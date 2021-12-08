@@ -494,7 +494,7 @@ input[type=checkbox]:checked:before {
 .container .iwaacontent .navbar .cu5 {
     position: absolute;
     border: 5px solid #2c2a6b;
-    padding: 100px;
+    padding: 140px;
 }
 
 .container .iwaacontent .navbar .cu1,
@@ -510,11 +510,11 @@ input[type=checkbox]:checked:before {
 }
 
 .container .iwaacontent .navbar .cu3 {
-    top: 363px;
+    top: 523px;
 }
 
 .container .iwaacontent .navbar .cu5 {
-    top: 713px;
+    top: 1033px;
 }
 
 .container .iwaacontent .navbar .cu2,
@@ -525,11 +525,11 @@ input[type=checkbox]:checked:before {
 }
 
 .container .iwaacontent .navbar .cu2 {
-    top: 188px;
+    top: 268px;
 }
 
 .container .iwaacontent .navbar .cu4 {
-    top: 538px;
+    top: 778px;
 }
 
 .container .iwaacontent .navbar .st1,
@@ -573,13 +573,13 @@ input[type=checkbox]:checked:before {
 }
 
 .container .iwaacontent .navbar .st2::after {
-    top: 188px;
+    top: 268px;
     width: 80%;
     right: 57px;
 }
 
 .container .iwaacontent .navbar .st3::after {
-    top: 363px;
+    top: 523px;
     width: 80%;
     right: 60px;
 }
@@ -587,19 +587,19 @@ input[type=checkbox]:checked:before {
 .container .iwaacontent .navbar .st4::after {
     width: 80%;
     right: 57px;
-    top: 538px;
+    top: 778px;
 }
 
 .container .iwaacontent .navbar .st5::after {
     right: 60px;
     width: 80%;
-    top: 713px;
+    top: 1033px;
 }
 
 .container .iwaacontent .navbar .st6::after {
     width: 80%;
     right: 60px;
-    top: 888px;
+    top: 1288px;
 }
 
 .container .iwaacontent .navbar .st1 li,
@@ -621,29 +621,29 @@ input[type=checkbox]:checked:before {
 }
 
 .container .iwaacontent .navbar .st2 li {
-    top: 176px;
+    top: 256px;
 }
 
 .container .iwaacontent .navbar .st3 li {
-    top: 350px;
+    top: 511px;
 }
 
 .container .iwaacontent .navbar .st4 li {
-    top: 526px;
+    top: 766px;
 }
 
 .container .iwaacontent .navbar .st5 li {
-    top: 700px;
+    top: 1020px;
 }
 
 .container .iwaacontent .navbar .st6 li {
     background-color: #999999;
-    top: 875px;
+    top: 1275px;
 }
 
-.container .iwaacontent .navbar .st1 li:nth-child(3),
-.container .iwaacontent .navbar .st1 li:nth-child(4) {
-    background-color: #56bbe8;
+.container .iwaacontent .navbar .st1 li:nth-of-type(3),
+.container .iwaacontent .navbar .st1 li:nth-of-type(4) {
+    background-color: #56bbe8 !important;
 }
 
 .container .iwaacontent .navbar .st5 li:nth-child(2),
@@ -692,7 +692,7 @@ input[type=checkbox]:checked:before {
     border-right: 15px solid transparent;
     border-top: 15px solid #56bbe8;
     right: 160px;
-    top: 104px;
+    top: 150px;
 }
 
 .container .iwaacontent .navbar .st2 li:nth-last-child(-n+4)::after,
@@ -717,8 +717,79 @@ input[type=checkbox]:checked:before {
     border-right: 15px solid transparent;
     border-top: 15px solid #56bbe8;
     left: 161px;
-    top: 115px;
+    top: 150px;
 }
+
+.container .iwaacontent .navbar .st1 .box,
+.container .iwaacontent .navbar .st2 .box,
+.container .iwaacontent .navbar .st3 .box,
+.container .iwaacontent .navbar .st4 .box,
+.container .iwaacontent .navbar .st5 .box,
+.container .iwaacontent .navbar .st6 .box{
+    position: absolute;
+    background-color: #f2f2f2;
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-weight: 500;
+    color: var(--grayColor);
+    text-align: center;
+    min-width: 200px;
+    min-height: 60px;
+    top: 75px;
+}
+
+.container .iwaacontent .navbar .st2 .box{
+    top: 330px;
+}
+
+.container .iwaacontent .navbar .st3 .box{
+    top: 565px;
+}
+
+.container .iwaacontent .navbar .st4 .box{
+    top: 820px;
+}
+
+.container .iwaacontent .navbar .st5 .box{
+    top: 1080px;
+}
+
+.container .iwaacontent .navbar .st6 .box{
+    top: 1330px;
+}
+
+.container .iwaacontent .navbar .st1 .box1,
+.container .iwaacontent .navbar .st2 .box8,
+.container .iwaacontent .navbar .st3 .box9,
+.container .iwaacontent .navbar .st4 .box16,
+.container .iwaacontent .navbar .st5 .box17{
+    right: 60px;
+}
+
+.container .iwaacontent .navbar .st1 .box2,
+.container .iwaacontent .navbar .st2 .box7,
+.container .iwaacontent .navbar .st3 .box10,
+.container .iwaacontent .navbar .st4 .box15,
+.container .iwaacontent .navbar .st5 .box18{
+    right: 395px;
+}
+
+.container .iwaacontent .navbar .st1 .box3,
+.container .iwaacontent .navbar .st2 .box6,
+.container .iwaacontent .navbar .st3 .box11,
+.container .iwaacontent .navbar .st4 .box14,
+.container .iwaacontent .navbar .st5 .box19{
+    right: 725px;
+}
+
+.container .iwaacontent .navbar .st1 .box4,
+.container .iwaacontent .navbar .st2 .box5,
+.container .iwaacontent .navbar .st3 .box12,
+.container .iwaacontent .navbar .st4 .box13,
+.container .iwaacontent .navbar .st5 .box20{
+    right: 1043px;
+}
+
 
 @media(max-width: 1399px) and (min-width: 992px) {
 

@@ -744,6 +744,8 @@ input[type=checkbox]:checked:before {
     align-items: center;
     gap: 5px;
     cursor: pointer;
+    max-width: 250px;
+    width: 100%;
 }
 
 .container .iwaacontent .navbar .content img {
@@ -788,47 +790,6 @@ input[type=checkbox]:checked:before {
     top: 1330px;
 }
 
-.container .iwaacontent .navbar .st1 .c1,
-.container .iwaacontent .navbar .st2 .c8,
-.container .iwaacontent .navbar .st3 .c9,
-.container .iwaacontent .navbar .st4 .c16,
-.container .iwaacontent .navbar .st5 .c17 {
-    right: 60px;
-    z-index: 300;
-}
-
-.container .iwaacontent .navbar .st1 .c2,
-.container .iwaacontent .navbar .st2 .c7,
-.container .iwaacontent .navbar .st3 .c10,
-.container .iwaacontent .navbar .st4 .c15,
-.container .iwaacontent .navbar .st5 .c18 {
-    right: 395px;
-    z-index: 300;
-}
-
-.container .iwaacontent .navbar .st1 .c3,
-.container .iwaacontent .navbar .st2 .c6,
-.container .iwaacontent .navbar .st3 .c11,
-.container .iwaacontent .navbar .st4 .c14,
-.container .iwaacontent .navbar .st5 .c19 {
-    right: 725px;
-    z-index: 300;
-}
-
-.container .iwaacontent .navbar .st1 .c4,
-.container .iwaacontent .navbar .st2 .c5,
-.container .iwaacontent .navbar .st3 .c12,
-.container .iwaacontent .navbar .st4 .c13,
-.container .iwaacontent .navbar .st5 .c20 {
-    right: 1043px;
-    z-index: 300;
-}
-
-.container .iwaacontent .navbar .st1 .c1,
-.container .iwaacontent .navbar .st2 .c8{
-    right: 40px;
-}
-
 .container .iwaacontent .navbar .st .content .info {
     padding: 10px;
     border-radius: 10px;
@@ -858,6 +819,42 @@ input[type=checkbox]:checked:before {
     color: var(--grayColor);
 }
 
+.container .iwaacontent .navbar .st1 .c2,
+.container .iwaacontent .navbar .st2 .c7,
+.container .iwaacontent .navbar .st3 .c10,
+.container .iwaacontent .navbar .st4 .c15,
+.container .iwaacontent .navbar .st5 .c18 {
+    right: 366px;
+     z-index: 300;
+}
+
+.container .iwaacontent .navbar .st1 .c1,
+.container .iwaacontent .navbar .st2 .c8,
+.container .iwaacontent .navbar .st3 .c9,
+.container .iwaacontent .navbar .st4 .c16,
+.container .iwaacontent .navbar .st5 .c17 {
+    right: 40px;
+    z-index: 300;
+}
+
+.container .iwaacontent .navbar .st1 .c4,
+.container .iwaacontent .navbar .st2 .c5,
+.container .iwaacontent .navbar .st3 .c12,
+.container .iwaacontent .navbar .st4 .c13,
+.container .iwaacontent .navbar .st5 .c20 {
+    right: 1024px;
+    z-index: 300;
+}
+
+.container .iwaacontent .navbar .st1 .c3,
+.container .iwaacontent .navbar .st2 .c6,
+.container .iwaacontent .navbar .st3 .c11,
+.container .iwaacontent .navbar .st4 .c14,
+.container .iwaacontent .navbar .st5 .c19 {
+    right: 695px;
+    z-index: 300;
+}
+
 .iwaacontent .navbar .st .content .info,
 .iwaacontent .navbar .st .content img{
     max-height: 0;
@@ -872,7 +869,6 @@ input[type=checkbox]:checked:before {
     opacity: 1;
     max-height: 200px;
 }
-
 
 @media(max-width: 1399px) and (min-width: 992px) {
 

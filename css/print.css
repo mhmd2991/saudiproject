@@ -1,0 +1,14 @@
+.iwaainfosection .terms .bottom .inner-check ,
+.iwaainfosection .needs .bottom .inner-check {
+    display: flex;
+    align-items: center;
+    gap:15px;
+    margin-bottom: 10px;
+}
+
+.iwaainfosection .terms .bottom .inner-check p,
+.iwaainfosection .needs .bottom .inner-check p{
+    color: #000;
+    font-weight: 500;
+    font-size: 16px;
+}

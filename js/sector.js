@@ -59,9 +59,10 @@ faqs.forEach((faq) => {
 });
 
 let plus = document.querySelectorAll(".allsector .box .plus");
-
+let icon = document.querySelector(".fa-plus");
 plus.forEach((p) => {
     p.addEventListener("click", function (e) {
+        icon.classList.toggle('fa-window-minimize');
         p.parentNode.nextElementSibling.classList.toggle("active");
     });
 });

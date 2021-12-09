@@ -17,10 +17,10 @@ function getResults() {
         for (let i = 0; i < database.length; i++) {
             if (database[i].sectorName.toLowerCase().includes(search.toLowerCase()) || database[i].sectorCode.toLowerCase().includes(search.toLowerCase())) {
                 selectElement('.search-results').innerHTML += `
-<div class="search-result-item">
-<a href="sector.html?id=${database[i].sectorCode}"><span class="search-item"><img src="images/${database[i].sectorIcon}"></span></a>
-<a href="sector.html?id=${database[i].sectorCode}"><span class="search-item">${database[i].sectorName}</span></a>
-</div>
+<a href="sector.html?id=${database[i].sectorCode}"><div class="search-result-item">
+<span class="search-item"><img src="images/${database[i].sectorIcon}"></span>
+<span class="search-item">${database[i].sectorName}</span>
+</div></a>
 `;
             }
         }
@@ -33,10 +33,10 @@ function getResults() {
 function PrintAll() {
     for (let i = 0; i < database.length; i++) {
         selectElement('.search-results').innerHTML += `
-<div class="search-result-item">
-<a href="sector.html?id=${database[i].sectorCode}"><span class="search-item"><img src="images/${database[i].sectorIcon}"></span></a>
-<a href="sector.html?id=${database[i].sectorCode}"><span class="search-item">${database[i].sectorName}</span></a>
-</div>
+<a href="sector.html?id=${database[i].sectorCode}"><div class="search-result-item">
+<span class="search-item"><img src="images/${database[i].sectorIcon}"></span>
+<span class="search-item">${database[i].sectorName}</span>
+</div></a>
 `;
     }
 }

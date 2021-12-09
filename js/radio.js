@@ -1,6 +1,7 @@
 let tabs = document.querySelectorAll(".nav li");
 let tabsArray = Array.from(tabs);
-
+let section = document.querySelectorAll(".section");
+let sectionArray = Array.from(section);
 
 tabsArray.forEach((ele) => {
     ele.addEventListener("click", function (e) {
@@ -8,9 +9,12 @@ tabsArray.forEach((ele) => {
             ele.classList.remove("active");
         });
         e.currentTarget.classList.add("active");
-        console.lof(e.currentTarget.dataset.cont);
+        console.log(e.currentTarget.dataset.cont);
         document.querySelector('.' + e.currentTarget.dataset.cont).checked = true;
-        //document.querySelector('#' + e.currentTarget.dataset.cont).classList.add("active");
+        sectionArray.forEach((sec) =>{
+            sec.classList.remove("active");
+        });
+        document.querySelector('#' + e.currentTarget.dataset.cont).classList.add("active");
     });
 });
 

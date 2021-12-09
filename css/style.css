@@ -1804,6 +1804,10 @@ input[type=checkbox]:checked:before {
     font-size: 14px;
 }
 
+.iwaainfosection .jeha .bottom .middle iframe{
+    border-radius: 30px;
+}
+
 .iwaainfosection .jeha .bottom .left .phone,
 .iwaainfosection .jeha .bottom .left .pc,
 .iwaainfosection .jeha .bottom .left .email {
@@ -1823,7 +1827,6 @@ input[type=checkbox]:checked:before {
     border-radius: 6px;
     padding: 3px 15px;
     margin-bottom: 10px;
-    height: 50px;
 }
 
 .iwaainfosection .jeha .bottom .left .phone .phone-inner h3,
@@ -1846,6 +1849,9 @@ input[type=checkbox]:checked:before {
 .iwaainfosection .jeha .bottom .left .pc .icon,
 .iwaainfosection .jeha .bottom .left .email .icon {
     line-height: 2.5;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    
 }
 
 .iwaainfosection .jeha .bottom .left .phone .icon img,
@@ -1859,6 +1865,8 @@ input[type=checkbox]:checked:before {
 .iwaainfosection .jeha .bottom .left .pc .pc-inner,
 .iwaainfosection .jeha .bottom .left .email .email-inner {
     width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 main .container > h2 {

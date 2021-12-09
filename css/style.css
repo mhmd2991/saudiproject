@@ -422,7 +422,7 @@ input[type=checkbox]:checked:before {
     font-weight: 500;
 }
 
-.sectorcontent .allsector .box .sectordetails p .plus i{
+.sectorcontent .allsector .box .sectordetails p .plus i {
     font-size: 10px;
     margin-top: 5px;
     margin-left: 5px;
@@ -470,7 +470,8 @@ input[type=checkbox]:checked:before {
         justify-content: center;
         gap: 20px;
     }
-      .sectorcontent {
+
+    .sectorcontent {
         flex-direction: column;
     }
 }
@@ -1135,22 +1136,10 @@ input[type=checkbox]:checked:before {
 }
 
 .container .iwaainfo .progrss .head .nav li.active::after {
-    background-color: #2c2a6b;
-}
-
-.container .iwaainfo .progrss .head .nav li.active {
-    color: #2c2a6b;
-}
-
-.container .iwaainfo .progrss .head .nav li:hover {
-    color: var(--grayColor);
-}
-
-.container .iwaainfo .progrss .head .nav li.active + li::after {
     background-color: #56bbe8;
 }
 
-.container .iwaainfo .progrss .head .nav li.active + li {
+.container .iwaainfo .progrss .head .nav li.active {
     color: #56bbe8;
 }
 
@@ -1161,6 +1150,470 @@ input[type=checkbox]:checked:before {
     position: absolute;
     top: 49px;
     right: 1px;
+}
+
+.r2:checked ~ .head .nav .pt1::after,
+
+.r3:checked ~ .head .nav .pt1::after,
+.r3:checked ~ .head .nav .pt2::after,
+
+.r4:checked ~ .head .nav .pt1::after,
+.r4:checked ~ .head .nav .pt2::after,
+.r4:checked ~ .head .nav .pt3::after,
+
+.r5:checked ~ .head .nav .pt1::after,
+.r5:checked ~ .head .nav .pt2::after,
+.r5:checked ~ .head .nav .pt3::after,
+.r5:checked ~ .head .nav .pt4::after,
+
+.r6:checked ~ .head .nav .pt1::after,
+.r6:checked ~ .head .nav .pt2::after,
+.r6:checked ~ .head .nav .pt3::after,
+.r6:checked ~ .head .nav .pt4::after,
+.r6:checked ~ .head .nav .pt5::after,
+
+.r7:checked ~ .head .nav .pt1::after,
+.r7:checked ~ .head .nav .pt2::after,
+.r7:checked ~ .head .nav .pt3::after,
+.r7:checked ~ .head .nav .pt4::after,
+.r7:checked ~ .head .nav .pt5::after,
+.r7:checked ~ .head .nav .pt6::after,
+
+.r8:checked ~ .head .nav .pt1::after,
+.r8:checked ~ .head .nav .pt2::after,
+.r8:checked ~ .head .nav .pt3::after,
+.r8:checked ~ .head .nav .pt4::after,
+.r8:checked ~ .head .nav .pt5::after,
+.r8:checked ~ .head .nav .pt6::after,
+.r8:checked ~ .head .nav .pt7::after,
+
+.r9:checked ~ .head .nav .pt1::after,
+.r9:checked ~ .head .nav .pt2::after,
+.r9:checked ~ .head .nav .pt3::after,
+.r9:checked ~ .head .nav .pt4::after,
+.r9:checked ~ .head .nav .pt5::after,
+.r9:checked ~ .head .nav .pt6::after,
+.r9:checked ~ .head .nav .pt7::after,
+.r9:checked ~ .head .nav .pt8::after,
+
+.r10:checked ~ .head .nav .pt1::after,
+.r10:checked ~ .head .nav .pt2::after,
+.r10:checked ~ .head .nav .pt3::after,
+.r10:checked ~ .head .nav .pt4::after,
+.r10:checked ~ .head .nav .pt5::after,
+.r10:checked ~ .head .nav .pt6::after,
+.r10:checked ~ .head .nav .pt7::after,
+.r10:checked ~ .head .nav .pt8::after,
+.r10:checked ~ .head .nav .pt9::after,
+
+.r11:checked ~ .head .nav .pt1::after,
+.r11:checked ~ .head .nav .pt2::after,
+.r11:checked ~ .head .nav .pt3::after,
+.r11:checked ~ .head .nav .pt4::after,
+.r11:checked ~ .head .nav .pt5::after,
+.r11:checked ~ .head .nav .pt6::after,
+.r11:checked ~ .head .nav .pt7::after,
+.r11:checked ~ .head .nav .pt8::after,
+.r11:checked ~ .head .nav .pt9::after,
+.r11:checked ~ .head .nav .pt10::after,
+
+.r12:checked ~ .head .nav .pt1::after,
+.r12:checked ~ .head .nav .pt2::after,
+.r12:checked ~ .head .nav .pt3::after,
+.r12:checked ~ .head .nav .pt4::after,
+.r12:checked ~ .head .nav .pt5::after,
+.r12:checked ~ .head .nav .pt6::after,
+.r12:checked ~ .head .nav .pt7::after,
+.r12:checked ~ .head .nav .pt8::after,
+.r12:checked ~ .head .nav .pt9::after,
+.r12:checked ~ .head .nav .pt10::after,
+.r12:checked ~ .head .nav .pt11::after,
+
+.r13:checked ~ .head .nav .pt1::after,
+.r13:checked ~ .head .nav .pt2::after,
+.r13:checked ~ .head .nav .pt3::after,
+.r13:checked ~ .head .nav .pt4::after,
+.r13:checked ~ .head .nav .pt5::after,
+.r13:checked ~ .head .nav .pt6::after,
+.r13:checked ~ .head .nav .pt7::after,
+.r13:checked ~ .head .nav .pt8::after,
+.r13:checked ~ .head .nav .pt9::after,
+.r13:checked ~ .head .nav .pt10::after,
+.r13:checked ~ .head .nav .pt11::after,
+.r13:checked ~ .head .nav .pt12::after,
+
+.r14:checked ~ .head .nav .pt1::after,
+.r14:checked ~ .head .nav .pt2::after,
+.r14:checked ~ .head .nav .pt3::after,
+.r14:checked ~ .head .nav .pt4::after,
+.r14:checked ~ .head .nav .pt5::after,
+.r14:checked ~ .head .nav .pt6::after,
+.r14:checked ~ .head .nav .pt7::after,
+.r14:checked ~ .head .nav .pt8::after,
+.r14:checked ~ .head .nav .pt9::after,
+.r14:checked ~ .head .nav .pt10::after,
+.r14:checked ~ .head .nav .pt11::after,
+.r14:checked ~ .head .nav .pt12::after,
+.r14:checked ~ .head .nav .pt13::after,
+
+.r15:checked ~ .head .nav .pt1::after,
+.r15:checked ~ .head .nav .pt2::after,
+.r15:checked ~ .head .nav .pt3::after,
+.r15:checked ~ .head .nav .pt4::after,
+.r15:checked ~ .head .nav .pt5::after,
+.r15:checked ~ .head .nav .pt6::after,
+.r15:checked ~ .head .nav .pt7::after,
+.r15:checked ~ .head .nav .pt8::after,
+.r15:checked ~ .head .nav .pt9::after,
+.r15:checked ~ .head .nav .pt10::after,
+.r15:checked ~ .head .nav .pt11::after,
+.r15:checked ~ .head .nav .pt12::after,
+.r15:checked ~ .head .nav .pt13::after,
+.r15:checked ~ .head .nav .pt14::after,
+
+.r16:checked ~ .head .nav .pt1::after,
+.r16:checked ~ .head .nav .pt2::after,
+.r16:checked ~ .head .nav .pt3::after,
+.r16:checked ~ .head .nav .pt4::after,
+.r16:checked ~ .head .nav .pt5::after,
+.r16:checked ~ .head .nav .pt6::after,
+.r16:checked ~ .head .nav .pt7::after,
+.r16:checked ~ .head .nav .pt8::after,
+.r16:checked ~ .head .nav .pt9::after,
+.r16:checked ~ .head .nav .pt10::after,
+.r16:checked ~ .head .nav .pt11::after,
+.r16:checked ~ .head .nav .pt12::after,
+.r16:checked ~ .head .nav .pt13::after,
+.r16:checked ~ .head .nav .pt14::after,
+.r16:checked ~ .head .nav .pt15::after,
+
+.r17:checked ~ .head .nav .pt1::after,
+.r17:checked ~ .head .nav .pt2::after,
+.r17:checked ~ .head .nav .pt3::after,
+.r17:checked ~ .head .nav .pt4::after,
+.r17:checked ~ .head .nav .pt5::after,
+.r17:checked ~ .head .nav .pt6::after,
+.r17:checked ~ .head .nav .pt7::after,
+.r17:checked ~ .head .nav .pt8::after,
+.r17:checked ~ .head .nav .pt9::after,
+.r17:checked ~ .head .nav .pt10::after,
+.r17:checked ~ .head .nav .pt11::after,
+.r17:checked ~ .head .nav .pt12::after,
+.r17:checked ~ .head .nav .pt13::after,
+.r17:checked ~ .head .nav .pt14::after,
+.r17:checked ~ .head .nav .pt15::after,
+.r17:checked ~ .head .nav .pt16::after,
+
+.r18:checked ~ .head .nav .pt1::after,
+.r18:checked ~ .head .nav .pt2::after,
+.r18:checked ~ .head .nav .pt3::after,
+.r18:checked ~ .head .nav .pt4::after,
+.r18:checked ~ .head .nav .pt5::after,
+.r18:checked ~ .head .nav .pt6::after,
+.r18:checked ~ .head .nav .pt7::after,
+.r18:checked ~ .head .nav .pt8::after,
+.r18:checked ~ .head .nav .pt9::after,
+.r18:checked ~ .head .nav .pt10::after,
+.r18:checked ~ .head .nav .pt11::after,
+.r18:checked ~ .head .nav .pt12::after,
+.r18:checked ~ .head .nav .pt13::after,
+.r18:checked ~ .head .nav .pt14::after,
+.r18:checked ~ .head .nav .pt15::after,
+.r18:checked ~ .head .nav .pt16::after,
+.r18:checked ~ .head .nav .pt17::after,
+
+.r19:checked ~ .head .nav .pt1::after,
+.r19:checked ~ .head .nav .pt2::after,
+.r19:checked ~ .head .nav .pt3::after,
+.r19:checked ~ .head .nav .pt4::after,
+.r19:checked ~ .head .nav .pt5::after,
+.r19:checked ~ .head .nav .pt6::after,
+.r19:checked ~ .head .nav .pt7::after,
+.r19:checked ~ .head .nav .pt8::after,
+.r19:checked ~ .head .nav .pt9::after,
+.r19:checked ~ .head .nav .pt10::after,
+.r19:checked ~ .head .nav .pt11::after,
+.r19:checked ~ .head .nav .pt12::after,
+.r19:checked ~ .head .nav .pt13::after,
+.r19:checked ~ .head .nav .pt14::after,
+.r19:checked ~ .head .nav .pt15::after,
+.r19:checked ~ .head .nav .pt16::after,
+.r19:checked ~ .head .nav .pt17::after,
+.r19:checked ~ .head .nav .pt18::after,
+
+.r20:checked ~ .head .nav .pt1::after,
+.r20:checked ~ .head .nav .pt2::after,
+.r20:checked ~ .head .nav .pt3::after,
+.r20:checked ~ .head .nav .pt4::after,
+.r20:checked ~ .head .nav .pt5::after,
+.r20:checked ~ .head .nav .pt6::after,
+.r20:checked ~ .head .nav .pt7::after,
+.r20:checked ~ .head .nav .pt8::after,
+.r20:checked ~ .head .nav .pt9::after,
+.r20:checked ~ .head .nav .pt10::after,
+.r20:checked ~ .head .nav .pt11::after,
+.r20:checked ~ .head .nav .pt12::after,
+.r20:checked ~ .head .nav .pt13::after,
+.r20:checked ~ .head .nav .pt14::after,
+.r20:checked ~ .head .nav .pt15::after,
+.r20:checked ~ .head .nav .pt16::after,
+.r20:checked ~ .head .nav .pt17::after,
+.r20:checked ~ .head .nav .pt18::after,
+.r20:checked ~ .head .nav .pt19::after,
+
+.r21:checked ~ .head .nav .pt1::after,
+.r21:checked ~ .head .nav .pt2::after,
+.r21:checked ~ .head .nav .pt3::after,
+.r21:checked ~ .head .nav .pt4::after,
+.r21:checked ~ .head .nav .pt5::after,
+.r21:checked ~ .head .nav .pt6::after,
+.r21:checked ~ .head .nav .pt7::after,
+.r21:checked ~ .head .nav .pt8::after,
+.r21:checked ~ .head .nav .pt9::after,
+.r21:checked ~ .head .nav .pt10::after,
+.r21:checked ~ .head .nav .pt11::after,
+.r21:checked ~ .head .nav .pt12::after,
+.r21:checked ~ .head .nav .pt13::after,
+.r21:checked ~ .head .nav .pt14::after,
+.r21:checked ~ .head .nav .pt15::after,
+.r21:checked ~ .head .nav .pt16::after,
+.r21:checked ~ .head .nav .pt17::after,
+.r21:checked ~ .head .nav .pt18::after,
+.r21:checked ~ .head .nav .pt19::after,
+.r21:checked ~ .head .nav .pt20::after {
+    background-color: #2c2a6b !important;
+}
+
+.r2:checked ~ .head .nav .pt1,
+
+.r3:checked ~ .head .nav .pt1,
+.r3:checked ~ .head .nav .pt2,
+
+.r4:checked ~ .head .nav .pt1,
+.r4:checked ~ .head .nav .pt2,
+.r4:checked ~ .head .nav .pt3,
+
+.r5:checked ~ .head .nav .pt1,
+.r5:checked ~ .head .nav .pt2,
+.r5:checked ~ .head .nav .pt3,
+.r5:checked ~ .head .nav .pt4,
+
+.r6:checked ~ .head .nav .pt1,
+.r6:checked ~ .head .nav .pt2,
+.r6:checked ~ .head .nav .pt3,
+.r6:checked ~ .head .nav .pt4,
+.r6:checked ~ .head .nav .pt5,
+
+.r7:checked ~ .head .nav .pt1,
+.r7:checked ~ .head .nav .pt2,
+.r7:checked ~ .head .nav .pt3,
+.r7:checked ~ .head .nav .pt4,
+.r7:checked ~ .head .nav .pt5,
+.r7:checked ~ .head .nav .pt6,
+
+.r8:checked ~ .head .nav .pt1,
+.r8:checked ~ .head .nav .pt2,
+.r8:checked ~ .head .nav .pt3,
+.r8:checked ~ .head .nav .pt4,
+.r8:checked ~ .head .nav .pt5,
+.r8:checked ~ .head .nav .pt6,
+.r8:checked ~ .head .nav .pt7,
+
+.r9:checked ~ .head .nav .pt1,
+.r9:checked ~ .head .nav .pt2,
+.r9:checked ~ .head .nav .pt3,
+.r9:checked ~ .head .nav .pt4,
+.r9:checked ~ .head .nav .pt5,
+.r9:checked ~ .head .nav .pt6,
+.r9:checked ~ .head .nav .pt7,
+.r9:checked ~ .head .nav .pt8,
+
+.r10:checked ~ .head .nav .pt1,
+.r10:checked ~ .head .nav .pt2,
+.r10:checked ~ .head .nav .pt3,
+.r10:checked ~ .head .nav .pt4,
+.r10:checked ~ .head .nav .pt5,
+.r10:checked ~ .head .nav .pt6,
+.r10:checked ~ .head .nav .pt7,
+.r10:checked ~ .head .nav .pt8,
+.r10:checked ~ .head .nav .pt9,
+
+.r11:checked ~ .head .nav .pt1,
+.r11:checked ~ .head .nav .pt2,
+.r11:checked ~ .head .nav .pt3,
+.r11:checked ~ .head .nav .pt4,
+.r11:checked ~ .head .nav .pt5,
+.r11:checked ~ .head .nav .pt6,
+.r11:checked ~ .head .nav .pt7,
+.r11:checked ~ .head .nav .pt8,
+.r11:checked ~ .head .nav .pt9,
+.r11:checked ~ .head .nav .pt10,
+
+.r12:checked ~ .head .nav .pt1,
+.r12:checked ~ .head .nav .pt2,
+.r12:checked ~ .head .nav .pt3,
+.r12:checked ~ .head .nav .pt4,
+.r12:checked ~ .head .nav .pt5,
+.r12:checked ~ .head .nav .pt6,
+.r12:checked ~ .head .nav .pt7,
+.r12:checked ~ .head .nav .pt8,
+.r12:checked ~ .head .nav .pt9,
+.r12:checked ~ .head .nav .pt10,
+.r12:checked ~ .head .nav .pt11,
+
+.r13:checked ~ .head .nav .pt1,
+.r13:checked ~ .head .nav .pt2,
+.r13:checked ~ .head .nav .pt3,
+.r13:checked ~ .head .nav .pt4,
+.r13:checked ~ .head .nav .pt5,
+.r13:checked ~ .head .nav .pt6,
+.r13:checked ~ .head .nav .pt7,
+.r13:checked ~ .head .nav .pt8,
+.r13:checked ~ .head .nav .pt9,
+.r13:checked ~ .head .nav .pt10,
+.r13:checked ~ .head .nav .pt11,
+.r13:checked ~ .head .nav .pt12,
+
+.r14:checked ~ .head .nav .pt1,
+.r14:checked ~ .head .nav .pt2,
+.r14:checked ~ .head .nav .pt3,
+.r14:checked ~ .head .nav .pt4,
+.r14:checked ~ .head .nav .pt5,
+.r14:checked ~ .head .nav .pt6,
+.r14:checked ~ .head .nav .pt7,
+.r14:checked ~ .head .nav .pt8,
+.r14:checked ~ .head .nav .pt9,
+.r14:checked ~ .head .nav .pt10,
+.r14:checked ~ .head .nav .pt11,
+.r14:checked ~ .head .nav .pt12,
+.r14:checked ~ .head .nav .pt13,
+
+.r15:checked ~ .head .nav .pt1,
+.r15:checked ~ .head .nav .pt2,
+.r15:checked ~ .head .nav .pt3,
+.r15:checked ~ .head .nav .pt4,
+.r15:checked ~ .head .nav .pt5,
+.r15:checked ~ .head .nav .pt6,
+.r15:checked ~ .head .nav .pt7,
+.r15:checked ~ .head .nav .pt8,
+.r15:checked ~ .head .nav .pt9,
+.r15:checked ~ .head .nav .pt10,
+.r15:checked ~ .head .nav .pt11,
+.r15:checked ~ .head .nav .pt12,
+.r15:checked ~ .head .nav .pt13,
+.r15:checked ~ .head .nav .pt14,
+
+.r16:checked ~ .head .nav .pt1,
+.r16:checked ~ .head .nav .pt2,
+.r16:checked ~ .head .nav .pt3,
+.r16:checked ~ .head .nav .pt4,
+.r16:checked ~ .head .nav .pt5,
+.r16:checked ~ .head .nav .pt6,
+.r16:checked ~ .head .nav .pt7,
+.r16:checked ~ .head .nav .pt8,
+.r16:checked ~ .head .nav .pt9,
+.r16:checked ~ .head .nav .pt10,
+.r16:checked ~ .head .nav .pt11,
+.r16:checked ~ .head .nav .pt12,
+.r16:checked ~ .head .nav .pt13,
+.r16:checked ~ .head .nav .pt14,
+.r16:checked ~ .head .nav .pt15,
+
+.r17:checked ~ .head .nav .pt1,
+.r17:checked ~ .head .nav .pt2,
+.r17:checked ~ .head .nav .pt3,
+.r17:checked ~ .head .nav .pt4,
+.r17:checked ~ .head .nav .pt5,
+.r17:checked ~ .head .nav .pt6,
+.r17:checked ~ .head .nav .pt7,
+.r17:checked ~ .head .nav .pt8,
+.r17:checked ~ .head .nav .pt9,
+.r17:checked ~ .head .nav .pt10,
+.r17:checked ~ .head .nav .pt11,
+.r17:checked ~ .head .nav .pt12,
+.r17:checked ~ .head .nav .pt13,
+.r17:checked ~ .head .nav .pt14,
+.r17:checked ~ .head .nav .pt15,
+.r17:checked ~ .head .nav .pt16,
+
+.r18:checked ~ .head .nav .pt1,
+.r18:checked ~ .head .nav .pt2,
+.r18:checked ~ .head .nav .pt3,
+.r18:checked ~ .head .nav .pt4,
+.r18:checked ~ .head .nav .pt5,
+.r18:checked ~ .head .nav .pt6,
+.r18:checked ~ .head .nav .pt7,
+.r18:checked ~ .head .nav .pt8,
+.r18:checked ~ .head .nav .pt9,
+.r18:checked ~ .head .nav .pt10,
+.r18:checked ~ .head .nav .pt11,
+.r18:checked ~ .head .nav .pt12,
+.r18:checked ~ .head .nav .pt13,
+.r18:checked ~ .head .nav .pt14,
+.r18:checked ~ .head .nav .pt15,
+.r18:checked ~ .head .nav .pt16,
+.r18:checked ~ .head .nav .pt17,
+
+.r19:checked ~ .head .nav .pt1,
+.r19:checked ~ .head .nav .pt2,
+.r19:checked ~ .head .nav .pt3,
+.r19:checked ~ .head .nav .pt4,
+.r19:checked ~ .head .nav .pt5,
+.r19:checked ~ .head .nav .pt6,
+.r19:checked ~ .head .nav .pt7,
+.r19:checked ~ .head .nav .pt8,
+.r19:checked ~ .head .nav .pt9,
+.r19:checked ~ .head .nav .pt10,
+.r19:checked ~ .head .nav .pt11,
+.r19:checked ~ .head .nav .pt12,
+.r19:checked ~ .head .nav .pt13,
+.r19:checked ~ .head .nav .pt14,
+.r19:checked ~ .head .nav .pt15,
+.r19:checked ~ .head .nav .pt16,
+.r19:checked ~ .head .nav .pt17,
+.r19:checked ~ .head .nav .pt18,
+
+.r20:checked ~ .head .nav .pt1,
+.r20:checked ~ .head .nav .pt2,
+.r20:checked ~ .head .nav .pt3,
+.r20:checked ~ .head .nav .pt4,
+.r20:checked ~ .head .nav .pt5,
+.r20:checked ~ .head .nav .pt6,
+.r20:checked ~ .head .nav .pt7,
+.r20:checked ~ .head .nav .pt8,
+.r20:checked ~ .head .nav .pt9,
+.r20:checked ~ .head .nav .pt10,
+.r20:checked ~ .head .nav .pt11,
+.r20:checked ~ .head .nav .pt12,
+.r20:checked ~ .head .nav .pt13,
+.r20:checked ~ .head .nav .pt14,
+.r20:checked ~ .head .nav .pt15,
+.r20:checked ~ .head .nav .pt16,
+.r20:checked ~ .head .nav .pt17,
+.r20:checked ~ .head .nav .pt18,
+.r20:checked ~ .head .nav .pt19,
+
+.r21:checked ~ .head .nav .pt1,
+.r21:checked ~ .head .nav .pt2,
+.r21:checked ~ .head .nav .pt3,
+.r21:checked ~ .head .nav .pt4,
+.r21:checked ~ .head .nav .pt5,
+.r21:checked ~ .head .nav .pt6,
+.r21:checked ~ .head .nav .pt7,
+.r21:checked ~ .head .nav .pt8,
+.r21:checked ~ .head .nav .pt9,
+.r21:checked ~ .head .nav .pt10,
+.r21:checked ~ .head .nav .pt11,
+.r21:checked ~ .head .nav .pt12,
+.r21:checked ~ .head .nav .pt13,
+.r21:checked ~ .head .nav .pt14,
+.r21:checked ~ .head .nav .pt15,
+.r21:checked ~ .head .nav .pt16,
+.r21:checked ~ .head .nav .pt17,
+.r21:checked ~ .head .nav .pt18,
+.r21:checked ~ .head .nav .pt19,
+.r21:checked ~ .head .nav .pt20 {
+    color: #2c2a6b !important;
 }
 
 
@@ -1220,7 +1673,7 @@ input[type=checkbox]:checked:before {
     padding: 20px 0;
     font-weight: 500;
     font-size: 18px;
-   opacity: 0;
+    opacity: 0;
     visibility: hidden;
     max-height: 0;
 }
@@ -1242,6 +1695,7 @@ input[type=checkbox]:checked:before {
 .iwaainfosection .desc .bottom p {
     flex-basis: 60%;
     color: #808087;
+    padding: 0 15px;
 }
 
 .iwaainfosection .desc .bottom i {
@@ -1294,17 +1748,117 @@ input[type=checkbox]:checked:before {
 
 .iwaainfosection .terms .print .btn-print,
 .iwaainfosection .needs .print .btn-print {
-    background-color: #56bbe8;
-    color: var(--whiteColor);
     padding: 10px 20px;
-    font-weight: 500;
     cursor: pointer;
+    background-image: url(../images/print-icon.png);
+    background-repeat: no-repeat;
+    background-color: transparent;
+    width: 32px;
 }
 
 .iwaainfosection .link .bottom a {
     color: #56bbe8;
     font-weight: 300;
     text-decoration: underline;
+}
+
+.iwaainfosection .jeha .bottom {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between
+}
+
+.iwaainfosection .jeha .bottom .right .right-img,
+.iwaainfosection .jeha .bottom .right .middle,
+.iwaainfosection .jeha .bottom .right .bottom,
+.iwaainfosection .jeha .bottom .middle .title {
+    background-color: #f2f2f2;
+    border-radius: 6px;
+    padding: 3px 15px;
+    margin-bottom: 10px;
+}
+
+.iwaainfosection .jeha .bottom .right .middle p {
+    font-weight: bold;
+    color: #2c2a6b;
+    font-size: 14px;
+}
+
+.iwaainfosection .jeha .bottom .right .bottom p {
+    color: #808087;
+    font-weight: 500;
+    font-size: 14px;
+    max-width: 250px;
+}
+
+.iwaainfosection .jeha .bottom .middle .title {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+
+}
+
+.iwaainfosection .jeha .bottom .middle .title p {
+    color: #808087;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.iwaainfosection .jeha .bottom .left .phone,
+.iwaainfosection .jeha .bottom .left .pc,
+.iwaainfosection .jeha .bottom .left .email {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+
+.iwaainfosection .jeha .bottom .left .phone .icon,
+.iwaainfosection .jeha .bottom .left .pc .icon,
+.iwaainfosection .jeha .bottom .left .email .icon,
+.iwaainfosection .jeha .bottom .left .phone .phone-inner,
+.iwaainfosection .jeha .bottom .left .pc .pc-inner,
+.iwaainfosection .jeha .bottom .left .email .email-inner {
+    background-color: #f2f2f2;
+    border-radius: 6px;
+    padding: 3px 15px;
+    margin-bottom: 10px;
+    height: 50px;
+}
+
+.iwaainfosection .jeha .bottom .left .phone .phone-inner h3,
+.iwaainfosection .jeha .bottom .left .pc .pc-inner h3,
+.iwaainfosection .jeha .bottom .left .email .email-inner h3 {
+    color: #808087;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.iwaainfosection .jeha .bottom .left .phone .phone-inner p,
+.iwaainfosection .jeha .bottom .left .pc .pc-inner a,
+.iwaainfosection .jeha .bottom .left .email .email-inner a {
+    font-weight: 300;
+    font-size: 14px;
+    color: #808087;
+}
+
+.iwaainfosection .jeha .bottom .left .phone .icon,
+.iwaainfosection .jeha .bottom .left .pc .icon,
+.iwaainfosection .jeha .bottom .left .email .icon {
+    line-height: 2.5;
+}
+
+.iwaainfosection .jeha .bottom .left .phone .icon img,
+.iwaainfosection .jeha .bottom .left .pc .icon img,
+.iwaainfosection .jeha .bottom .left .email .icon img {
+    width: 27px;
+    height: 24px;
+}
+
+.iwaainfosection .jeha .bottom .left .phone .phone-inner,
+.iwaainfosection .jeha .bottom .left .pc .pc-inner,
+.iwaainfosection .jeha .bottom .left .email .email-inner {
+    width: 100%;
 }
 
 main .container > h2 {

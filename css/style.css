@@ -359,7 +359,7 @@ main .container .search-results {
 }
 
 .allsector .box.active .sectordetails {
-    max-height: 500px;
+    max-height: 800px;
     visibility: visible;
     opacity: 1;
 }

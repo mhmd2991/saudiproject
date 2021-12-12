@@ -201,7 +201,23 @@ main .container .search-results {
 
 @media(max-width: 767px) {
     main .container .input-form {
-        width: 90%;
+        width: 100%;
+    }
+
+    main .container .input-form i {
+        left: 80px;
+    }
+}
+
+@media(max-width: 500px) {
+    main .container .input-form i {
+        left: 60px;
+    }
+}
+
+@media(max-width: 375px) {
+    main .container .input-form i {
+        left: 50px;
     }
 }
 
@@ -515,6 +531,19 @@ input[type=checkbox]:checked:before {
     .sectorcontent {
         flex-direction: column;
     }
+
+    .sectorcontent .sectorinfo {
+        padding: 0px 30px;
+    }
+
+    .sectorcontent .sectorinfo .box {
+        width: 100%;
+    }
+
+    .sectorcontent .sectorinfo .box .left .top {
+        align-items: center;
+        text-align: center;
+    }
 }
 
 @media(max-width: 460px) {
@@ -522,10 +551,20 @@ input[type=checkbox]:checked:before {
         font-size: 20px;
     }
 
-
     .sectorcontent .sectorinfo {
         flex-basis: 100%;
+        padding: 0px 30px;
     }
+
+    .sectorcontent .sectorinfo .box .left p {
+        max-width: 100%;
+    }
+
+    .sectorcontent .sectorinfo .box {
+        padding: 20px 15px;
+    }
+
+
 }
 
 /*iwaa Page*/
@@ -1682,7 +1721,7 @@ input[type=checkbox]:checked:before {
 }
 
 .iwaainfosection .box {
-    padding: 20px;
+    padding: 10px 20px 0px 20px;
 }
 
 .iwaainfosection .box .top {
@@ -1711,7 +1750,7 @@ input[type=checkbox]:checked:before {
 }
 
 .iwaainfosection .box .bottom {
-    padding: 20px 0;
+    padding: 10px 0;
     font-weight: 500;
     font-size: 18px;
     opacity: 0;
@@ -1756,7 +1795,7 @@ input[type=checkbox]:checked:before {
 .iwaainfosection .money .inner-money {
     display: flex;
     align-items: center;
-    gap: 50px;
+    gap: 20px;
     color: var(--mediumDarkGray);
     font-weight: 500;
 }
@@ -1884,6 +1923,14 @@ input[type=checkbox]:checked:before {
 .iwaainfosection .jeha .bottom .left .email .email-inner a {
     font-weight: 300;
     font-size: 14px;
+    color: var(--mediumDarkGray);
+}
+
+.iwaainfosection .jeha .bottom .left .phone .phone-inner p{
+    display: flex;
+}
+
+.iwaainfosection .jeha .bottom .left .phone .phone-inner p a{
     color: var(--mediumDarkGray);
 }
 

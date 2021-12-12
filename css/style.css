@@ -1768,6 +1768,10 @@ input[type=checkbox]:checked:before {
     transform: rotate(180deg);
 }
 
+.iwaainfosection .box .bottom h4{
+    margin-bottom: 10px;
+}
+
 .iwaainfosection .desc .bottom {
     display: flex;
 }

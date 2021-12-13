@@ -1081,14 +1081,14 @@ input[type=checkbox]:checked:before {
 }
 
 .container .iwaainfo .iwaainfosection {
-    flex-basis: 78%;
+    flex-basis: 70%;
     padding: 25px 35px;
     border-radius: 20px;
 
 }
 
 .container .iwaainfo .progrss {
-    flex-basis: 20%;
+    flex-basis: 30%;
     padding: 25px;
     background-color: var(--whiteColor);
     border-radius: 20px;

@@ -1764,7 +1764,7 @@ input[type=checkbox]:checked:before {
 .iwaainfosection .box.active .bottom {
     opacity: 1;
     visibility: visible;
-    max-height: 500px;
+    max-height: 800px;
 }
 
 .iwaainfosection .box.active .fa-angle-down {

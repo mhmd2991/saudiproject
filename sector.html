@@ -11,39 +11,39 @@
 </head>
 
 <body class="bg">
-</body>
-<main>
-    <div class="container">
-        <div class="input-form">
-            <i class="fas fa-search"></i>
-            <input type="text" class="searchbar" placeholder="ابحث عن اسم القطاع أو رقم النشاط (الايزك)">
-        </div>
-        <div class="sectorcontent">
-            <div class="allsector">
-                <h3>القطاعات</h3>
-                <div class="topbox">
-                    <div class="checkall">
-                        <input type="checkbox" onClick="toggle(this)">
-                        <p>اختر الكل</p>
-                    </div>
-                </div>
-                <div class="box">
-                    <div class="sectortitle">
-                        <div>
-                            <input type="checkbox" value="tourism" id="tourism" class="checktitle" name="checksection"> قطاع السياحة
+    <main>
+        <div class="container">
+            <div class="input-form">
+                <i class="fas fa-search"></i>
+                <input type="text" class="searchbar" placeholder="ابحث عن اسم القطاع أو رقم النشاط (الايزك)">
+            </div>
+            <div class="sectorcontent">
+                <div class="allsector">
+                    <h3>القطاعات</h3>
+                    <div class="topbox">
+                        <div class="checkall">
+                            <input type="checkbox" onClick="toggle(this)">
+                            <p>اختر الكل</p>
                         </div>
-                        <i class="fas fa-angle-down"></i>
                     </div>
-                    <div class="sectordetails">
-                        <p>
-                            <!--<input type="checkbox" value="t1">--><a href="iwaa.html">حجز وحدات الإيواء السياحي وتسويقها</a>
-                        </p>
-                        <p>
-                            <!--<input type="checkbox" value="t2">--><a href="#">ترخيص فنادق</a>
-                        </p>
-                        <p><a href="#">ترخيص وكالات السفر والسياحة</a></p>
-                        <p><a href="#">ترخيص الإرشاد السياحي</a></p>
-                        <!--  <p class="last"><a href="#">فنادق البوتيك</a> <span class="plus"><i class="fas fa-plus"></i> المزيد</span></p>
+                    <div class="box">
+                        <div class="sectortitle">
+                            <div>
+                                <input type="checkbox" value="tourism" id="tourism" class="checktitle" name="checksection"> قطاع السياحة
+                            </div>
+                            <i class="fas fa-angle-down"></i>
+                        </div>
+                        <div class="sectordetails">
+                            <p>
+                                <!--<input type="checkbox" value="t1">--><a href="iwaa.html">
+                                    ترخيص وحدات الإيواء السياحي وتسويقها</a>
+                            </p>
+                            <p>
+                                <!--<input type="checkbox" value="t2">--><a href="#">ترخيص فنادق</a>
+                            </p>
+                            <p><a href="#">ترخيص وكالات السفر والسياحة</a></p>
+                            <p><a href="#">ترخيص الإرشاد السياحي</a></p>
+                            <!--  <p class="last"><a href="#">فنادق البوتيك</a> <span class="plus"><i class="fas fa-plus"></i> المزيد</span></p>
                        <div class="sub">
                             <p><a href="#">الفلل الفندقية</a></p>
                             <p><a href="#">الشقق المخدومة</a></p>
@@ -57,1497 +57,1498 @@
                             <p><a href="#">تنظيم رحلات سياحية</a></p>
                             <p><a href="#">أنشطة الأدلاء السياحيين</a></p>
                         </div>-->
-                    </div>
-                </div>
-                <div class="box">
-                    <div class="sectortitle">
-                        <div>
-                            <input type="checkbox" id="education" value="education" class="checktitle" name="checksection"> قطاع التعليم
                         </div>
-                        <i class="fas fa-angle-down"></i>
                     </div>
-                    <div class="sectordetails">
-                        <p><a href="#">ترخيص مدرسة تربية خاصة أهلية بمنهج وطني أو عالمي</a></p>
-                        <p><a href="#">ترخيص مدرسة أهلية بمنهج وطني أو عالمي</a></p>
-                        <p><a href="#">ترخيص مركز الإشراف والتدريب التربوي الأهلي</a></p>
-                        <p><a href="#">ترخيص معاهد اللغات</a></p>
-                        <p><a href="#">ترخيص منشأة تدريبية</a></p>
-                    </div>
-                </div>
-                <div class="box">
-                    <div class="sectortitle">
-                        <div>
-                            <input type="checkbox" value="health" class="checktitle" name="checksection"> قطاع الصحة
-                        </div>
-                        <i class="fas fa-angle-down"></i>
-                    </div>
-                    <div class="sectordetails">
-                        <p><a href="#">ترخيص المستشفيات</a></p>
-                        <p><a href="#">ترخيص المجمعات الطبية العامة</a></p>
-                        <p><a href="#">ترخيص مراكز التأهيل الطبي</a></p>
-                        <p><a href="#">ترخيص مراكز الاشعة الاتصالية</a></p>
-                    </div>
-                </div>
-                <div class="box">
-                    <div class="sectortitle">
-                        <div>
-                            <input type="checkbox" value="transport" class="checktitle" name="checksection"> قطاع النقل
-                        </div>
-                        <i class="fas fa-angle-down"></i>
-                    </div>
-                    <div class="sectordetails">
-                        <p><a href="#">ترخيص الأجرة العامة</a></p>
-                        <p><a href="#">ترخيص توجيه مركبات نقل الركاب</a></p>
-                        <p><a href="#">ترخيص نقل الركاب وترحيل الركاب الى خارج المملكة</a></p>
-                        <p><a href="#">ترخيص وسيط شحن البضائع بحرًا</a></p>
-                        <p><a href="#">ترخيص نشاط وكيل بحري</a></p>
-                        <p><a href="#">ترخيص مقدمي الخدمات الأرضية</a></p>
-                        <p><a href="#">ترخيص اصلاح وصيانة الطائرات</a></p>
-                        <p><a href="#">ترخيص مدارس تعليم الطيران</a></p>
-                    </div>
-                </div>
-                <div class="box">
-                    <div class="sectortitle">
-                        <div>
-                            <input type="checkbox" value="municipality" class="checktitle" name="checksection"> القطاع البلدي
-                        </div>
-                        <i class="fas fa-angle-down"></i>
-                    </div>
-                    <div class="sectordetails">
-                        <p><a href="#">ترخيص مزاولة نشاط تجاري</a></p>
-                    </div>
-                </div>
-                <div class="box">
-                    <div class="sectortitle">
-                        <div>
-                            <input type="checkbox" value="telecom" class="checktitle" name="checksection"> قطاع الاتصالات
-                        </div>
-                        <i class="fas fa-angle-down"></i>
-                    </div>
-                    <div class="sectordetails">
-                        <p><a href="#">ترخيص نقل الطرود محلي ودولي</a></p>
-                        <p><a href="#">ترخيص خدمات البيع بالجملة للبنية التحتية</a></p>
-                        <p><a href="#">ترخيص خدمة الاتصالات باستخدام نظام الفيسات (VSAT)</a></p>
-                        <p><a href="#">ترخيص خدمة تقديم خدمات الإنترنت (ISP)</a></p>
-                        <p><a href="#">ترخيص خدمة الرسائل القصيرة (SMS)</a></p>
-                        <p><a href="#">ترخيص خدمة تقديم الاتصالات الشخصية المتنقلة عبر الأقمار الصناعية (GMPCS)</a></p>
-                        <p><a href="#">تقديم خدمات مشغل الشبكات الافتراضية لإنترنت الأشياء (IoT-VNO) </a></p>
-                    </div>
-                </div>
-                <div class="box">
-                    <div class="sectortitle">
-                        <div>
-                            <input type="checkbox" value="industry" class="checktitle" name="checksection"> قطاع الصناعة
-                        </div>
-                        <i class="fas fa-angle-down"></i>
-                    </div>
-                    <div class="sectordetails">
-                        <p><a href="#">الترخيص الصناعي في المواقع التابعة للهيئة الملكية في الجبيل وينبع</a></p>
-                        <p><a href="#">الترخيص الصناعي في المواقع التابعة للهيئة المدن والمناطق الاقتصادية الخاصة</a></p>
-                        <p><a href="#">الترخيص الصناعي في المواقع التابعة للهيئة السعودية للمدن والمناطق التقنية</a></p>
-                        <p><a href="#">الترخيص الصناعي في المواقع التابعة لوزارة الشؤون القروية والبلدية والإسكان</a></p>
-                        <p><a href="#">التراخيص البيئية للتشغيل والإنشاء للمنشآت الصناعية</a></p>
-                    </div>
-                </div>
-                <div class="box">
-                    <div class="sectortitle">
-                        <div>
-                            <input type="checkbox" value="media" class="checktitle" name="checksection"> قطاع الاعلام
-                        </div>
-                        <i class="fas fa-angle-down"></i>
-                    </div>
-                    <div class="sectordetails">
-                        <p><a href="#">ترخيص مؤسسات ووكالات الدعاية والإعلان</a></p>
-                        <p><a href="#">ترخيص نشاط التصوير الفوتوغرافي</a></p>
-                        <p><a href="#">ترخيص البث المجدول "الخطية</a></p>
-                        <p><a href="#">ترخيص استيراد المحتوى الإعلامي المرئي والمسموع وتوزيعه وبيعه وتأجيره</a></p>
-                        <p><a href="#">ترخيص تشغيل دار سينما (دائم)</a></p>
-                    </div>
-                </div>
-                <div class="box">
-                    <div class="sectortitle">
-                        <div>
-                            <input type="checkbox" value="entertainment" class="checktitle" name="checksection"> قطاع الترفيه
-                        </div>
-                        <i class="fas fa-angle-down"></i>
-                    </div>
-                    <div class="sectordetails">
-                        <p><a href="#">ترخيص مراكز الترفيه</a></p>
-                        <p><a href="#">تصريح تنظيم فعالية ترفيهية</a></p>
-                        <p><a href="#">تصريح عروض حية في المطاعم والمقاهي</a></p>
-                        <p><a href="#">ترخيص تشغيل المرافق الترفيهية</a></p>
-                    </div>
-                </div>
-                <div class="box">
-                    <div class="sectortitle">
-                        <div>
-                            <input type="checkbox" value="military" class="checktitle" name="checksection"> قطاع الصناعات العسكرية
-                        </div>
-                        <i class="fas fa-angle-down"></i>
-                    </div>
-                    <div class="sectordetails">
-                        <p><a href="#">ترخيص صناعة المعدات العسكرية</a></p>
-                        <p><a href="#">ترخيص تقديم خدمات معدات عسكرية </a></p>
-                        <p><a href="#">ترخيص توريد المعدات العسكرية</a></p>
-                    </div>
-                </div>
-                <div class="box">
-                    <div class="sectortitle">
-                        <div>
-                            <input type="checkbox" value="sports" class="checktitle" name="checksection"> قطاع الرياضة
-                        </div>
-                        <i class="fas fa-angle-down"></i>
-                    </div>
-                    <div class="sectordetails">
-                        <p><a href="#">ترخيص للأكاديميات الرياضية</a></p>
-                        <p><a href="#">ترخيص للمراكز والصالات الرياضية</a></p>
-                        <p><a href="#">ترخيص للأندية الرياضية</a></p>
-                    </div>
-                </div>
-                <div class="box">
-                    <div class="sectortitle">
-                        <div>
-                            <input type="checkbox" value="food" class="checktitle" name="checksection"> قطاع الغذاء والدواء
-                        </div>
-                        <i class="fas fa-angle-down"></i>
-                    </div>
-                    <div class="sectordetails">
-                        <p><a href="#">ترخيص مستودع مستحضرات صيدلانية</a></p>
-                        <p><a href="#">ترخيص منشأة غذائية</a></p>
-                        <p><a href="#">ترخيص مستودع / مركز توزيع الاغذية</a></p>
-                        <p><a href="#">رخصة منشأة لاستيراد/توزيع الأجهزة والمنتجات الطبية</a></p>
-                        <p><a href="#">ترخيص ممثل قانوني معتمد</a></p>
-                    </div>
-                </div>
-            </div>
-            <div class="sectorinfo">
-                <section class="part tourism">
-                    <a href="iwaa.html">
-                        <div class="box t1">
-                            <div class="right">
-                                <img src="images/icon-1.svg" alt="tourism">
-                                <div class="code">
-                                    <p class="codetitle"></p>
-                                    <p class="codenum"></p>
-                                </div>
+                    <div class="box">
+                        <div class="sectortitle">
+                            <div>
+                                <input type="checkbox" id="education" value="education" class="checktitle" name="checksection"> قطاع التعليم
                             </div>
-                            <div class="left">
-                                <div class="top">
-                                    <h3>حجز وحدات الإيواء السياحي وتسويقها</h3>
+                            <i class="fas fa-angle-down"></i>
+                        </div>
+                        <div class="sectordetails">
+                            <p><a href="#">ترخيص مدرسة تربية خاصة أهلية بمنهج وطني أو عالمي</a></p>
+                            <p><a href="#">ترخيص مدرسة أهلية بمنهج وطني أو عالمي</a></p>
+                            <p><a href="#">ترخيص مركز الإشراف والتدريب التربوي الأهلي</a></p>
+                            <p><a href="#">ترخيص معاهد اللغات</a></p>
+                            <p><a href="#">ترخيص منشأة تدريبية</a></p>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="sectortitle">
+                            <div>
+                                <input type="checkbox" value="health" class="checktitle" name="checksection"> قطاع الصحة
+                            </div>
+                            <i class="fas fa-angle-down"></i>
+                        </div>
+                        <div class="sectordetails">
+                            <p><a href="#">ترخيص المستشفيات</a></p>
+                            <p><a href="#">ترخيص المجمعات الطبية العامة</a></p>
+                            <p><a href="#">ترخيص مراكز التأهيل الطبي</a></p>
+                            <p><a href="#">ترخيص مراكز الاشعة الاتصالية</a></p>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="sectortitle">
+                            <div>
+                                <input type="checkbox" value="transport" class="checktitle" name="checksection"> قطاع النقل
+                            </div>
+                            <i class="fas fa-angle-down"></i>
+                        </div>
+                        <div class="sectordetails">
+                            <p><a href="#">ترخيص الأجرة العامة</a></p>
+                            <p><a href="#">ترخيص توجيه مركبات نقل الركاب</a></p>
+                            <p><a href="#">ترخيص نقل الركاب وترحيل الركاب الى خارج المملكة</a></p>
+                            <p><a href="#">ترخيص وسيط شحن البضائع بحرًا</a></p>
+                            <p><a href="#">ترخيص نشاط وكيل بحري</a></p>
+                            <p><a href="#">ترخيص مقدمي الخدمات الأرضية</a></p>
+                            <p><a href="#">ترخيص اصلاح وصيانة الطائرات</a></p>
+                            <p><a href="#">ترخيص مدارس تعليم الطيران</a></p>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="sectortitle">
+                            <div>
+                                <input type="checkbox" value="municipality" class="checktitle" name="checksection"> القطاع البلدي
+                            </div>
+                            <i class="fas fa-angle-down"></i>
+                        </div>
+                        <div class="sectordetails">
+                            <p><a href="#">ترخيص مزاولة نشاط تجاري</a></p>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="sectortitle">
+                            <div>
+                                <input type="checkbox" value="telecom" class="checktitle" name="checksection"> قطاع الاتصالات
+                            </div>
+                            <i class="fas fa-angle-down"></i>
+                        </div>
+                        <div class="sectordetails">
+                            <p><a href="#">ترخيص نقل الطرود محلي ودولي</a></p>
+                            <p><a href="#">ترخيص خدمات البيع بالجملة للبنية التحتية</a></p>
+                            <p><a href="#">ترخيص خدمة الاتصالات باستخدام نظام الفيسات (VSAT)</a></p>
+                            <p><a href="#">ترخيص خدمة تقديم خدمات الإنترنت (ISP)</a></p>
+                            <p><a href="#">ترخيص خدمة الرسائل القصيرة (SMS)</a></p>
+                            <p><a href="#">ترخيص خدمة تقديم الاتصالات الشخصية المتنقلة عبر الأقمار الصناعية (GMPCS)</a></p>
+                            <p><a href="#">تقديم خدمات مشغل الشبكات الافتراضية لإنترنت الأشياء (IoT-VNO) </a></p>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="sectortitle">
+                            <div>
+                                <input type="checkbox" value="industry" class="checktitle" name="checksection"> قطاع الصناعة
+                            </div>
+                            <i class="fas fa-angle-down"></i>
+                        </div>
+                        <div class="sectordetails">
+                            <p><a href="#">الترخيص الصناعي في المواقع التابعة للهيئة الملكية في الجبيل وينبع</a></p>
+                            <p><a href="#">الترخيص الصناعي في المواقع التابعة للهيئة المدن والمناطق الاقتصادية الخاصة</a></p>
+                            <p><a href="#">الترخيص الصناعي في المواقع التابعة للهيئة السعودية للمدن والمناطق التقنية</a></p>
+                            <p><a href="#">الترخيص الصناعي في المواقع التابعة لوزارة الشؤون القروية والبلدية والإسكان</a></p>
+                            <p><a href="#">التراخيص البيئية للتشغيل والإنشاء للمنشآت الصناعية</a></p>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="sectortitle">
+                            <div>
+                                <input type="checkbox" value="media" class="checktitle" name="checksection"> قطاع الاعلام
+                            </div>
+                            <i class="fas fa-angle-down"></i>
+                        </div>
+                        <div class="sectordetails">
+                            <p><a href="#">ترخيص مؤسسات ووكالات الدعاية والإعلان</a></p>
+                            <p><a href="#">ترخيص نشاط التصوير الفوتوغرافي</a></p>
+                            <p><a href="#">ترخيص البث المجدول "الخطية</a></p>
+                            <p><a href="#">ترخيص استيراد المحتوى الإعلامي المرئي والمسموع وتوزيعه وبيعه وتأجيره</a></p>
+                            <p><a href="#">ترخيص تشغيل دار سينما (دائم)</a></p>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="sectortitle">
+                            <div>
+                                <input type="checkbox" value="entertainment" class="checktitle" name="checksection"> قطاع الترفيه
+                            </div>
+                            <i class="fas fa-angle-down"></i>
+                        </div>
+                        <div class="sectordetails">
+                            <p><a href="#">ترخيص مراكز الترفيه</a></p>
+                            <p><a href="#">تصريح تنظيم فعالية ترفيهية</a></p>
+                            <p><a href="#">تصريح عروض حية في المطاعم والمقاهي</a></p>
+                            <p><a href="#">ترخيص تشغيل المرافق الترفيهية</a></p>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="sectortitle">
+                            <div>
+                                <input type="checkbox" value="military" class="checktitle" name="checksection"> قطاع الصناعات العسكرية
+                            </div>
+                            <i class="fas fa-angle-down"></i>
+                        </div>
+                        <div class="sectordetails">
+                            <p><a href="#">ترخيص صناعة المعدات العسكرية</a></p>
+                            <p><a href="#">ترخيص تقديم خدمات معدات عسكرية </a></p>
+                            <p><a href="#">ترخيص توريد المعدات العسكرية</a></p>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="sectortitle">
+                            <div>
+                                <input type="checkbox" value="sports" class="checktitle" name="checksection"> قطاع الرياضة
+                            </div>
+                            <i class="fas fa-angle-down"></i>
+                        </div>
+                        <div class="sectordetails">
+                            <p><a href="#">ترخيص للأكاديميات الرياضية</a></p>
+                            <p><a href="#">ترخيص للمراكز والصالات الرياضية</a></p>
+                            <p><a href="#">ترخيص للأندية الرياضية</a></p>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="sectortitle">
+                            <div>
+                                <input type="checkbox" value="food" class="checktitle" name="checksection"> قطاع الغذاء والدواء
+                            </div>
+                            <i class="fas fa-angle-down"></i>
+                        </div>
+                        <div class="sectordetails">
+                            <p><a href="#">ترخيص مستودع مستحضرات صيدلانية</a></p>
+                            <p><a href="#">ترخيص منشأة غذائية</a></p>
+                            <p><a href="#">ترخيص مستودع / مركز توزيع الاغذية</a></p>
+                            <p><a href="#">رخصة منشأة لاستيراد/توزيع الأجهزة والمنتجات الطبية</a></p>
+                            <p><a href="#">ترخيص ممثل قانوني معتمد</a></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="sectorinfo">
+                    <section class="part tourism">
+                        <a href="iwaa.html">
+                            <div class="box t1">
+                                <div class="right">
+                                    <img src="images/icon-1.svg" alt="tourism">
                                     <div class="code">
-                                        <p class="codetitle">رقم الايزك</p>
-                                        <p class="codenum">799014</p>
+                                        <p class="codetitle"></p>
+                                        <p class="codenum"></p>
                                     </div>
                                 </div>
-                                <p>
-                                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed
-                                    diam nonummy nibh.
-                                </p>
+                                <div class="left">
+                                    <div class="top">
+                                        <h3>ترخيص وحدات الإيواء السياحي وتسويقها</h3>
+                                        <div class="code">
+                                            <p class="codetitle">رقم الايزك</p>
+                                            <p class="codenum">799014</p>
+                                        </div>
+                                    </div>
+                                    <p>
+                                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed
+                                        diam nonummy nibh.
+                                    </p>
 
-                            </div>
-                        </div>
-                    </a>
-                    <a href="#">
-                        <div class="box t2">
-                            <div class="right">
-                                <img src="images/icon-1.svg" alt="tourism">
-                                <div class="code">
-                                    <p class="codetitle"></p>
-                                    <p class="codenum"></p>
                                 </div>
                             </div>
-                            <div class="left">
-                                <div class="top">
-                                    <h3>ترخيص فنادق</h3>
+                        </a>
+                        <a href="#">
+                            <div class="box t2">
+                                <div class="right">
+                                    <img src="images/icon-1.svg" alt="tourism">
                                     <div class="code">
-                                        <p class="codetitle">رقم الايزك</p>
-                                        <p class="codenum">551011</p>
+                                        <p class="codetitle"></p>
+                                        <p class="codenum"></p>
                                     </div>
                                 </div>
-                                <p>
-                                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed
-                                    diam nonummy nibh.
-                                </p>
+                                <div class="left">
+                                    <div class="top">
+                                        <h3>ترخيص فنادق</h3>
+                                        <div class="code">
+                                            <p class="codetitle">رقم الايزك</p>
+                                            <p class="codenum">551011</p>
+                                        </div>
+                                    </div>
+                                    <p>
+                                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed
+                                        diam nonummy nibh.
+                                    </p>
 
-                            </div>
-                        </div>
-                    </a>
-                    <a href="#">
-                        <div class="box">
-                            <div class="right">
-                                <img src="images/icon-1.svg" alt="tourism">
-                                <div class="code">
-                                    <p class="codetitle"></p>
-                                    <p class="codenum"></p>
                                 </div>
                             </div>
-                            <div class="left">
-                                <div class="top">
-                                    <h3>ترخيص وكالات السفر والسياحة</h3>
+                        </a>
+                        <a href="#">
+                            <div class="box">
+                                <div class="right">
+                                    <img src="images/icon-1.svg" alt="tourism">
                                     <div class="code">
-                                        <p class="codetitle">رقم الايزك</p>
-                                        <p class="codenum">791100</p>
+                                        <p class="codetitle"></p>
+                                        <p class="codenum"></p>
                                     </div>
                                 </div>
-                                <p>
-                                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed
-                                    diam nonummy nibh.
-                                </p>
-                            </div>
-                        </div>
-                    </a>
-                    <a href="#">
-                        <div class="box">
-                            <div class="right">
-                                <img src="images/icon-1.svg" alt="tourism">
-                                <div class="code">
-                                    <p class="codetitle"></p>
-                                    <p class="codenum"></p>
+                                <div class="left">
+                                    <div class="top">
+                                        <h3>ترخيص وكالات السفر والسياحة</h3>
+                                        <div class="code">
+                                            <p class="codetitle">رقم الايزك</p>
+                                            <p class="codenum">791100</p>
+                                        </div>
+                                    </div>
+                                    <p>
+                                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed
+                                        diam nonummy nibh.
+                                    </p>
                                 </div>
                             </div>
-                            <div class="left">
-                                <div class="top">
-                                    <h3>ترخيص الإرشاد السياحي</h3>
+                        </a>
+                        <a href="#">
+                            <div class="box">
+                                <div class="right">
+                                    <img src="images/icon-1.svg" alt="tourism">
                                     <div class="code">
-                                        <p class="codetitle">رقم الايزك</p>
-                                        <p class="codenum">799032</p>
+                                        <p class="codetitle"></p>
+                                        <p class="codenum"></p>
                                     </div>
                                 </div>
-                                <p>
-                                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed
-                                    diam nonummy nibh.
-                                </p>
-                            </div>
-                        </div>
-                    </a>
-                </section>
-                <section class="part education">
-                    <a href="#">
-                        <div class="box">
-                            <div class="right">
-                                <img src="images/icon-1.svg" alt="tourism">
-                                <div class="code">
-                                    <p class="codetitle"></p>
-                                    <p class="codenum"></p>
+                                <div class="left">
+                                    <div class="top">
+                                        <h3>ترخيص الإرشاد السياحي</h3>
+                                        <div class="code">
+                                            <p class="codetitle">رقم الايزك</p>
+                                            <p class="codenum">799032</p>
+                                        </div>
+                                    </div>
+                                    <p>
+                                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed
+                                        diam nonummy nibh.
+                                    </p>
                                 </div>
                             </div>
-                            <div class="left">
-                                <div class="top">
-                                    <h3>ترخيص مدرسة تربية خاصة أهلية بمنهج وطني أو عالمي</h3>
+                        </a>
+                    </section>
+                    <section class="part education">
+                        <a href="#">
+                            <div class="box">
+                                <div class="right">
+                                    <img src="images/icon-1.svg" alt="tourism">
                                     <div class="code">
-                                        <p class="codetitle">رقم الايزك</p>
-                                        <p class="codenum">851031, 851033 ,852123 , 852127, 852121, 852125, 851032, 851034, 852124 , 852128, 852122, 852126</p>
+                                        <p class="codetitle"></p>
+                                        <p class="codenum"></p>
                                     </div>
                                 </div>
-                                <p>
-                                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed
-                                    diam nonummy nibh.
-                                </p>
-                            </div>
-                        </div>
-                    </a>
-                    <a href="#">
-                        <div class="box">
-                            <div class="right">
-                                <img src="images/icon-1.svg" alt="tourism">
-                                <div class="code">
-                                    <p class="codetitle"></p>
-                                    <p class="codenum"></p>
+                                <div class="left">
+                                    <div class="top">
+                                        <h3>ترخيص مدرسة تربية خاصة أهلية بمنهج وطني أو عالمي</h3>
+                                        <div class="code">
+                                            <p class="codetitle">رقم الايزك</p>
+                                            <p class="codenum">851031, 851033 ,852123 , 852127, 852121, 852125, 851032, 851034, 852124 , 852128, 852122, 852126</p>
+                                        </div>
+                                    </div>
+                                    <p>
+                                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed
+                                        diam nonummy nibh.
+                                    </p>
                                 </div>
                             </div>
-                            <div class="left">
-                                <div class="top">
-                                    <h3>ترخيص مدرسة أهلية بمنهج وطني أو عالمي</h3>
+                        </a>
+                        <a href="#">
+                            <div class="box">
+                                <div class="right">
+                                    <img src="images/icon-1.svg" alt="tourism">
                                     <div class="code">
-                                        <p class="codetitle">رقم الايزك</p>
-                                        <p class="codenum">851010, 851012, 851021, 851025, 852114, 852131, 852111, 852133, 851022, 851026, 852115, 852132, 852112, 852134</p>
+                                        <p class="codetitle"></p>
+                                        <p class="codenum"></p>
                                     </div>
                                 </div>
-                                <p>
-                                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed
-                                    diam nonummy nibh.
-                                </p>
-                            </div>
-                        </div>
-                    </a>
-                    <a href="#">
-                        <div class="box">
-                            <div class="right">
-                                <img src="images/icon-1.svg" alt="tourism">
-                                <div class="code">
-                                    <p class="codetitle"></p>
-                                    <p class="codenum"></p>
+                                <div class="left">
+                                    <div class="top">
+                                        <h3>ترخيص مدرسة أهلية بمنهج وطني أو عالمي</h3>
+                                        <div class="code">
+                                            <p class="codetitle">رقم الايزك</p>
+                                            <p class="codenum">851010, 851012, 851021, 851025, 852114, 852131, 852111, 852133, 851022, 851026, 852115, 852132, 852112, 852134</p>
+                                        </div>
+                                    </div>
+                                    <p>
+                                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed
+                                        diam nonummy nibh.
+                                    </p>
                                 </div>
                             </div>
-                            <div class="left">
-                                <div class="top">
-                                    <h3>ترخيص مركز الإشراف والتدريب التربوي الأهلي</h3>
+                        </a>
+                        <a href="#">
+                            <div class="box">
+                                <div class="right">
+                                    <img src="images/icon-1.svg" alt="tourism">
                                     <div class="code">
-                                        <p class="codetitle">رقم الايزك</p>
-                                        <p class="codenum">855004</p>
+                                        <p class="codetitle"></p>
+                                        <p class="codenum"></p>
                                     </div>
                                 </div>
-                                <p>
-                                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed
-                                    diam nonummy nibh.
-                                </p>
-                            </div>
-                        </div>
-                    </a>
-                    <a href="#">
-                        <div class="box">
-                            <div class="right">
-                                <img src="images/icon-1.svg" alt="tourism">
-                                <div class="code">
-                                    <p class="codetitle"></p>
-                                    <p class="codenum"></p>
+                                <div class="left">
+                                    <div class="top">
+                                        <h3>ترخيص مركز الإشراف والتدريب التربوي الأهلي</h3>
+                                        <div class="code">
+                                            <p class="codetitle">رقم الايزك</p>
+                                            <p class="codenum">855004</p>
+                                        </div>
+                                    </div>
+                                    <p>
+                                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed
+                                        diam nonummy nibh.
+                                    </p>
                                 </div>
                             </div>
-                            <div class="left">
-                                <div class="top">
-                                    <h3>ترخيص معاهد اللغات</h3>
+                        </a>
+                        <a href="#">
+                            <div class="box">
+                                <div class="right">
+                                    <img src="images/icon-1.svg" alt="tourism">
                                     <div class="code">
-                                        <p class="codetitle">رقم الايزك</p>
-                                        <p class="codenum">854910, 854960 , 854970</p>
+                                        <p class="codetitle"></p>
+                                        <p class="codenum"></p>
                                     </div>
                                 </div>
-                                <p>
-                                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed
-                                    diam nonummy nibh.
-                                </p>
-                            </div>
-                        </div>
-                    </a>
-                    <a href="#">
-                        <div class="box">
-                            <div class="right">
-                                <img src="images/icon-1.svg" alt="tourism">
-                                <div class="code">
-                                    <p class="codetitle"></p>
-                                    <p class="codenum"></p>
+                                <div class="left">
+                                    <div class="top">
+                                        <h3>ترخيص معاهد اللغات</h3>
+                                        <div class="code">
+                                            <p class="codetitle">رقم الايزك</p>
+                                            <p class="codenum">854910, 854960 , 854970</p>
+                                        </div>
+                                    </div>
+                                    <p>
+                                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed
+                                        diam nonummy nibh.
+                                    </p>
                                 </div>
                             </div>
-                            <div class="left">
-                                <div class="top">
-                                    <h3>ترخيص منشأة تدريبية</h3>
+                        </a>
+                        <a href="#">
+                            <div class="box">
+                                <div class="right">
+                                    <img src="images/icon-1.svg" alt="tourism">
                                     <div class="code">
-                                        <p class="codetitle">رقم الايزك</p>
-                                        <p class="codenum">853040, 854954</p>
+                                        <p class="codetitle"></p>
+                                        <p class="codenum"></p>
                                     </div>
                                 </div>
-                                <p>
-                                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed
-                                    diam nonummy nibh.
-                                </p>
-                            </div>
-                        </div>
-                    </a>
-                </section>
-                <section class="part health">
-                    <a href="#">
-                        <div class="box">
-                            <div class="right">
-                                <img src="images/icon-1.svg" alt="tourism">
-                                <div class="code">
-                                    <p class="codetitle"></p>
-                                    <p class="codenum"></p>
+                                <div class="left">
+                                    <div class="top">
+                                        <h3>ترخيص منشأة تدريبية</h3>
+                                        <div class="code">
+                                            <p class="codetitle">رقم الايزك</p>
+                                            <p class="codenum">853040, 854954</p>
+                                        </div>
+                                    </div>
+                                    <p>
+                                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed
+                                        diam nonummy nibh.
+                                    </p>
                                 </div>
                             </div>
-                            <div class="left">
-                                <div class="top">
-                                    <h3>ترخيص المستشفيات</h3>
+                        </a>
+                    </section>
+                    <section class="part health">
+                        <a href="#">
+                            <div class="box">
+                                <div class="right">
+                                    <img src="images/icon-1.svg" alt="tourism">
                                     <div class="code">
-                                        <p class="codetitle">رقم الايزك</p>
-                                        <p class="codenum">861011</p>
+                                        <p class="codetitle"></p>
+                                        <p class="codenum"></p>
                                     </div>
                                 </div>
-                                <p>
-                                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed
-                                    diam nonummy nibh.
-                                </p>
-                            </div>
-                        </div>
-                    </a>
-                    <a href="#">
-                        <div class="box">
-                            <div class="right">
-                                <img src="images/icon-1.svg" alt="tourism">
-                                <div class="code">
-                                    <p class="codetitle"></p>
-                                    <p class="codenum"></p>
+                                <div class="left">
+                                    <div class="top">
+                                        <h3>ترخيص المستشفيات</h3>
+                                        <div class="code">
+                                            <p class="codetitle">رقم الايزك</p>
+                                            <p class="codenum">861011</p>
+                                        </div>
+                                    </div>
+                                    <p>
+                                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed
+                                        diam nonummy nibh.
+                                    </p>
                                 </div>
                             </div>
-                            <div class="left">
-                                <div class="top">
-                                    <h3>ترخيص المجمعات الطبية العامة</h3>
+                        </a>
+                        <a href="#">
+                            <div class="box">
+                                <div class="right">
+                                    <img src="images/icon-1.svg" alt="tourism">
                                     <div class="code">
-                                        <p class="codetitle">رقم الايزك</p>
-                                        <p class="codenum">862063</p>
+                                        <p class="codetitle"></p>
+                                        <p class="codenum"></p>
                                     </div>
                                 </div>
-                                <p>
-                                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed
-                                    diam nonummy nibh.
-                                </p>
-                            </div>
-                        </div>
-                    </a>
-                    <a href="#">
-                        <div class="box">
-                            <div class="right">
-                                <img src="images/icon-1.svg" alt="tourism">
-                                <div class="code">
-                                    <p class="codetitle"></p>
-                                    <p class="codenum"></p>
+                                <div class="left">
+                                    <div class="top">
+                                        <h3>ترخيص المجمعات الطبية العامة</h3>
+                                        <div class="code">
+                                            <p class="codetitle">رقم الايزك</p>
+                                            <p class="codenum">862063</p>
+                                        </div>
+                                    </div>
+                                    <p>
+                                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed
+                                        diam nonummy nibh.
+                                    </p>
                                 </div>
                             </div>
-                            <div class="left">
-                                <div class="top">
-                                    <h3>ترخيص مراكز التأهيل الطبي</h3>
+                        </a>
+                        <a href="#">
+                            <div class="box">
+                                <div class="right">
+                                    <img src="images/icon-1.svg" alt="tourism">
                                     <div class="code">
-                                        <p class="codetitle">رقم الايزك</p>
-                                        <p class="codenum">869021</p>
+                                        <p class="codetitle"></p>
+                                        <p class="codenum"></p>
                                     </div>
                                 </div>
-                                <p>
-                                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed
-                                    diam nonummy nibh.
-                                </p>
-                            </div>
-                        </div>
-                    </a>
-                    <a href="#">
-                        <div class="box">
-                            <div class="right">
-                                <img src="images/icon-1.svg" alt="tourism">
-                                <div class="code">
-                                    <p class="codetitle"></p>
-                                    <p class="codenum"></p>
+                                <div class="left">
+                                    <div class="top">
+                                        <h3>ترخيص مراكز التأهيل الطبي</h3>
+                                        <div class="code">
+                                            <p class="codetitle">رقم الايزك</p>
+                                            <p class="codenum">869021</p>
+                                        </div>
+                                    </div>
+                                    <p>
+                                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed
+                                        diam nonummy nibh.
+                                    </p>
                                 </div>
                             </div>
-                            <div class="left">
-                                <div class="top">
-                                    <h3>ترخيص مراكز الاشعة الاتصالية</h3>
+                        </a>
+                        <a href="#">
+                            <div class="box">
+                                <div class="right">
+                                    <img src="images/icon-1.svg" alt="tourism">
                                     <div class="code">
-                                        <p class="codetitle">رقم الايزك</p>
-                                        <p class="codenum">869052</p>
+                                        <p class="codetitle"></p>
+                                        <p class="codenum"></p>
                                     </div>
                                 </div>
-                                <p>
-                                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed
-                                    diam nonummy nibh.
-                                </p>
-                            </div>
-                        </div>
-                    </a>
-                </section>
-                <section class="part transport">
-                    <a href="#">
-                        <div class="box">
-                            <div class="right">
-                                <img src="images/icon-1.svg" alt="tourism">
-                                <div class="code">
-                                    <p class="codetitle"></p>
-                                    <p class="codenum"></p>
+                                <div class="left">
+                                    <div class="top">
+                                        <h3>ترخيص مراكز الاشعة الاتصالية</h3>
+                                        <div class="code">
+                                            <p class="codetitle">رقم الايزك</p>
+                                            <p class="codenum">869052</p>
+                                        </div>
+                                    </div>
+                                    <p>
+                                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed
+                                        diam nonummy nibh.
+                                    </p>
                                 </div>
                             </div>
-                            <div class="left">
-                                <div class="top">
-                                    <h3>ترخيص الأجرة العامة</h3>
+                        </a>
+                    </section>
+                    <section class="part transport">
+                        <a href="#">
+                            <div class="box">
+                                <div class="right">
+                                    <img src="images/icon-1.svg" alt="tourism">
                                     <div class="code">
-                                        <p class="codetitle">رقم الايزك</p>
-                                        <p class="codenum">492211</p>
+                                        <p class="codetitle"></p>
+                                        <p class="codenum"></p>
                                     </div>
                                 </div>
-                                <p>
-                                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed
-                                    diam nonummy nibh.
-                                </p>
-                            </div>
-                        </div>
-                    </a>
-                    <a href="#">
-                        <div class="box">
-                            <div class="right">
-                                <img src="images/icon-1.svg" alt="tourism">
-                                <div class="code">
-                                    <p class="codetitle"></p>
-                                    <p class="codenum"></p>
+                                <div class="left">
+                                    <div class="top">
+                                        <h3>ترخيص الأجرة العامة</h3>
+                                        <div class="code">
+                                            <p class="codetitle">رقم الايزك</p>
+                                            <p class="codenum">492211</p>
+                                        </div>
+                                    </div>
+                                    <p>
+                                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed
+                                        diam nonummy nibh.
+                                    </p>
                                 </div>
                             </div>
-                            <div class="left">
-                                <div class="top">
-                                    <h3>ترخيص توجيه مركبات نقل الركاب</h3>
+                        </a>
+                        <a href="#">
+                            <div class="box">
+                                <div class="right">
+                                    <img src="images/icon-1.svg" alt="tourism">
                                     <div class="code">
-                                        <p class="codetitle">رقم الايزك</p>
-                                        <p class="codenum">522922</p>
+                                        <p class="codetitle"></p>
+                                        <p class="codenum"></p>
                                     </div>
                                 </div>
-                                <p>
-                                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed
-                                    diam nonummy nibh.
-                                </p>
-                            </div>
-                        </div>
-                    </a>
-                    <a href="#">
-                        <div class="box">
-                            <div class="right">
-                                <img src="images/icon-1.svg" alt="tourism">
-                                <div class="code">
-                                    <p class="codetitle"></p>
-                                    <p class="codenum"></p>
+                                <div class="left">
+                                    <div class="top">
+                                        <h3>ترخيص توجيه مركبات نقل الركاب</h3>
+                                        <div class="code">
+                                            <p class="codetitle">رقم الايزك</p>
+                                            <p class="codenum">522922</p>
+                                        </div>
+                                    </div>
+                                    <p>
+                                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed
+                                        diam nonummy nibh.
+                                    </p>
                                 </div>
                             </div>
-                            <div class="left">
-                                <div class="top">
-                                    <h3>ترخيص نقل الركاب وترحيل الركاب الى خارج المملكة</h3>
+                        </a>
+                        <a href="#">
+                            <div class="box">
+                                <div class="right">
+                                    <img src="images/icon-1.svg" alt="tourism">
                                     <div class="code">
-                                        <p class="codetitle">رقم الايزك</p>
-                                        <p class="codenum">492281</p>
+                                        <p class="codetitle"></p>
+                                        <p class="codenum"></p>
                                     </div>
                                 </div>
-                                <p>
-                                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed
-                                    diam nonummy nibh.
-                                </p>
-                            </div>
-                        </div>
-                    </a>
-                    <a href="#">
-                        <div class="box">
-                            <div class="right">
-                                <img src="images/icon-1.svg" alt="tourism">
-                                <div class="code">
-                                    <p class="codetitle"></p>
-                                    <p class="codenum"></p>
+                                <div class="left">
+                                    <div class="top">
+                                        <h3>ترخيص نقل الركاب وترحيل الركاب الى خارج المملكة</h3>
+                                        <div class="code">
+                                            <p class="codetitle">رقم الايزك</p>
+                                            <p class="codenum">492281</p>
+                                        </div>
+                                    </div>
+                                    <p>
+                                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed
+                                        diam nonummy nibh.
+                                    </p>
                                 </div>
                             </div>
-                            <div class="left">
-                                <div class="top">
-                                    <h3>ترخيص وسيط شحن البضائع بحرًا</h3>
+                        </a>
+                        <a href="#">
+                            <div class="box">
+                                <div class="right">
+                                    <img src="images/icon-1.svg" alt="tourism">
                                     <div class="code">
-                                        <p class="codetitle">رقم الايزك</p>
-                                        <p class="codenum">522404, 522406</p>
+                                        <p class="codetitle"></p>
+                                        <p class="codenum"></p>
                                     </div>
                                 </div>
-                                <p>
-                                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed
-                                    diam nonummy nibh.
-                                </p>
-                            </div>
-                        </div>
-                    </a>
-                    <a href="#">
-                        <div class="box">
-                            <div class="right">
-                                <img src="images/icon-1.svg" alt="tourism">
-                                <div class="code">
-                                    <p class="codetitle"></p>
-                                    <p class="codenum"></p>
+                                <div class="left">
+                                    <div class="top">
+                                        <h3>ترخيص وسيط شحن البضائع بحرًا</h3>
+                                        <div class="code">
+                                            <p class="codetitle">رقم الايزك</p>
+                                            <p class="codenum">522404, 522406</p>
+                                        </div>
+                                    </div>
+                                    <p>
+                                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed
+                                        diam nonummy nibh.
+                                    </p>
                                 </div>
                             </div>
-                            <div class="left">
-                                <div class="top">
-                                    <h3>ترخيص نشاط وكيل بحري</h3>
+                        </a>
+                        <a href="#">
+                            <div class="box">
+                                <div class="right">
+                                    <img src="images/icon-1.svg" alt="tourism">
                                     <div class="code">
-                                        <p class="codetitle">رقم الايزك</p>
-                                        <p class="codenum">522912</p>
+                                        <p class="codetitle"></p>
+                                        <p class="codenum"></p>
                                     </div>
                                 </div>
-                                <p>
-                                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed
-                                    diam nonummy nibh.
-                                </p>
-                            </div>
-                        </div>
-                    </a>
-                    <a href="#">
-                        <div class="box">
-                            <div class="right">
-                                <img src="images/icon-1.svg" alt="tourism">
-                                <div class="code">
-                                    <p class="codetitle"></p>
-                                    <p class="codenum"></p>
+                                <div class="left">
+                                    <div class="top">
+                                        <h3>ترخيص نشاط وكيل بحري</h3>
+                                        <div class="code">
+                                            <p class="codetitle">رقم الايزك</p>
+                                            <p class="codenum">522912</p>
+                                        </div>
+                                    </div>
+                                    <p>
+                                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed
+                                        diam nonummy nibh.
+                                    </p>
                                 </div>
                             </div>
-                            <div class="left">
-                                <div class="top">
-                                    <h3>ترخيص مقدمي الخدمات الأرضية</h3>
+                        </a>
+                        <a href="#">
+                            <div class="box">
+                                <div class="right">
+                                    <img src="images/icon-1.svg" alt="tourism">
                                     <div class="code">
-                                        <p class="codetitle">رقم الايزك</p>
-                                        <p class="codenum">522324</p>
+                                        <p class="codetitle"></p>
+                                        <p class="codenum"></p>
                                     </div>
                                 </div>
-                                <p>
-                                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed
-                                    diam nonummy nibh.
-                                </p>
-                            </div>
-                        </div>
-                    </a>
-                    <a href="#">
-                        <div class="box">
-                            <div class="right">
-                                <img src="images/icon-1.svg" alt="tourism">
-                                <div class="code">
-                                    <p class="codetitle"></p>
-                                    <p class="codenum"></p>
+                                <div class="left">
+                                    <div class="top">
+                                        <h3>ترخيص مقدمي الخدمات الأرضية</h3>
+                                        <div class="code">
+                                            <p class="codetitle">رقم الايزك</p>
+                                            <p class="codenum">522324</p>
+                                        </div>
+                                    </div>
+                                    <p>
+                                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed
+                                        diam nonummy nibh.
+                                    </p>
                                 </div>
                             </div>
-                            <div class="left">
-                                <div class="top">
-                                    <h3>ترخيص اصلاح وصيانة الطائرات</h3>
+                        </a>
+                        <a href="#">
+                            <div class="box">
+                                <div class="right">
+                                    <img src="images/icon-1.svg" alt="tourism">
                                     <div class="code">
-                                        <p class="codetitle">رقم الايزك</p>
-                                        <p class="codenum">331504</p>
+                                        <p class="codetitle"></p>
+                                        <p class="codenum"></p>
                                     </div>
                                 </div>
-                                <p>
-                                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed
-                                    diam nonummy nibh.
-                                </p>
-                            </div>
-                        </div>
-                    </a>
-                    <a href="#">
-                        <div class="box">
-                            <div class="right">
-                                <img src="images/icon-1.svg" alt="tourism">
-                                <div class="code">
-                                    <p class="codetitle"></p>
-                                    <p class="codenum"></p>
+                                <div class="left">
+                                    <div class="top">
+                                        <h3>ترخيص اصلاح وصيانة الطائرات</h3>
+                                        <div class="code">
+                                            <p class="codetitle">رقم الايزك</p>
+                                            <p class="codenum">331504</p>
+                                        </div>
+                                    </div>
+                                    <p>
+                                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed
+                                        diam nonummy nibh.
+                                    </p>
                                 </div>
                             </div>
-                            <div class="left">
-                                <div class="top">
-                                    <h3>ترخيص مدارس تعليم الطيران</h3>
+                        </a>
+                        <a href="#">
+                            <div class="box">
+                                <div class="right">
+                                    <img src="images/icon-1.svg" alt="tourism">
                                     <div class="code">
-                                        <p class="codetitle">رقم الايزك</p>
-                                        <p class="codenum">854991</p>
+                                        <p class="codetitle"></p>
+                                        <p class="codenum"></p>
                                     </div>
                                 </div>
-                                <p>
-                                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed
-                                    diam nonummy nibh.
-                                </p>
-                            </div>
-                        </div>
-                    </a>
-                </section>
-                <section class="part municipality">
-                    <a href="#">
-                        <div class="box">
-                            <div class="right">
-                                <img src="images/icon-1.svg" alt="tourism">
-                                <div class="code">
-                                    <p class="codetitle"></p>
-                                    <p class="codenum"></p>
+                                <div class="left">
+                                    <div class="top">
+                                        <h3>ترخيص مدارس تعليم الطيران</h3>
+                                        <div class="code">
+                                            <p class="codetitle">رقم الايزك</p>
+                                            <p class="codenum">854991</p>
+                                        </div>
+                                    </div>
+                                    <p>
+                                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed
+                                        diam nonummy nibh.
+                                    </p>
                                 </div>
                             </div>
-                            <div class="left">
-                                <div class="top">
-                                    <h3>ترخيص مزاولة نشاط تجاري</h3>
+                        </a>
+                    </section>
+                    <section class="part municipality">
+                        <a href="#">
+                            <div class="box">
+                                <div class="right">
+                                    <img src="images/icon-1.svg" alt="tourism">
                                     <div class="code">
-                                        <p class="codetitle">رقم الايزك</p>
-                                        <p class="codenum">يغطي هذا الترخيص عدد 661 نشاط اقتصادي بحسب المعلومات الواردة من الوزارة في نوفمبر 2021</p>
+                                        <p class="codetitle"></p>
+                                        <p class="codenum"></p>
                                     </div>
                                 </div>
-                                <p>
-                                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed
-                                    diam nonummy nibh.
-                                </p>
-                            </div>
-                        </div>
-                    </a>
-                </section>
-                <section class="part telecom">
-                    <a href="#">
-                        <div class="box">
-                            <div class="right">
-                                <img src="images/icon-1.svg" alt="tourism">
-                                <div class="code">
-                                    <p class="codetitle"></p>
-                                    <p class="codenum"></p>
+                                <div class="left">
+                                    <div class="top">
+                                        <h3>ترخيص مزاولة نشاط تجاري</h3>
+                                        <div class="code">
+                                            <p class="codetitle">رقم الايزك</p>
+                                            <p class="codenum">يغطي هذا الترخيص عدد 661 نشاط اقتصادي بحسب المعلومات الواردة من الوزارة في نوفمبر 2021</p>
+                                        </div>
+                                    </div>
+                                    <p>
+                                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed
+                                        diam nonummy nibh.
+                                    </p>
                                 </div>
                             </div>
-                            <div class="left">
-                                <div class="top">
-                                    <h3>ترخيص نقل الطرود محلي ودولي</h3>
+                        </a>
+                    </section>
+                    <section class="part telecom">
+                        <a href="#">
+                            <div class="box">
+                                <div class="right">
+                                    <img src="images/icon-1.svg" alt="tourism">
                                     <div class="code">
-                                        <p class="codetitle">رقم الايزك</p>
-                                        <p class="codenum">532012</p>
+                                        <p class="codetitle"></p>
+                                        <p class="codenum"></p>
                                     </div>
                                 </div>
-                                <p>
-                                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed
-                                    diam nonummy nibh.
-                                </p>
-                            </div>
-                        </div>
-                    </a>
-                    <a href="#">
-                        <div class="box">
-                            <div class="right">
-                                <img src="images/icon-1.svg" alt="tourism">
-                                <div class="code">
-                                    <p class="codetitle"></p>
-                                    <p class="codenum"></p>
+                                <div class="left">
+                                    <div class="top">
+                                        <h3>ترخيص نقل الطرود محلي ودولي</h3>
+                                        <div class="code">
+                                            <p class="codetitle">رقم الايزك</p>
+                                            <p class="codenum">532012</p>
+                                        </div>
+                                    </div>
+                                    <p>
+                                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed
+                                        diam nonummy nibh.
+                                    </p>
                                 </div>
                             </div>
-                            <div class="left">
-                                <div class="top">
-                                    <h3>ترخيص خدمات البيع بالجملة للبنية التحتية</h3>
+                        </a>
+                        <a href="#">
+                            <div class="box">
+                                <div class="right">
+                                    <img src="images/icon-1.svg" alt="tourism">
                                     <div class="code">
-                                        <p class="codetitle">رقم الايزك</p>
-                                        <p class="codenum">619017</p>
+                                        <p class="codetitle"></p>
+                                        <p class="codenum"></p>
                                     </div>
                                 </div>
-                                <p>
-                                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed
-                                    diam nonummy nibh.
-                                </p>
-                            </div>
-                        </div>
-                    </a>
-                    <a href="#">
-                        <div class="box">
-                            <div class="right">
-                                <img src="images/icon-1.svg" alt="tourism">
-                                <div class="code">
-                                    <p class="codetitle"></p>
-                                    <p class="codenum"></p>
+                                <div class="left">
+                                    <div class="top">
+                                        <h3>ترخيص خدمات البيع بالجملة للبنية التحتية</h3>
+                                        <div class="code">
+                                            <p class="codetitle">رقم الايزك</p>
+                                            <p class="codenum">619017</p>
+                                        </div>
+                                    </div>
+                                    <p>
+                                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed
+                                        diam nonummy nibh.
+                                    </p>
                                 </div>
                             </div>
-                            <div class="left">
-                                <div class="top">
-                                    <h3>ترخيص خدمة الاتصالات باستخدام نظام الفيسات (VSAT)</h3>
+                        </a>
+                        <a href="#">
+                            <div class="box">
+                                <div class="right">
+                                    <img src="images/icon-1.svg" alt="tourism">
                                     <div class="code">
-                                        <p class="codetitle">رقم الايزك</p>
-                                        <p class="codenum">613013</p>
+                                        <p class="codetitle"></p>
+                                        <p class="codenum"></p>
                                     </div>
                                 </div>
-                                <p>
-                                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed
-                                    diam nonummy nibh.
-                                </p>
-                            </div>
-                        </div>
-                    </a>
-                    <a href="#">
-                        <div class="box">
-                            <div class="right">
-                                <img src="images/icon-1.svg" alt="tourism">
-                                <div class="code">
-                                    <p class="codetitle"></p>
-                                    <p class="codenum"></p>
+                                <div class="left">
+                                    <div class="top">
+                                        <h3>ترخيص خدمة الاتصالات باستخدام نظام الفيسات (VSAT)</h3>
+                                        <div class="code">
+                                            <p class="codetitle">رقم الايزك</p>
+                                            <p class="codenum">613013</p>
+                                        </div>
+                                    </div>
+                                    <p>
+                                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed
+                                        diam nonummy nibh.
+                                    </p>
                                 </div>
                             </div>
-                            <div class="left">
-                                <div class="top">
-                                    <h3>ترخيص خدمة تقديم خدمات الإنترنت (ISP)</h3>
+                        </a>
+                        <a href="#">
+                            <div class="box">
+                                <div class="right">
+                                    <img src="images/icon-1.svg" alt="tourism">
                                     <div class="code">
-                                        <p class="codetitle">رقم الايزك</p>
-                                        <p class="codenum">611003</p>
+                                        <p class="codetitle"></p>
+                                        <p class="codenum"></p>
                                     </div>
                                 </div>
-                                <p>
-                                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed
-                                    diam nonummy nibh.
-                                </p>
-                            </div>
-                        </div>
-                    </a>
-                    <a href="#">
-                        <div class="box">
-                            <div class="right">
-                                <img src="images/icon-1.svg" alt="tourism">
-                                <div class="code">
-                                    <p class="codetitle"></p>
-                                    <p class="codenum"></p>
+                                <div class="left">
+                                    <div class="top">
+                                        <h3>ترخيص خدمة تقديم خدمات الإنترنت (ISP)</h3>
+                                        <div class="code">
+                                            <p class="codetitle">رقم الايزك</p>
+                                            <p class="codenum">611003</p>
+                                        </div>
+                                    </div>
+                                    <p>
+                                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed
+                                        diam nonummy nibh.
+                                    </p>
                                 </div>
                             </div>
-                            <div class="left">
-                                <div class="top">
-                                    <h3> ترخيص خدمة الرسائل القصيرة (SMS)</h3>
+                        </a>
+                        <a href="#">
+                            <div class="box">
+                                <div class="right">
+                                    <img src="images/icon-1.svg" alt="tourism">
                                     <div class="code">
-                                        <p class="codetitle">رقم الايزك</p>
-                                        <p class="codenum">631122</p>
+                                        <p class="codetitle"></p>
+                                        <p class="codenum"></p>
                                     </div>
                                 </div>
-                                <p>
-                                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed
-                                    diam nonummy nibh.
-                                </p>
-                            </div>
-                        </div>
-                    </a>
-                    <a href="#">
-                        <div class="box">
-                            <div class="right">
-                                <img src="images/icon-1.svg" alt="tourism">
-                                <div class="code">
-                                    <p class="codetitle"></p>
-                                    <p class="codenum"></p>
+                                <div class="left">
+                                    <div class="top">
+                                        <h3> ترخيص خدمة الرسائل القصيرة (SMS)</h3>
+                                        <div class="code">
+                                            <p class="codetitle">رقم الايزك</p>
+                                            <p class="codenum">631122</p>
+                                        </div>
+                                    </div>
+                                    <p>
+                                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed
+                                        diam nonummy nibh.
+                                    </p>
                                 </div>
                             </div>
-                            <div class="left">
-                                <div class="top">
-                                    <h3>ترخيص خدمة تقديم الاتصالات الشخصية المتنقلة عبر الأقمار الصناعية (GMPCS)</h3>
+                        </a>
+                        <a href="#">
+                            <div class="box">
+                                <div class="right">
+                                    <img src="images/icon-1.svg" alt="tourism">
                                     <div class="code">
-                                        <p class="codetitle">رقم الايزك</p>
-                                        <p class="codenum">613011</p>
+                                        <p class="codetitle"></p>
+                                        <p class="codenum"></p>
                                     </div>
                                 </div>
-                                <p>
-                                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed
-                                    diam nonummy nibh.
-                                </p>
-                            </div>
-                        </div>
-                    </a>
-                    <a href="#">
-                        <div class="box">
-                            <div class="right">
-                                <img src="images/icon-1.svg" alt="tourism">
-                                <div class="code">
-                                    <p class="codetitle"></p>
-                                    <p class="codenum"></p>
+                                <div class="left">
+                                    <div class="top">
+                                        <h3>ترخيص خدمة تقديم الاتصالات الشخصية المتنقلة عبر الأقمار الصناعية (GMPCS)</h3>
+                                        <div class="code">
+                                            <p class="codetitle">رقم الايزك</p>
+                                            <p class="codenum">613011</p>
+                                        </div>
+                                    </div>
+                                    <p>
+                                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed
+                                        diam nonummy nibh.
+                                    </p>
                                 </div>
                             </div>
-                            <div class="left">
-                                <div class="top">
-                                    <h3>تقديم خدمات مشغل الشبكات الافتراضية لإنترنت الأشياء (IoT-VNO)</h3>
+                        </a>
+                        <a href="#">
+                            <div class="box">
+                                <div class="right">
+                                    <img src="images/icon-1.svg" alt="tourism">
                                     <div class="code">
-                                        <p class="codetitle">رقم الايزك</p>
-                                        <p class="codenum">619018</p>
+                                        <p class="codetitle"></p>
+                                        <p class="codenum"></p>
                                     </div>
                                 </div>
-                                <p>
-                                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed
-                                    diam nonummy nibh.
-                                </p>
-                            </div>
-                        </div>
-                    </a>
-                </section>
-                <section class="part industry">
-                    <a href="#">
-                        <div class="box">
-                            <div class="right">
-                                <img src="images/icon-1.svg" alt="tourism">
-                                <div class="code">
-                                    <p class="codetitle"></p>
-                                    <p class="codenum"></p>
+                                <div class="left">
+                                    <div class="top">
+                                        <h3>تقديم خدمات مشغل الشبكات الافتراضية لإنترنت الأشياء (IoT-VNO)</h3>
+                                        <div class="code">
+                                            <p class="codetitle">رقم الايزك</p>
+                                            <p class="codenum">619018</p>
+                                        </div>
+                                    </div>
+                                    <p>
+                                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed
+                                        diam nonummy nibh.
+                                    </p>
                                 </div>
                             </div>
-                            <div class="left">
-                                <div class="top">
-                                    <h3>الترخيص الصناعي في المواقع التابعة للهيئة الملكية في الجبيل وينبع</h3>
+                        </a>
+                    </section>
+                    <section class="part industry">
+                        <a href="#">
+                            <div class="box">
+                                <div class="right">
+                                    <img src="images/icon-1.svg" alt="tourism">
                                     <div class="code">
-                                        <p class="codetitle">رقم الايزك</p>
-                                        <p class="codenum">يغطي هذا الترخيص عدد 829 نشاط اقتصادي بحسب المعلومات الواردة من الهيئة العامة للإحصاء في نوفمبر 2021</p>
+                                        <p class="codetitle"></p>
+                                        <p class="codenum"></p>
                                     </div>
                                 </div>
-                                <p>
-                                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed
-                                    diam nonummy nibh.
-                                </p>
-                            </div>
-                        </div>
-                    </a>
-                    <a href="#">
-                        <div class="box">
-                            <div class="right">
-                                <img src="images/icon-1.svg" alt="tourism">
-                                <div class="code">
-                                    <p class="codetitle"></p>
-                                    <p class="codenum"></p>
+                                <div class="left">
+                                    <div class="top">
+                                        <h3>الترخيص الصناعي في المواقع التابعة للهيئة الملكية في الجبيل وينبع</h3>
+                                        <div class="code">
+                                            <p class="codetitle">رقم الايزك</p>
+                                            <p class="codenum">يغطي هذا الترخيص عدد 829 نشاط اقتصادي بحسب المعلومات الواردة من الهيئة العامة للإحصاء في نوفمبر 2021</p>
+                                        </div>
+                                    </div>
+                                    <p>
+                                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed
+                                        diam nonummy nibh.
+                                    </p>
                                 </div>
                             </div>
-                            <div class="left">
-                                <div class="top">
-                                    <h3>الترخيص الصناعي في المواقع التابعة للهيئة المدن والمناطق الاقتصادية الخاصة</h3>
+                        </a>
+                        <a href="#">
+                            <div class="box">
+                                <div class="right">
+                                    <img src="images/icon-1.svg" alt="tourism">
                                     <div class="code">
-                                        <p class="codetitle">رقم الايزك</p>
-                                        <p class="codenum">يغطي هذا الترخيص عدد 829 نشاط اقتصادي بحسب المعلومات الواردة من الهيئة العامة للإحصاء في نوفمبر 2021</p>
+                                        <p class="codetitle"></p>
+                                        <p class="codenum"></p>
                                     </div>
                                 </div>
-                                <p>
-                                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed
-                                    diam nonummy nibh.
-                                </p>
-                            </div>
-                        </div>
-                    </a>
-                    <a href="#">
-                        <div class="box">
-                            <div class="right">
-                                <img src="images/icon-1.svg" alt="tourism">
-                                <div class="code">
-                                    <p class="codetitle"></p>
-                                    <p class="codenum"></p>
+                                <div class="left">
+                                    <div class="top">
+                                        <h3>الترخيص الصناعي في المواقع التابعة للهيئة المدن والمناطق الاقتصادية الخاصة</h3>
+                                        <div class="code">
+                                            <p class="codetitle">رقم الايزك</p>
+                                            <p class="codenum">يغطي هذا الترخيص عدد 829 نشاط اقتصادي بحسب المعلومات الواردة من الهيئة العامة للإحصاء في نوفمبر 2021</p>
+                                        </div>
+                                    </div>
+                                    <p>
+                                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed
+                                        diam nonummy nibh.
+                                    </p>
                                 </div>
                             </div>
-                            <div class="left">
-                                <div class="top">
-                                    <h3>الترخيص الصناعي في المواقع التابعة للهيئة السعودية للمدن والمناطق التقنية</h3>
+                        </a>
+                        <a href="#">
+                            <div class="box">
+                                <div class="right">
+                                    <img src="images/icon-1.svg" alt="tourism">
                                     <div class="code">
-                                        <p class="codetitle">رقم الايزك</p>
-                                        <p class="codenum">يغطي هذا الترخيص عدد 829 نشاط اقتصادي بحسب المعلومات الواردة من الهيئة العامة للإحصاء في نوفمبر 2021</p>
+                                        <p class="codetitle"></p>
+                                        <p class="codenum"></p>
                                     </div>
                                 </div>
-                                <p>
-                                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed
-                                    diam nonummy nibh.
-                                </p>
-                            </div>
-                        </div>
-                    </a>
-                    <a href="#">
-                        <div class="box">
-                            <div class="right">
-                                <img src="images/icon-1.svg" alt="tourism">
-                                <div class="code">
-                                    <p class="codetitle"></p>
-                                    <p class="codenum"></p>
+                                <div class="left">
+                                    <div class="top">
+                                        <h3>الترخيص الصناعي في المواقع التابعة للهيئة السعودية للمدن والمناطق التقنية</h3>
+                                        <div class="code">
+                                            <p class="codetitle">رقم الايزك</p>
+                                            <p class="codenum">يغطي هذا الترخيص عدد 829 نشاط اقتصادي بحسب المعلومات الواردة من الهيئة العامة للإحصاء في نوفمبر 2021</p>
+                                        </div>
+                                    </div>
+                                    <p>
+                                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed
+                                        diam nonummy nibh.
+                                    </p>
                                 </div>
                             </div>
-                            <div class="left">
-                                <div class="top">
-                                    <h3>الترخيص الصناعي في المواقع التابعة لوزارة الشؤون القروية والبلدية والإسكان</h3>
+                        </a>
+                        <a href="#">
+                            <div class="box">
+                                <div class="right">
+                                    <img src="images/icon-1.svg" alt="tourism">
                                     <div class="code">
-                                        <p class="codetitle">رقم الايزك</p>
-                                        <p class="codenum">يغطي هذا الترخيص عدد 829 نشاط اقتصادي بحسب المعلومات الواردة من الهيئة العامة للإحصاء في نوفمبر 2021</p>
+                                        <p class="codetitle"></p>
+                                        <p class="codenum"></p>
                                     </div>
                                 </div>
-                                <p>
-                                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed
-                                    diam nonummy nibh.
-                                </p>
-                            </div>
-                        </div>
-                    </a>
-                    <a href="#">
-                        <div class="box">
-                            <div class="right">
-                                <img src="images/icon-1.svg" alt="tourism">
-                                <div class="code">
-                                    <p class="codetitle"></p>
-                                    <p class="codenum"></p>
+                                <div class="left">
+                                    <div class="top">
+                                        <h3>الترخيص الصناعي في المواقع التابعة لوزارة الشؤون القروية والبلدية والإسكان</h3>
+                                        <div class="code">
+                                            <p class="codetitle">رقم الايزك</p>
+                                            <p class="codenum">يغطي هذا الترخيص عدد 829 نشاط اقتصادي بحسب المعلومات الواردة من الهيئة العامة للإحصاء في نوفمبر 2021</p>
+                                        </div>
+                                    </div>
+                                    <p>
+                                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed
+                                        diam nonummy nibh.
+                                    </p>
                                 </div>
                             </div>
-                            <div class="left">
-                                <div class="top">
-                                    <h3>االتراخيص البيئية للتشغيل والإنشاء للمنشآت الصناعية</h3>
+                        </a>
+                        <a href="#">
+                            <div class="box">
+                                <div class="right">
+                                    <img src="images/icon-1.svg" alt="tourism">
                                     <div class="code">
-                                        <p class="codetitle">رقم الايزك</p>
-                                        <p class="codenum">يغطي هذا الترخيص عدد 829 نشاط اقتصادي بحسب المعلومات الواردة من الهيئة العامة للإحصاء في نوفمبر 2021</p>
+                                        <p class="codetitle"></p>
+                                        <p class="codenum"></p>
                                     </div>
                                 </div>
-                                <p>
-                                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed
-                                    diam nonummy nibh.
-                                </p>
+                                <div class="left">
+                                    <div class="top">
+                                        <h3>االتراخيص البيئية للتشغيل والإنشاء للمنشآت الصناعية</h3>
+                                        <div class="code">
+                                            <p class="codetitle">رقم الايزك</p>
+                                            <p class="codenum">يغطي هذا الترخيص عدد 829 نشاط اقتصادي بحسب المعلومات الواردة من الهيئة العامة للإحصاء في نوفمبر 2021</p>
+                                        </div>
+                                    </div>
+                                    <p>
+                                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed
+                                        diam nonummy nibh.
+                                    </p>
+                                </div>
                             </div>
-                        </div>
-                    </a>
+                        </a>
 
-                </section>
-                <section class="part media">
-                    <a href="#">
-                        <div class="box">
-                            <div class="right">
-                                <img src="images/icon-1.svg" alt="tourism">
-                                <div class="code">
-                                    <p class="codetitle"></p>
-                                    <p class="codenum"></p>
-                                </div>
-                            </div>
-                            <div class="left">
-                                <div class="top">
-                                    <h3>ترخيص مؤسسات ووكالات الدعاية والإعلان</h3>
+                    </section>
+                    <section class="part media">
+                        <a href="#">
+                            <div class="box">
+                                <div class="right">
+                                    <img src="images/icon-1.svg" alt="tourism">
                                     <div class="code">
-                                        <p class="codetitle">رقم الايزك</p>
-                                        <p class="codenum">731011</p>
+                                        <p class="codetitle"></p>
+                                        <p class="codenum"></p>
                                     </div>
                                 </div>
-                                <p>
-                                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed
-                                    diam nonummy nibh.
-                                </p>
-                            </div>
-                        </div>
-                    </a>
-                    <a href="#">
-                        <div class="box">
-                            <div class="right">
-                                <img src="images/icon-1.svg" alt="tourism">
-                                <div class="code">
-                                    <p class="codetitle"></p>
-                                    <p class="codenum"></p>
+                                <div class="left">
+                                    <div class="top">
+                                        <h3>ترخيص مؤسسات ووكالات الدعاية والإعلان</h3>
+                                        <div class="code">
+                                            <p class="codetitle">رقم الايزك</p>
+                                            <p class="codenum">731011</p>
+                                        </div>
+                                    </div>
+                                    <p>
+                                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed
+                                        diam nonummy nibh.
+                                    </p>
                                 </div>
                             </div>
-                            <div class="left">
-                                <div class="top">
-                                    <h3>ترخيص نشاط التصوير الفوتوغرافي</h3>
+                        </a>
+                        <a href="#">
+                            <div class="box">
+                                <div class="right">
+                                    <img src="images/icon-1.svg" alt="tourism">
                                     <div class="code">
-                                        <p class="codetitle">رقم الايزك</p>
-                                        <p class="codenum">742011</p>
+                                        <p class="codetitle"></p>
+                                        <p class="codenum"></p>
                                     </div>
                                 </div>
-                                <p>
-                                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed
-                                    diam nonummy nibh.
-                                </p>
-                            </div>
-                        </div>
-                    </a>
-                    <a href="#">
-                        <div class="box">
-                            <div class="right">
-                                <img src="images/icon-1.svg" alt="tourism">
-                                <div class="code">
-                                    <p class="codetitle"></p>
-                                    <p class="codenum"></p>
+                                <div class="left">
+                                    <div class="top">
+                                        <h3>ترخيص نشاط التصوير الفوتوغرافي</h3>
+                                        <div class="code">
+                                            <p class="codetitle">رقم الايزك</p>
+                                            <p class="codenum">742011</p>
+                                        </div>
+                                    </div>
+                                    <p>
+                                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed
+                                        diam nonummy nibh.
+                                    </p>
                                 </div>
                             </div>
-                            <div class="left">
-                                <div class="top">
-                                    <h3>ترخيص البث المجدول "الخطية"</h3>
+                        </a>
+                        <a href="#">
+                            <div class="box">
+                                <div class="right">
+                                    <img src="images/icon-1.svg" alt="tourism">
                                     <div class="code">
-                                        <p class="codetitle">رقم الايزك</p>
-                                        <p class="codenum">602011</p>
+                                        <p class="codetitle"></p>
+                                        <p class="codenum"></p>
                                     </div>
                                 </div>
-                                <p>
-                                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed
-                                    diam nonummy nibh.
-                                </p>
-                            </div>
-                        </div>
-                    </a>
-                    <a href="#">
-                        <div class="box">
-                            <div class="right">
-                                <img src="images/icon-1.svg" alt="tourism">
-                                <div class="code">
-                                    <p class="codetitle"></p>
-                                    <p class="codenum"></p>
+                                <div class="left">
+                                    <div class="top">
+                                        <h3>ترخيص البث المجدول "الخطية"</h3>
+                                        <div class="code">
+                                            <p class="codetitle">رقم الايزك</p>
+                                            <p class="codenum">602011</p>
+                                        </div>
+                                    </div>
+                                    <p>
+                                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed
+                                        diam nonummy nibh.
+                                    </p>
                                 </div>
                             </div>
-                            <div class="left">
-                                <div class="top">
-                                    <h3>ترخيص استيراد المحتوى الإعلامي المرئي والمسموع وتوزيعه وبيعه وتأجيره</h3>
+                        </a>
+                        <a href="#">
+                            <div class="box">
+                                <div class="right">
+                                    <img src="images/icon-1.svg" alt="tourism">
                                     <div class="code">
-                                        <p class="codetitle">رقم الايزك</p>
-                                        <p class="codenum">476211-476290-592013-464996-474120-591313-464972- 591312</p>
+                                        <p class="codetitle"></p>
+                                        <p class="codenum"></p>
                                     </div>
                                 </div>
-                                <p>
-                                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed
-                                    diam nonummy nibh.
-                                </p>
-                            </div>
-                        </div>
-                    </a>
-                    <a href="#">
-                        <div class="box">
-                            <div class="right">
-                                <img src="images/icon-1.svg" alt="tourism">
-                                <div class="code">
-                                    <p class="codetitle"></p>
-                                    <p class="codenum"></p>
+                                <div class="left">
+                                    <div class="top">
+                                        <h3>ترخيص استيراد المحتوى الإعلامي المرئي والمسموع وتوزيعه وبيعه وتأجيره</h3>
+                                        <div class="code">
+                                            <p class="codetitle">رقم الايزك</p>
+                                            <p class="codenum">476211-476290-592013-464996-474120-591313-464972- 591312</p>
+                                        </div>
+                                    </div>
+                                    <p>
+                                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed
+                                        diam nonummy nibh.
+                                    </p>
                                 </div>
                             </div>
-                            <div class="left">
-                                <div class="top">
-                                    <h3>ترخيص تشغيل دار سينما (دائم)</h3>
+                        </a>
+                        <a href="#">
+                            <div class="box">
+                                <div class="right">
+                                    <img src="images/icon-1.svg" alt="tourism">
                                     <div class="code">
-                                        <p class="codetitle">رقم الايزك</p>
-                                        <p class="codenum">591403</p>
+                                        <p class="codetitle"></p>
+                                        <p class="codenum"></p>
                                     </div>
                                 </div>
-                                <p>
-                                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed
-                                    diam nonummy nibh.
-                                </p>
-                            </div>
-                        </div>
-                    </a>
-                </section>
-                <section class="part entertainment">
-                    <a href="#">
-                        <div class="box">
-                            <div class="right">
-                                <img src="images/icon-1.svg" alt="tourism">
-                                <div class="code">
-                                    <p class="codetitle"></p>
-                                    <p class="codenum"></p>
+                                <div class="left">
+                                    <div class="top">
+                                        <h3>ترخيص تشغيل دار سينما (دائم)</h3>
+                                        <div class="code">
+                                            <p class="codetitle">رقم الايزك</p>
+                                            <p class="codenum">591403</p>
+                                        </div>
+                                    </div>
+                                    <p>
+                                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed
+                                        diam nonummy nibh.
+                                    </p>
                                 </div>
                             </div>
-                            <div class="left">
-                                <div class="top">
-                                    <h3>ترخيص مراكز الترفيه</h3>
+                        </a>
+                    </section>
+                    <section class="part entertainment">
+                        <a href="#">
+                            <div class="box">
+                                <div class="right">
+                                    <img src="images/icon-1.svg" alt="tourism">
                                     <div class="code">
-                                        <p class="codetitle">رقم الايزك</p>
-                                        <p class="codenum">932103</p>
+                                        <p class="codetitle"></p>
+                                        <p class="codenum"></p>
                                     </div>
                                 </div>
-                                <p>
-                                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed
-                                    diam nonummy nibh.
-                                </p>
-                            </div>
-                        </div>
-                    </a>
-                    <a href="#">
-                        <div class="box">
-                            <div class="right">
-                                <img src="images/icon-1.svg" alt="tourism">
-                                <div class="code">
-                                    <p class="codetitle"></p>
-                                    <p class="codenum"></p>
+                                <div class="left">
+                                    <div class="top">
+                                        <h3>ترخيص مراكز الترفيه</h3>
+                                        <div class="code">
+                                            <p class="codetitle">رقم الايزك</p>
+                                            <p class="codenum">932103</p>
+                                        </div>
+                                    </div>
+                                    <p>
+                                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed
+                                        diam nonummy nibh.
+                                    </p>
                                 </div>
                             </div>
-                            <div class="left">
-                                <div class="top">
-                                    <h3>تصريح تنظيم فعالية ترفيهية</h3>
+                        </a>
+                        <a href="#">
+                            <div class="box">
+                                <div class="right">
+                                    <img src="images/icon-1.svg" alt="tourism">
                                     <div class="code">
-                                        <p class="codetitle">رقم الايزك</p>
-                                        <p class="codenum">932918</p>
+                                        <p class="codetitle"></p>
+                                        <p class="codenum"></p>
                                     </div>
                                 </div>
-                                <p>
-                                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed
-                                    diam nonummy nibh.
-                                </p>
-                            </div>
-                        </div>
-                    </a>
-                    <a href="#">
-                        <div class="box">
-                            <div class="right">
-                                <img src="images/icon-1.svg" alt="tourism">
-                                <div class="code">
-                                    <p class="codetitle"></p>
-                                    <p class="codenum"></p>
+                                <div class="left">
+                                    <div class="top">
+                                        <h3>تصريح تنظيم فعالية ترفيهية</h3>
+                                        <div class="code">
+                                            <p class="codetitle">رقم الايزك</p>
+                                            <p class="codenum">932918</p>
+                                        </div>
+                                    </div>
+                                    <p>
+                                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed
+                                        diam nonummy nibh.
+                                    </p>
                                 </div>
                             </div>
-                            <div class="left">
-                                <div class="top">
-                                    <h3>تصريح عروض حية في المطاعم والمقاهي</h3>
+                        </a>
+                        <a href="#">
+                            <div class="box">
+                                <div class="right">
+                                    <img src="images/icon-1.svg" alt="tourism">
                                     <div class="code">
-                                        <p class="codetitle">رقم الايزك</p>
-                                        <p class="codenum">-</p>
+                                        <p class="codetitle"></p>
+                                        <p class="codenum"></p>
                                     </div>
                                 </div>
-                                <p>
-                                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed
-                                    diam nonummy nibh.
-                                </p>
-                            </div>
-                        </div>
-                    </a>
-                    <a href="#">
-                        <div class="box">
-                            <div class="right">
-                                <img src="images/icon-1.svg" alt="tourism">
-                                <div class="code">
-                                    <p class="codetitle"></p>
-                                    <p class="codenum"></p>
+                                <div class="left">
+                                    <div class="top">
+                                        <h3>تصريح عروض حية في المطاعم والمقاهي</h3>
+                                        <div class="code">
+                                            <p class="codetitle">رقم الايزك</p>
+                                            <p class="codenum">-</p>
+                                        </div>
+                                    </div>
+                                    <p>
+                                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed
+                                        diam nonummy nibh.
+                                    </p>
                                 </div>
                             </div>
-                            <div class="left">
-                                <div class="top">
-                                    <h3>ترخيص تشغيل المرافق الترفيهية</h3>
+                        </a>
+                        <a href="#">
+                            <div class="box">
+                                <div class="right">
+                                    <img src="images/icon-1.svg" alt="tourism">
                                     <div class="code">
-                                        <p class="codetitle">رقم الايزك</p>
-                                        <p class="codenum">932933</p>
+                                        <p class="codetitle"></p>
+                                        <p class="codenum"></p>
                                     </div>
                                 </div>
-                                <p>
-                                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed
-                                    diam nonummy nibh.
-                                </p>
-                            </div>
-                        </div>
-                    </a>
-                </section>
-                <section class="part military">
-                    <a href="#">
-                        <div class="box">
-                            <div class="right">
-                                <img src="images/icon-1.svg" alt="tourism">
-                                <div class="code">
-                                    <p class="codetitle"></p>
-                                    <p class="codenum"></p>
+                                <div class="left">
+                                    <div class="top">
+                                        <h3>ترخيص تشغيل المرافق الترفيهية</h3>
+                                        <div class="code">
+                                            <p class="codetitle">رقم الايزك</p>
+                                            <p class="codenum">932933</p>
+                                        </div>
+                                    </div>
+                                    <p>
+                                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed
+                                        diam nonummy nibh.
+                                    </p>
                                 </div>
                             </div>
-                            <div class="left">
-                                <div class="top">
-                                    <h3>ترخيص صناعة المعدات العسكرية</h3>
+                        </a>
+                    </section>
+                    <section class="part military">
+                        <a href="#">
+                            <div class="box">
+                                <div class="right">
+                                    <img src="images/icon-1.svg" alt="tourism">
                                     <div class="code">
-                                        <p class="codetitle">رقم الايزك</p>
-                                        <p class="codenum">304003-303032-301152-304001-301120-303012-304002-303031-301151-282981-265143-251157-429072-202291-259987-259986</p>
+                                        <p class="codetitle"></p>
+                                        <p class="codenum"></p>
                                     </div>
                                 </div>
-                                <p>
-                                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed
-                                    diam nonummy nibh.
-                                </p>
-                            </div>
-                        </div>
-                    </a>
-                    <a href="#">
-                        <div class="box">
-                            <div class="right">
-                                <img src="images/icon-1.svg" alt="tourism">
-                                <div class="code">
-                                    <p class="codetitle"></p>
-                                    <p class="codenum"></p>
+                                <div class="left">
+                                    <div class="top">
+                                        <h3>ترخيص صناعة المعدات العسكرية</h3>
+                                        <div class="code">
+                                            <p class="codetitle">رقم الايزك</p>
+                                            <p class="codenum">304003-303032-301152-304001-301120-303012-304002-303031-301151-282981-265143-251157-429072-202291-259987-259986</p>
+                                        </div>
+                                    </div>
+                                    <p>
+                                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed
+                                        diam nonummy nibh.
+                                    </p>
                                 </div>
                             </div>
-                            <div class="left">
-                                <div class="top">
-                                    <h3>ترخيص تقديم خدمات معدات عسكرية</h3>
+                        </a>
+                        <a href="#">
+                            <div class="box">
+                                <div class="right">
+                                    <img src="images/icon-1.svg" alt="tourism">
                                     <div class="code">
-                                        <p class="codetitle">رقم الايزك</p>
-                                        <p class="codenum">331511-331512-331513-331514-331258-331333-331111-331112-331331</p>
+                                        <p class="codetitle"></p>
+                                        <p class="codenum"></p>
                                     </div>
                                 </div>
-                                <p>
-                                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed
-                                    diam nonummy nibh.
-                                </p>
-                            </div>
-                        </div>
-                    </a>
-                    <a href="#">
-                        <div class="box">
-                            <div class="right">
-                                <img src="images/icon-1.svg" alt="tourism">
-                                <div class="code">
-                                    <p class="codetitle"></p>
-                                    <p class="codenum"></p>
+                                <div class="left">
+                                    <div class="top">
+                                        <h3>ترخيص تقديم خدمات معدات عسكرية</h3>
+                                        <div class="code">
+                                            <p class="codetitle">رقم الايزك</p>
+                                            <p class="codenum">331511-331512-331513-331514-331258-331333-331111-331112-331331</p>
+                                        </div>
+                                    </div>
+                                    <p>
+                                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed
+                                        diam nonummy nibh.
+                                    </p>
                                 </div>
                             </div>
-                            <div class="left">
-                                <div class="top">
-                                    <h3>ترخيص توريد المعدات العسكرية</h3>
+                        </a>
+                        <a href="#">
+                            <div class="box">
+                                <div class="right">
+                                    <img src="images/icon-1.svg" alt="tourism">
                                     <div class="code">
-                                        <p class="codetitle">رقم الايزك</p>
-                                        <p class="codenum">461061-461062-461063-461064-461071</p>
+                                        <p class="codetitle"></p>
+                                        <p class="codenum"></p>
                                     </div>
                                 </div>
-                                <p>
-                                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed
-                                    diam nonummy nibh.
-                                </p>
-                            </div>
-                        </div>
-                    </a>
-                </section>
-                <section class="part sports">
-                    <a href="#">
-                        <div class="box">
-                            <div class="right">
-                                <img src="images/icon-1.svg" alt="tourism">
-                                <div class="code">
-                                    <p class="codetitle"></p>
-                                    <p class="codenum"></p>
+                                <div class="left">
+                                    <div class="top">
+                                        <h3>ترخيص توريد المعدات العسكرية</h3>
+                                        <div class="code">
+                                            <p class="codetitle">رقم الايزك</p>
+                                            <p class="codenum">461061-461062-461063-461064-461071</p>
+                                        </div>
+                                    </div>
+                                    <p>
+                                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed
+                                        diam nonummy nibh.
+                                    </p>
                                 </div>
                             </div>
-                            <div class="left">
-                                <div class="top">
-                                    <h3>ترخيص للأكاديميات الرياضية</h3>
+                        </a>
+                    </section>
+                    <section class="part sports">
+                        <a href="#">
+                            <div class="box">
+                                <div class="right">
+                                    <img src="images/icon-1.svg" alt="tourism">
                                     <div class="code">
-                                        <p class="codetitle">رقم الايزك</p>
-                                        <p class="codenum">854101, 854102, 854104, 854105, 854106, 854103, 931907, 931213</p>
+                                        <p class="codetitle"></p>
+                                        <p class="codenum"></p>
                                     </div>
                                 </div>
-                                <p>
-                                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed
-                                    diam nonummy nibh.
-                                </p>
-                            </div>
-                        </div>
-                    </a>
-                    <a href="#">
-                        <div class="box">
-                            <div class="right">
-                                <img src="images/icon-1.svg" alt="tourism">
-                                <div class="code">
-                                    <p class="codetitle"></p>
-                                    <p class="codenum"></p>
+                                <div class="left">
+                                    <div class="top">
+                                        <h3>ترخيص للأكاديميات الرياضية</h3>
+                                        <div class="code">
+                                            <p class="codetitle">رقم الايزك</p>
+                                            <p class="codenum">854101, 854102, 854104, 854105, 854106, 854103, 931907, 931213</p>
+                                        </div>
+                                    </div>
+                                    <p>
+                                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed
+                                        diam nonummy nibh.
+                                    </p>
                                 </div>
                             </div>
-                            <div class="left">
-                                <div class="top">
-                                    <h3>ترخيص للمراكز والصالات الرياضية</h3>
+                        </a>
+                        <a href="#">
+                            <div class="box">
+                                <div class="right">
+                                    <img src="images/icon-1.svg" alt="tourism">
                                     <div class="code">
-                                        <p class="codetitle">رقم الايزك</p>
-                                        <p class="codenum">931212, 931221, 931222</p>
+                                        <p class="codetitle"></p>
+                                        <p class="codenum"></p>
                                     </div>
                                 </div>
-                                <p>
-                                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed
-                                    diam nonummy nibh.
-                                </p>
-                            </div>
-                        </div>
-                    </a>
-                    <a href="#">
-                        <div class="box">
-                            <div class="right">
-                                <img src="images/icon-1.svg" alt="tourism">
-                                <div class="code">
-                                    <p class="codetitle"></p>
-                                    <p class="codenum"></p>
+                                <div class="left">
+                                    <div class="top">
+                                        <h3>ترخيص للمراكز والصالات الرياضية</h3>
+                                        <div class="code">
+                                            <p class="codetitle">رقم الايزك</p>
+                                            <p class="codenum">931212, 931221, 931222</p>
+                                        </div>
+                                    </div>
+                                    <p>
+                                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed
+                                        diam nonummy nibh.
+                                    </p>
                                 </div>
                             </div>
-                            <div class="left">
-                                <div class="top">
-                                    <h3>ترخيص للأندية الرياضية</h3>
+                        </a>
+                        <a href="#">
+                            <div class="box">
+                                <div class="right">
+                                    <img src="images/icon-1.svg" alt="tourism">
                                     <div class="code">
-                                        <p class="codetitle">رقم الايزك</p>
-                                        <p class="codenum">931211, 931217, 854103, 931907, 854104, 854105, 854106, 931213, 854102, 931907</p>
+                                        <p class="codetitle"></p>
+                                        <p class="codenum"></p>
                                     </div>
                                 </div>
-                                <p>
-                                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed
-                                    diam nonummy nibh.
-                                </p>
-                            </div>
-                        </div>
-                    </a>
-                </section>
-                <section class="part food">
-                    <a href="#">
-                        <div class="box">
-                            <div class="right">
-                                <img src="images/icon-1.svg" alt="tourism">
-                                <div class="code">
-                                    <p class="codetitle"></p>
-                                    <p class="codenum"></p>
+                                <div class="left">
+                                    <div class="top">
+                                        <h3>ترخيص للأندية الرياضية</h3>
+                                        <div class="code">
+                                            <p class="codetitle">رقم الايزك</p>
+                                            <p class="codenum">931211, 931217, 854103, 931907, 854104, 854105, 854106, 931213, 854102, 931907</p>
+                                        </div>
+                                    </div>
+                                    <p>
+                                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed
+                                        diam nonummy nibh.
+                                    </p>
                                 </div>
                             </div>
-                            <div class="left">
-                                <div class="top">
-                                    <h3>ترخيص مستودع مستحضرات صيدلانية</h3>
+                        </a>
+                    </section>
+                    <section class="part food">
+                        <a href="#">
+                            <div class="box">
+                                <div class="right">
+                                    <img src="images/icon-1.svg" alt="tourism">
                                     <div class="code">
-                                        <p class="codetitle">رقم الايزك</p>
-                                        <p class="codenum">462091-464951-461041-461042-464952-477212-477250</p>
+                                        <p class="codetitle"></p>
+                                        <p class="codenum"></p>
                                     </div>
                                 </div>
-                                <p>
-                                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed
-                                    diam nonummy nibh.
-                                </p>
-                            </div>
-                        </div>
-                    </a>
-                    <a href="#">
-                        <div class="box">
-                            <div class="right">
-                                <img src="images/icon-1.svg" alt="tourism">
-                                <div class="code">
-                                    <p class="codetitle"></p>
-                                    <p class="codenum"></p>
+                                <div class="left">
+                                    <div class="top">
+                                        <h3>ترخيص مستودع مستحضرات صيدلانية</h3>
+                                        <div class="code">
+                                            <p class="codetitle">رقم الايزك</p>
+                                            <p class="codenum">462091-464951-461041-461042-464952-477212-477250</p>
+                                        </div>
+                                    </div>
+                                    <p>
+                                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed
+                                        diam nonummy nibh.
+                                    </p>
                                 </div>
                             </div>
-                            <div class="left">
-                                <div class="top">
-                                    <h3>ترخيص منشأة غذائية</h3>
+                        </a>
+                        <a href="#">
+                            <div class="box">
+                                <div class="right">
+                                    <img src="images/icon-1.svg" alt="tourism">
                                     <div class="code">
-                                        <p class="codetitle">رقم الايزك</p>
-                                        <p class="codenum">يغطي هذا الترخيص عدد 159 نشاط اقتصادي</p>
+                                        <p class="codetitle"></p>
+                                        <p class="codenum"></p>
                                     </div>
                                 </div>
-                                <p>
-                                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed
-                                    diam nonummy nibh.
-                                </p>
-                            </div>
-                        </div>
-                    </a>
-                    <a href="#">
-                        <div class="box">
-                            <div class="right">
-                                <img src="images/icon-1.svg" alt="tourism">
-                                <div class="code">
-                                    <p class="codetitle"></p>
-                                    <p class="codenum"></p>
+                                <div class="left">
+                                    <div class="top">
+                                        <h3>ترخيص منشأة غذائية</h3>
+                                        <div class="code">
+                                            <p class="codetitle">رقم الايزك</p>
+                                            <p class="codenum">يغطي هذا الترخيص عدد 159 نشاط اقتصادي</p>
+                                        </div>
+                                    </div>
+                                    <p>
+                                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed
+                                        diam nonummy nibh.
+                                    </p>
                                 </div>
                             </div>
-                            <div class="left">
-                                <div class="top">
-                                    <h3>ترخيص مستودع / مركز توزيع الاغذية</h3>
+                        </a>
+                        <a href="#">
+                            <div class="box">
+                                <div class="right">
+                                    <img src="images/icon-1.svg" alt="tourism">
                                     <div class="code">
-                                        <p class="codetitle">رقم الايزك</p>
-                                        <p class="codenum">463077-521021-521091-521098</p>
+                                        <p class="codetitle"></p>
+                                        <p class="codenum"></p>
                                     </div>
                                 </div>
-                                <p>
-                                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed
-                                    diam nonummy nibh.
-                                </p>
-                            </div>
-                        </div>
-                    </a>
-                    <a href="#">
-                        <div class="box">
-                            <div class="right">
-                                <img src="images/icon-1.svg" alt="tourism">
-                                <div class="code">
-                                    <p class="codetitle"></p>
-                                    <p class="codenum"></p>
+                                <div class="left">
+                                    <div class="top">
+                                        <h3>ترخيص مستودع / مركز توزيع الاغذية</h3>
+                                        <div class="code">
+                                            <p class="codetitle">رقم الايزك</p>
+                                            <p class="codenum">463077-521021-521091-521098</p>
+                                        </div>
+                                    </div>
+                                    <p>
+                                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed
+                                        diam nonummy nibh.
+                                    </p>
                                 </div>
                             </div>
-                            <div class="left">
-                                <div class="top">
-                                    <h3>رخصة منشأة لاستيراد/توزيع الأجهزة والمنتجات الطبية</h3>
+                        </a>
+                        <a href="#">
+                            <div class="box">
+                                <div class="right">
+                                    <img src="images/icon-1.svg" alt="tourism">
                                     <div class="code">
-                                        <p class="codetitle">رقم الايزك</p>
-                                        <p class="codenum">464956-464957-477221-477222-477224</p>
+                                        <p class="codetitle"></p>
+                                        <p class="codenum"></p>
                                     </div>
                                 </div>
-                                <p>
-                                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed
-                                    diam nonummy nibh.
-                                </p>
-                            </div>
-                        </div>
-                    </a>
-                    <a href="#">
-                        <div class="box">
-                            <div class="right">
-                                <img src="images/icon-1.svg" alt="tourism">
-                                <div class="code">
-                                    <p class="codetitle"></p>
-                                    <p class="codenum"></p>
+                                <div class="left">
+                                    <div class="top">
+                                        <h3>رخصة منشأة لاستيراد/توزيع الأجهزة والمنتجات الطبية</h3>
+                                        <div class="code">
+                                            <p class="codetitle">رقم الايزك</p>
+                                            <p class="codenum">464956-464957-477221-477222-477224</p>
+                                        </div>
+                                    </div>
+                                    <p>
+                                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed
+                                        diam nonummy nibh.
+                                    </p>
                                 </div>
                             </div>
-                            <div class="left">
-                                <div class="top">
-                                    <h3>ترخيص ممثل قانوني معتمد</h3>
+                        </a>
+                        <a href="#">
+                            <div class="box">
+                                <div class="right">
+                                    <img src="images/icon-1.svg" alt="tourism">
                                     <div class="code">
-                                        <p class="codetitle">رقم الايزك</p>
-                                        <p class="codenum">691061</p>
+                                        <p class="codetitle"></p>
+                                        <p class="codenum"></p>
                                     </div>
                                 </div>
-                                <p>
-                                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed
-                                    diam nonummy nibh.
-                                </p>
+                                <div class="left">
+                                    <div class="top">
+                                        <h3>ترخيص ممثل قانوني معتمد</h3>
+                                        <div class="code">
+                                            <p class="codetitle">رقم الايزك</p>
+                                            <p class="codenum">691061</p>
+                                        </div>
+                                    </div>
+                                    <p>
+                                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed
+                                        diam nonummy nibh.
+                                    </p>
+                                </div>
                             </div>
-                        </div>
-                    </a>
-                </section>
+                        </a>
+                    </section>
+                </div>
             </div>
         </div>
-    </div>
-</main>
+    </main>
+</body>
 <script src="https://kit.fontawesome.com/9e5ba2e3f5.js" crossorigin="anonymous"></script>
 <script src="js/database.js"></script>
 <script src="js/sector.js"></script>

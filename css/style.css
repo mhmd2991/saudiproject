@@ -1750,12 +1750,15 @@ input[type=checkbox]:checked:before {
 }
 
 .iwaainfosection .box .bottom {
-    padding: 10px 0;
     font-weight: 500;
     font-size: 18px;
     opacity: 0;
     visibility: hidden;
     max-height: 0;
+}
+
+.iwaainfosection .box .bottom > * {
+    padding: 10px 0;
 }
 
 .iwaainfosection .box.active .bottom {
@@ -1779,7 +1782,7 @@ input[type=checkbox]:checked:before {
 .iwaainfosection .desc .bottom p {
     flex-basis: 60%;
     color: var(--mediumDarkGray);
-    padding: 0 15px;
+    padding: 10px 15px;
 }
 
 .iwaainfosection .desc .bottom i {
@@ -1832,7 +1835,7 @@ input[type=checkbox]:checked:before {
 
 .iwaainfosection .terms .print .btn-print,
 .iwaainfosection .needs .print .btn-print {
-    padding: 10px 20px;
+    padding: 20px;
     cursor: pointer;
     background-image: url(../images/print-icon.png);
     background-repeat: no-repeat;

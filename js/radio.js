@@ -32,34 +32,7 @@ drops.forEach((drop) => {
 });
 
 /*Make next previous bottom*/
-/*nextButton.addEventListener("click", function (e) {
-    sectionArray.forEach((sec) => {
-        sec.classList.remove("active");
-        if (current >= sectionArray.length - 1) current = -1;
-        current++;
-        sectionArray[current].setAttribute("class", "active");
-        console.log(sectionArray[current]);
-    });
 
-
-});
-
-function prev() {
-    if (current <= 0) current = sectionArray.length;
-    current--;
-    return setSection();
-
-}
-
-function next() {
-    if (current >= sectionArray.length - 1) current = -1;
-    current++;
-    return setSection();
-}
-
-function setSection() {
-    return tab.setAttribute("id", "active", sectionArray[current]);
-}*/
 /*-----------------------------------------------------------------------*/
 
 /*put terms and needs check box into session array to print them later*/

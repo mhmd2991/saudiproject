@@ -321,7 +321,7 @@ main .container .search-results {
     color: var(--mediumDarkGray);
     font-weight: 500;
     font-size: 16px;
-    margin-top: 60px;
+    margin-top: 26px;
     max-width: 600px;
 }
 

@@ -1118,7 +1118,7 @@ input[type=checkbox]:checked:before {
 
 .container .iwaainfo .progrss .head .nav li {
     position: relative;
-    height: 60px;
+    min-height: 60px;
     width: 90%;
     font-size: 14px;
     font-weight: 500;
@@ -1924,7 +1924,6 @@ input[type=checkbox]:checked:before {
 .iwaainfosection .terms .bottom .inner-check,
 .iwaainfosection .needs .bottom .inner-check {
     display: flex;
-    align-items: center;
     gap: 15px;
     margin-bottom: 10px;
 }

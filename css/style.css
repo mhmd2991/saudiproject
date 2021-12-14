@@ -1718,6 +1718,10 @@ input[type=checkbox]:checked:before {
     max-height: 300px;
 }
 
+.container .iwaainfo .progrss .head .nav li:hover p {
+    color: var(--babyBlue);
+}
+
 .container .iwaainfo .progrss .head .nav li .box .logo {
     width: 54px;
 }

@@ -320,7 +320,7 @@ main .container .search-results {
     color: var(--mediumDarkGray);
     font-weight: 500;
     font-size: 16px;
-    margin-top: 20px;
+    margin-top: 58px;
     max-width: 600px;
 }
 
@@ -333,7 +333,8 @@ main .container .search-results {
 }
 
 .sectorcontent .sectorinfo .box .right img {
-    width: 60px;
+    width: 78px;
+    height: 78px;
 }
 
 .sectorcontent .sectorinfo .box .right .codetitle {

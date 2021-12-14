@@ -180,9 +180,10 @@ main .container .search-results {
     border-radius: 6px;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: flex-start;
     box-shadow: 3px 3px 6px 3px var(--mediumGray);
     transition: var(--mainTransition);
+    height: 250px;
 }
 
 .container .search-results .search-result-item:hover {
@@ -265,11 +266,10 @@ main .container .search-results {
 .sectorcontent .sectorinfo .box {
     display: flex;
     width: 90%;
-    gap: 30px;
     margin-bottom: 30px;
     background-color: var(--lightGray);
-    padding: 20px 10px;
-    border-radius: 20px;
+    padding: 10px 5px;
+    border-radius: 25px;
     border: 2px solid transparent;
 }
 

@@ -1713,7 +1713,7 @@ input[type=checkbox]:checked:before {
 }
 
 .container .iwaainfo .progrss .head .nav li:hover {
-    min-height: 300px;
+    height: auto;
 }
 
 .container .iwaainfo .progrss .head .nav li:hover .box {

@@ -56,7 +56,7 @@ html {
     --vintageGray: #cccccc;
     --mediumDarkGray: #999999;
     --babyBlue: #5d99c6;
-    --darkBlue: #2c2a6b;
+    --darkBlue: #2b2d71;
     --lightViolet: #d4c5e2;
     --grayColor: #3C3C3C;
     --blackColor: #000;
@@ -1084,14 +1084,14 @@ input[type=checkbox]:checked:before {
 }
 
 .container .iwaainfo .iwaainfosection {
-    flex-basis: 70%;
+    flex-basis: 60%;
     padding: 25px 35px;
     border-radius: 20px;
 
 }
 
 .container .iwaainfo .progrss {
-   flex-basis: 26%;
+   flex-basis: 30%;
     padding: 25px;
     background-color: var(--whiteColor);
     position: relative;
@@ -1711,6 +1711,11 @@ input[type=checkbox]:checked:before {
     transition: all .8s ease;
 }
 
+.container .iwaainfo .iwaainfosection .section h2{
+    color: var(--darkBlue);
+    margin-bottom: 10px;
+}
+
 .container .iwaainfo .iwaainfosection .section {
     transition: opacity 1s ease-out;
     opacity: 0;
@@ -1740,6 +1745,7 @@ input[type=checkbox]:checked:before {
     display: flex;
     align-items: center;
     gap: 25px;
+    flex-basis: 214px;
 }
 
 .iwaainfosection .box .top .inner-right p {
@@ -1770,6 +1776,11 @@ input[type=checkbox]:checked:before {
     max-height: 800px;
 }
 
+.iwaainfosection .box .bottom .middle .title img {
+    width: 32px;
+    height: 40px;
+}
+
 .iwaainfosection .box.active .fa-angle-down {
     transform: rotate(180deg);
 }
@@ -1798,7 +1809,6 @@ input[type=checkbox]:checked:before {
 .iwaainfosection .time .top,
 .iwaainfosection .money .top {
     justify-content: flex-start;
-    gap: 250px;
 }
 
 .iwaainfosection .time .inner-time,
@@ -1808,6 +1818,12 @@ input[type=checkbox]:checked:before {
     gap: 20px;
     color: var(--mediumDarkGray);
     font-weight: 500;
+}
+
+.iwaainfosection .time .inner-time img,
+.iwaainfosection .money .inner-money img {
+    width: 44px;
+    height: 40px;
 }
 
 .iwaainfosection .money .inner-money p span {
@@ -1957,10 +1973,11 @@ input[type=checkbox]:checked:before {
 .iwaainfosection .jeha .bottom .left .pc .icon img,
 .iwaainfosection .jeha .bottom .left .email .icon img {
     width: 27px;
+    height: 27px;
 }
 
 .iwaainfosection .jeha .bottom .middle .title img {
-    width: 20px;
+    
 }
 
 .iwaainfosection .jeha .bottom .left .phone .phone-inner,
@@ -1972,22 +1989,31 @@ input[type=checkbox]:checked:before {
 }
 
 .iwaainfosection img {
-    width: 50px;
+    width: 46px;
+    height: 40px;
 }
 
-main .container > h2 {
+
+.container .generlaTitle {
+    display: flex;
+    align-items: center;
+    margin: 150px auto 0;
+    border-bottom: 2px solid var(--darkBlue);
+     width: fit-content;
+    width: -moz-fit-content;
+}
+main .container .generlaTitle h2 {
 
     text-align: center;
     color: var(--darkBlue);
     font-weight: bold;
     font-size: 30px;
-    border-bottom: 2px solid var(--darkBlue);
-    width: fit-content;
-    width: -moz-fit-content;
-    margin: 150px auto 0;
+    
+   
+    
     padding-bottom: 10px;
 }
 
-main .container > h2 img {
-    width: 50px;
+main .container  .generlaTitle img {
+    width: 78px;
 }

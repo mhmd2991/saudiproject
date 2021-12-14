@@ -1088,12 +1088,12 @@ input[type=checkbox]:checked:before {
 }
 
 .container .iwaainfo .progrss {
-    flex-basis: 30%;
+   flex-basis: 26%;
     padding: 25px;
     background-color: var(--whiteColor);
-    border-radius: 20px;
-
     position: relative;
+    border-radius: 10px;
+    box-shadow: 0px 3px 5px 5px rgb(0 0 0 / 20%);
 }
 
 .container .iwaainfo .progrss input[type="radio"] {

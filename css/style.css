@@ -1818,6 +1818,7 @@ input[type=checkbox]:checked:before {
     gap: 20px;
     color: var(--mediumDarkGray);
     font-weight: 500;
+    margin-right: -20px;
 }
 
 .iwaainfosection .time .inner-time img,

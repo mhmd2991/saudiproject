@@ -1091,7 +1091,7 @@ input[type=checkbox]:checked:before {
 }
 
 .container .iwaainfo .progrss {
-   flex-basis: 30%;
+    flex-basis: 40%;
     padding: 25px;
     background-color: var(--whiteColor);
     position: relative;
@@ -1162,55 +1162,55 @@ input[type=checkbox]:checked:before {
     content: "2";
 }
 
-.container .iwaainfo .progrss .head .nav li:nth-of-type(5)::after {
+.container .iwaainfo .progrss .head .nav li:nth-of-type(3)::after {
     content: "3";
 }
 
-.container .iwaainfo .progrss .head .nav li:nth-of-type(6)::after {
+.container .iwaainfo .progrss .head .nav li:nth-of-type(4)::after {
     content: "4";
 }
 
-.container .iwaainfo .progrss .head .nav li:nth-of-type(7)::after {
+.container .iwaainfo .progrss .head .nav li:nth-of-type(5)::after {
     content: "5";
 }
 
-.container .iwaainfo .progrss .head .nav li:nth-of-type(8)::after {
+.container .iwaainfo .progrss .head .nav li:nth-of-type(6)::after {
     content: "6";
 }
 
-.container .iwaainfo .progrss .head .nav li:nth-of-type(9)::after {
+.container .iwaainfo .progrss .head .nav li:nth-of-type(7)::after {
     content: "7";
 }
 
-.container .iwaainfo .progrss .head .nav li:nth-of-type(10)::after {
+.container .iwaainfo .progrss .head .nav li:nth-of-type(8)::after {
     content: "8";
 }
 
-.container .iwaainfo .progrss .head .nav li:nth-of-type(11)::after {
+.container .iwaainfo .progrss .head .nav li:nth-of-type(9)::after {
     content: "9";
 }
 
-.container .iwaainfo .progrss .head .nav li:nth-of-type(12)::after {
+.container .iwaainfo .progrss .head .nav li:nth-of-type(10)::after {
     content: "10";
 }
 
-.container .iwaainfo .progrss .head .nav li:nth-of-type(13)::after {
+.container .iwaainfo .progrss .head .nav li:nth-of-type(11)::after {
     content: "11";
 }
 
-.container .iwaainfo .progrss .head .nav li:nth-of-type(14)::after {
+.container .iwaainfo .progrss .head .nav li:nth-of-type(12)::after {
     content: "12";
 }
 
-.container .iwaainfo .progrss .head .nav li:nth-of-type(15)::after {
+.container .iwaainfo .progrss .head .nav li:nth-of-type(13)::after {
     content: "13";
 }
 
-.container .iwaainfo .progrss .head .nav li:nth-of-type(16)::after {
+.container .iwaainfo .progrss .head .nav li:nth-of-type(14)::after {
     content: "14";
 }
 
-.container .iwaainfo .progrss .head .nav li:nth-of-type(17)::after {
+.container .iwaainfo .progrss .head .nav li:nth-of-type(15)::after {
     content: "15";
 }
 
@@ -1699,6 +1699,88 @@ input[type=checkbox]:checked:before {
     color: var(--darkBlue) !important;
 }
 
+.container .iwaainfo .progrss .head .nav li .box {
+    background-color: var(--whiteColor);
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    position: relative;
+    z-index: 1;
+    margin-top: 10px;
+    opacity: 0;
+    visibility: hidden;
+    max-height: 0;
+}
+
+.container .iwaainfo .progrss .head .nav li:hover .box {
+    opacity: 1;
+    visibility: visible;
+    max-height: 300px;
+}
+
+.container .iwaainfo .progrss .head .nav li .box .logo {
+    width: 54px;
+}
+
+.container .iwaainfo .progrss .head .nav li .box .logo img {
+    width: 100%;
+}
+
+.container .iwaainfo .progrss .head .nav li .box .steps {
+    min-width: 300px;
+}
+
+.container .iwaainfo .progrss .head .nav li .box .steps .top {
+    border-top-style: dotted;
+    border-left-style: dotted;
+    border-right-style: dotted;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-color: var(--vintageGray);
+    padding: 10px;
+
+}
+
+.container .iwaainfo .progrss .head .nav li .box .steps .top div {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.container .iwaainfo .progrss .head .nav li .box .steps .top div img {
+    width: 15px;
+    height: 15px;
+}
+
+.container .iwaainfo .progrss .head .nav li .box .steps .top div p {
+    margin-bottom: 5px;
+}
+
+.container .iwaainfo .progrss .head .nav li .box .steps .bottom {
+    border-top-style: dotted;
+    border-left-style: dotted;
+    border-right-style: dotted;
+    border-bottom-style: dotted;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-color: var(--vintageGray);
+    padding: 10px;
+}
+
+.container .iwaainfo .progrss .head .nav li .box .steps .bottom div {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.container .iwaainfo .progrss .head .nav li .box .steps .bottom div img {
+    width: 17px;
+    height: 17px;
+}
+
+.container .iwaainfo .progrss .head .nav li .box .steps .bottom div p {
+    margin-bottom: 5px;
+}
 
 .container .iwaainfo .progrss .head .line span {
     content: "";
@@ -1711,7 +1793,7 @@ input[type=checkbox]:checked:before {
     transition: all .8s ease;
 }
 
-.container .iwaainfo .iwaainfosection .section h2{
+.container .iwaainfo .iwaainfosection .section h2 {
     color: var(--darkBlue);
     margin-bottom: 10px;
 }
@@ -1785,7 +1867,7 @@ input[type=checkbox]:checked:before {
     transform: rotate(180deg);
 }
 
-.iwaainfosection .box .bottom h4{
+.iwaainfosection .box .bottom h4 {
     margin-bottom: 10px;
 }
 
@@ -1953,11 +2035,11 @@ input[type=checkbox]:checked:before {
     color: var(--mediumDarkGray);
 }
 
-.iwaainfosection .jeha .bottom .left .phone .phone-inner p{
+.iwaainfosection .jeha .bottom .left .phone .phone-inner p {
     display: flex;
 }
 
-.iwaainfosection .jeha .bottom .left .phone .phone-inner p a{
+.iwaainfosection .jeha .bottom .left .phone .phone-inner p a {
     color: var(--mediumDarkGray);
 }
 
@@ -1977,9 +2059,7 @@ input[type=checkbox]:checked:before {
     height: 27px;
 }
 
-.iwaainfosection .jeha .bottom .middle .title img {
-    
-}
+.iwaainfosection .jeha .bottom .middle .title img {}
 
 .iwaainfosection .jeha .bottom .left .phone .phone-inner,
 .iwaainfosection .jeha .bottom .left .pc .pc-inner,
@@ -2000,21 +2080,22 @@ input[type=checkbox]:checked:before {
     align-items: center;
     margin: 150px auto 0;
     border-bottom: 2px solid var(--darkBlue);
-     width: fit-content;
+    width: fit-content;
     width: -moz-fit-content;
 }
+
 main .container .generlaTitle h2 {
 
     text-align: center;
     color: var(--darkBlue);
     font-weight: bold;
     font-size: 30px;
-    
-   
-    
+
+
+
     padding-bottom: 10px;
 }
 
-main .container  .generlaTitle img {
+main .container .generlaTitle img {
     width: 78px;
 }

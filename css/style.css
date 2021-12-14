@@ -57,6 +57,7 @@ html {
     --mediumDarkGray: #999999;
     --babyBlue: #5d99c6;
     --darkBlue: #2c2a6b;
+    --lightViolet: #d4c5e2;
     --grayColor: #3C3C3C;
     --blackColor: #000;
     --whiteColor: #ffffff;
@@ -185,7 +186,7 @@ main .container .search-results {
 }
 
 .container .search-results .search-result-item:hover {
-    background-color: var(--vintageGray);
+    background-color: var(--lightViolet);
 }
 
 .container .search-results a {
@@ -195,7 +196,7 @@ main .container .search-results {
 }
 
 .container .search-results .search-result-item .search-item img {
-    width: 80px;
+    width: 122px;
     height: 107px;
 }
 

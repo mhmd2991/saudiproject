@@ -297,6 +297,7 @@ main .container .search-results {
 .sectorcontent .sectorinfo .box .left .top h3 {
     color: var(--grayColor);
     font-size: 23px;
+    margin-top: 16px;
 }
 
 .sectorcontent .sectorinfo .box .left .top p {
@@ -320,7 +321,7 @@ main .container .search-results {
     color: var(--mediumDarkGray);
     font-weight: 500;
     font-size: 16px;
-    margin-top: 58px;
+    margin-top: 60px;
     max-width: 600px;
 }
 

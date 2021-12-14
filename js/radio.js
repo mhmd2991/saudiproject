@@ -32,16 +32,44 @@ drops.forEach((drop) => {
 });
 
 /*Make next previous bottom*/
+/*nextButton.addEventListener("click", function (e) {
+    sectionArray.forEach((sec) => {
+        sec.classList.remove("active");
+        if (current >= sectionArray.length - 1) current = -1;
+        current++;
+        sectionArray[current].setAttribute("class", "active");
+        console.log(sectionArray[current]);
+    });
 
+
+});
+
+function prev() {
+    if (current <= 0) current = sectionArray.length;
+    current--;
+    return setSection();
+
+}
+
+function next() {
+    if (current >= sectionArray.length - 1) current = -1;
+    current++;
+    return setSection();
+}
+
+function setSection() {
+    return tab.setAttribute("id", "active", sectionArray[current]);
+}*/
 /*-----------------------------------------------------------------------*/
 
 /*put terms and needs check box into session array to print them later*/
-let printBtn = document.querySelector(".active .terms .btn-print");
-let terms = document.querySelectorAll(".active .terms input[type='checkbox']");
-let termsValChecked = [];
-let termsValUnChecked = [];
 
-printBtn.addEventListener("click", function (e) {
+function getTerms(el){
+    
+    let terms = document.querySelectorAll(`${el} .terms input[type='checkbox']`);
+    console.log(terms);
+    let termsValChecked = [];
+    let termsValUnChecked = [];
     localStorage.removeItem("termschecked");
     localStorage.removeItem("termsunchecked");
 
@@ -55,14 +83,13 @@ printBtn.addEventListener("click", function (e) {
     }
     window.localStorage.setItem("termschecked", JSON.stringify(termsValChecked));
     window.localStorage.setItem("termsunchecked", JSON.stringify(termsValUnChecked));
-});
+    window.open("print.html?value=term", "_blank");
+}
 
-let btnPrint = document.querySelector(".active .needs .btn-print");
-let needs = document.querySelectorAll(".active .needs input[type='checkbox']");
+function getNeed(el){    
+let needs = document.querySelectorAll(`${el} .needs input[type='checkbox']`);
 let needsValChecked = [];
 let needsValUnChecked = [];
-
-btnPrint.addEventListener("click", function (e) {
     localStorage.removeItem("termschecked");
     localStorage.removeItem("termsunchecked");
     for (let i = 0; i < needs.length; i++) {
@@ -75,4 +102,5 @@ btnPrint.addEventListener("click", function (e) {
     }
     window.localStorage.setItem("needschecked", JSON.stringify(needsValChecked));
     window.localStorage.setItem("needsunchecked", JSON.stringify(needsValUnChecked));
-});
+    window.open("print.html?value=need", "_blank");
+}

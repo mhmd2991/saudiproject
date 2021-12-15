@@ -1084,7 +1084,7 @@ input[type=checkbox]:checked:before {
 }
 
 .container .iwaainfo .iwaainfosection {
-    flex-basis: 63%;
+    flex-basis: 72%;
     padding: 25px 35px;
     border-radius: 20px;
 

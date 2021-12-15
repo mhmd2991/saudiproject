@@ -1788,6 +1788,7 @@ input[type=checkbox]:checked:before {
     border-radius: 10px;
     border-color: var(--vintageGray);
     padding: 10px;
+    min-height: 150px;
 }
 
 .container .iwaainfo .progrss .head .nav li .box .steps .bottom div {

@@ -1106,7 +1106,7 @@ input[type=checkbox]:checked:before {
 
 .container .iwaainfo .progrss .head {
     position: relative;
-    width: 90%;
+    width: 100%;
     margin: auto;
 }
 
@@ -1119,7 +1119,7 @@ input[type=checkbox]:checked:before {
 .container .iwaainfo .progrss .head .nav li {
     position: relative;
     min-height: 60px;
-    width: 90%;
+    width: 95%;
     font-size: 14px;
     font-weight: 500;
     margin-right: 30px;
@@ -1137,7 +1137,6 @@ input[type=checkbox]:checked:before {
     border: 1px solid var(--darkBlue);
     margin-right: -45px;
     display: block;
-    transition: all .3s ease;
 }
 
 .container .iwaainfo .progrss .head .nav li::after {
@@ -1785,12 +1784,8 @@ input[type=checkbox]:checked:before {
 }
 
 .container .iwaainfo .progrss .head .nav li .box .steps .bottom {
-    border-top-style: dotted;
-    border-left-style: dotted;
-    border-right-style: dotted;
-    border-bottom-style: dotted;
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;
+    border-style: dotted;
+    border-radius: 10px;
     border-color: var(--vintageGray);
     padding: 10px;
 }
@@ -1808,17 +1803,9 @@ input[type=checkbox]:checked:before {
 
 .container .iwaainfo .progrss .head .nav li .box .steps .bottom div p {
     margin-bottom: 5px;
-}
-
-.container .iwaainfo .progrss .head .line span {
-    content: "";
-    position: absolute;
-    width: 2%;
-    height: 100%;
-    background-color: var(--babyBlue);
-    z-index: 2;
-    border-radius: 50px;
-    transition: all .8s ease;
+    display: list-item;
+    list-style-type: disc;
+    list-style-position: inside;
 }
 
 .container .iwaainfo .iwaainfosection .section h2 {
@@ -2106,7 +2093,7 @@ input[type=checkbox]:checked:before {
     display: flex;
     align-items: center;
     margin: 150px auto 0;
-    border-bottom: 2px solid var(--darkBlue);
+    /*border-bottom: 2px solid var(--darkBlue);*/
     width: fit-content;
     width: -moz-fit-content;
 }

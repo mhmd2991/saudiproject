@@ -1214,6 +1214,26 @@ input[type=checkbox]:checked:before {
     content: "15";
 }
 
+.container .iwaainfo .progrss .head .nav li:nth-of-type(16)::after {
+    content: "16";
+}
+
+.container .iwaainfo .progrss .head .nav li:nth-of-type(17)::after {
+    content: "17";
+}
+
+.container .iwaainfo .progrss .head .nav li:nth-of-type(18)::after {
+    content: "18";
+}
+
+.container .iwaainfo .progrss .head .nav li:nth-of-type(19)::after {
+    content: "19";
+}
+
+.container .iwaainfo .progrss .head .nav li:nth-of-type(20)::after {
+    content: "20";
+}
+
 .container .iwaainfo .progrss .head .nav li:hover::after {
     background-color: var(--babyBlue);
 }

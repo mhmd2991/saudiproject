@@ -1111,7 +1111,7 @@ input[type=checkbox]:checked:before {
 }
 
 .container .iwaainfo .progrss .head .nav {
-    padding-top: 15px;
+    /*padding-top: 15px;*/
     z-index: 100;
     width: 100%;
 }
@@ -1246,12 +1246,16 @@ input[type=checkbox]:checked:before {
 }
 
 .container .iwaainfo .progrss .head .line {
-    height: 91.5%;
+    height: 95%;
     background-color: #eee;
     width: 2px;
     position: absolute;
-    top: 49px;
+    top: 1px;
     right: 1px;
+}
+
+.container .iwaainfo .progrss .head .line-1{
+    height: 89%;
 }
 
 .r2:checked ~ .head .nav .pt1::after,
@@ -2105,9 +2109,6 @@ main .container .generlaTitle h2 {
     color: var(--darkBlue);
     font-weight: bold;
     font-size: 30px;
-
-
-
     padding-bottom: 10px;
 }
 

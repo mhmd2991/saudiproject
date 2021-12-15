@@ -2114,3 +2114,16 @@ main .container .generlaTitle h2 {
 main .container .generlaTitle img {
     width: 78px;
 }
+
+@media(max-width: 991px){
+    .container .iwaainfo {
+        flex-direction: column;
+    }
+    .iwaainfosection .jeha .bottom {
+        flex-direction: column;
+    }
+    
+    .iwaainfosection .box.active .bottom {
+        max-height: 1400px;
+    }
+}

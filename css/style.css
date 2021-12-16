@@ -1747,7 +1747,11 @@ input[type=checkbox]:checked:before {
 .container .iwaainfo .progrss .head .nav li:hover .box {
     opacity: 1;
     visibility: visible;
-    min-height: 300px;
+    min-height: 150px;
+}
+
+.container .iwaainfo .progrss .head .nav li:hover .special {
+     min-height: 300px;
 }
 
 .container .iwaainfo .progrss .head .nav li:hover p {
@@ -2001,6 +2005,10 @@ input[type=checkbox]:checked:before {
 
 .iwaainfosection .jeha .bottom .right .right-img img {
     width: 70px;
+}
+
+.iwaainfosection .jeha .bottom .right .middle {
+    min-height: 30px;
 }
 
 .iwaainfosection .jeha .bottom .right .middle p {

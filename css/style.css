@@ -1084,14 +1084,14 @@ input[type=checkbox]:checked:before {
 }
 
 .container .iwaainfo .iwaainfosection {
-    flex-basis: 72%;
-    padding: 25px 35px;
+    flex-basis: 70%;
+    padding: 25px 15px;
     border-radius: 20px;
 
 }
 
 .container .iwaainfo .progrss {
-    flex-basis: 37%;
+    flex-basis: 30%;
     padding: 25px;
     background-color: var(--whiteColor);
     position: relative;
@@ -1727,6 +1727,11 @@ input[type=checkbox]:checked:before {
     display: flex;
     gap: 20px;
     align-items: center;
+    border-style: dotted;
+    border-radius: 10px;
+    border-color: var(--vintageGray);
+    padding: 10px;
+    
     position: relative;
     z-index: 1;
     margin-top: 10px;
@@ -1742,7 +1747,7 @@ input[type=checkbox]:checked:before {
 .container .iwaainfo .progrss .head .nav li:hover .box {
     opacity: 1;
     visibility: visible;
-    max-height: 300px;
+    min-height: 300px;
 }
 
 .container .iwaainfo .progrss .head .nav li:hover p {
@@ -1750,7 +1755,8 @@ input[type=checkbox]:checked:before {
 }
 
 .container .iwaainfo .progrss .head .nav li .box .logo {
-    width: 75px;
+    width: 70px;
+    height: auto;
 }
 
 .container .iwaainfo .progrss .head .nav li .box .logo img {
@@ -1806,11 +1812,12 @@ input[type=checkbox]:checked:before {
     height: 17px;
 }
 
-.container .iwaainfo .progrss .head .nav li .box .steps .bottom div p {
+.container .iwaainfo .progrss .head .nav li .box .steps div p {
     margin-bottom: 5px;
     display: list-item;
     list-style-type: disc;
     list-style-position: inside;
+    color: var(--vintageGray);
 }
 
 .container .iwaainfo .iwaainfosection .section h2 {
@@ -1831,7 +1838,7 @@ input[type=checkbox]:checked:before {
 }
 
 .iwaainfosection .box {
-    padding: 10px 20px 0px 20px;
+    padding: 10px 10px 0px 10px;
 }
 
 .iwaainfosection .box .top {
@@ -1880,7 +1887,7 @@ input[type=checkbox]:checked:before {
 
 .iwaainfosection .box .bottom .middle .title img {
     width: 32px;
-    height: 40px;
+    height:auto;
 }
 
 .iwaainfosection .box.active .fa-angle-down {
@@ -1956,7 +1963,7 @@ input[type=checkbox]:checked:before {
 
 .iwaainfosection .terms .print .btn-print,
 .iwaainfosection .needs .print .btn-print {
-    padding: 11px 21px;
+    padding: 10px 21px;
     cursor: pointer;
     background-image: url(../images/print-icon.png);
     background-repeat: no-repeat;
@@ -1985,6 +1992,15 @@ input[type=checkbox]:checked:before {
     border-radius: 6px;
     padding: 3px 15px;
     margin-bottom: 10px;
+}
+
+.iwaainfosection .jeha .bottom .right .right-img {
+    height: 60px;
+}
+
+
+.iwaainfosection .jeha .bottom .right .right-img img {
+    width: 70px;
 }
 
 .iwaainfosection .jeha .bottom .right .middle p {
@@ -2089,8 +2105,7 @@ input[type=checkbox]:checked:before {
 }
 
 .iwaainfosection img {
-    width: 50px;
-    height: 50px;
+    width: 40px;
 }
 
 

@@ -360,7 +360,11 @@ main .container .search-results {
 
 .sectorcontent .sectorinfo .box:hover {
     background: linear-gradient(to left, rgba(6, 11, 101, 1) 50%, rgba(66, 12, 119, 1) 100%);
+}
 
+.sectorcontent .sectorinfo .box:hover .right img{
+    -webkit-filter: brightness(0) invert(1);
+    filter: brightness(0) invert(1);
 }
 
 .sectorcontent .sectorinfo .box:hover .left .top h3,

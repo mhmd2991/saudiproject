@@ -240,23 +240,27 @@ main .container .search-results {
 }
 
 @media(max-width: 767px) {
-    main .container .input-form {
+    main .container .input-form,
+    main .container .input-form-2{
         width: 100%;
     }
 
-    main .container .input-form i {
+    main .container .input-form i,
+    main .container .input-form-2 i{
         left: 80px;
     }
 }
 
 @media(max-width: 500px) {
-    main .container .input-form i {
+    main .container .input-form i,
+    main .container .input-form-2 i{
         left: 60px;
     }
 }
 
 @media(max-width: 375px) {
-    main .container .input-form i {
+    main .container .input-form i,
+    main .container .input-form-2 i {
         left: 50px;
     }
 }
@@ -293,12 +297,29 @@ main .container .search-results {
 .sectorcontent .allsector h3::after {
     content: "";
     position: absolute;
-    width: 270px;
+    width: 70%;
     height: 1px;
     background-color: #5f2e8d;
     bottom: -5px;
     left: 0;
+}
 
+@media(max-width: 1399px){
+    .sectorcontent .allsector h3::after {
+        width: 50%;
+    }
+}
+
+@media(max-width:675px){
+     .sectorcontent .allsector h3::after {
+        width: 40%;
+    }
+}
+
+@media(max-width:613px){
+      .sectorcontent .allsector h3::after {
+        width: 70%;
+    }
 }
 
 .sectorcontent .allsector .box {
@@ -331,7 +352,7 @@ main .container .search-results {
     background: linear-gradient(to left, rgba(234, 236, 244, 1) 50%, rgba(252, 252, 252, 1) 100%);
     padding: 10px 5px;
     border-radius: 25px;
-    height: 150px;
+    min-height: 150px;
 }
 
 .sectorcontent .sectorinfo .box:hover {

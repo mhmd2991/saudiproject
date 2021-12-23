@@ -7,8 +7,6 @@
     list-style: none;
     border: none;
     outline: none;
-    transition: all .3s ease-in-out;
-    /*border: 1px solid red;*/
 }
 
 html {
@@ -483,6 +481,7 @@ main .container .search-results {
     flex-wrap: wrap;
     margin-bottom: 15px;
     padding-bottom: 10px;
+    margin-right: 11px;
 }
 
 input[type="checkbox"] {

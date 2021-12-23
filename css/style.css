@@ -124,6 +124,7 @@ main .container {}
 
 .last-bg {
     background: linear-gradient(to left, rgba(243, 240, 252, 1) 50%, rgba(230, 239, 250, 1) 100%);
+    padding-bottom: 150px;
 }
 
 main .container .input-form {

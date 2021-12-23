@@ -24,6 +24,22 @@ const database = [
         desc: "شرح تفصيلي",
     },
     {
+        sectorName: "الطاقة",
+        sectorCode: "B201",
+        sectorIcon: "icon-13.png",
+        sectorN: "power",
+        info: [],
+        desc: "شرح تفصيلي",
+    },
+    {
+        sectorName: "قطاع الطاقة",
+        sectorCode: "B201",
+        sectorIcon: "icon-14.png",
+        sectorN: "power",
+        info: [],
+        desc: "شرح تفصيلي",
+    },
+    {
         sectorName: "قطاع النقل<br/> والخدمات اللوجستية",
         sectorCode: "m907",
         sectorIcon: "icon-4.png",

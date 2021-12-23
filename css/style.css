@@ -189,7 +189,7 @@ main .container .searchbar::placeholder {
 }
 
 main .container .searchbar:focus::placeholder,
-main .container .searchbar-2:focus::placeholder{
+main .container .searchbar-2:focus::placeholder {
     opacity: 0;
 }
 
@@ -222,9 +222,9 @@ main .container .search-results {
     opacity: 1;
 }
 
-.container .search-results .search-result-item:hover .search-item img{
-     -webkit-filter: brightness(0) invert(1);
-  filter: brightness(0) invert(1);
+.container .search-results .search-result-item:hover .search-item img {
+    -webkit-filter: brightness(0) invert(1);
+    filter: brightness(0) invert(1);
 }
 
 .container .search-results a {
@@ -240,25 +240,28 @@ main .container .search-results {
 }
 
 @media(max-width: 767px) {
+
     main .container .input-form,
-    main .container .input-form-2{
+    main .container .input-form-2 {
         width: 100%;
     }
 
     main .container .input-form i,
-    main .container .input-form-2 i{
+    main .container .input-form-2 i {
         left: 80px;
     }
 }
 
 @media(max-width: 500px) {
+
     main .container .input-form i,
-    main .container .input-form-2 i{
+    main .container .input-form-2 i {
         left: 60px;
     }
 }
 
 @media(max-width: 375px) {
+
     main .container .input-form i,
     main .container .input-form-2 i {
         left: 50px;
@@ -304,20 +307,20 @@ main .container .search-results {
     left: 0;
 }
 
-@media(max-width: 1399px){
+@media(max-width: 1399px) {
     .sectorcontent .allsector h3::after {
         width: 50%;
     }
 }
 
-@media(max-width:675px){
-     .sectorcontent .allsector h3::after {
+@media(max-width:675px) {
+    .sectorcontent .allsector h3::after {
         width: 40%;
     }
 }
 
-@media(max-width:613px){
-      .sectorcontent .allsector h3::after {
+@media(max-width:613px) {
+    .sectorcontent .allsector h3::after {
         width: 70%;
     }
 }
@@ -2010,6 +2013,14 @@ input[type=checkbox]:checked:before {
     border-left: 1px solid #c4c8d1;
 }
 
+@media(max-width: 991px) {
+
+    .iwaainfosection .box .bottom .right,
+    .iwaainfosection .box .bottom .middle {
+        border: 0;
+    }
+}
+
 .iwaainfosection .box .bottom .right .bottom {}
 
 .iwaainfosection .box .bottom .middle {
@@ -2120,7 +2131,7 @@ input[type=checkbox]:checked:before {
 .iwaainfosection .jeha > .bottom {
     display: flex;
     align-items: flex-start;
-    justify-content: space-between
+    justify-content: space-between;
 }
 
 .iwaainfosection .jeha .bottom .right .right-img,

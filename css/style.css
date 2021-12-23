@@ -362,7 +362,7 @@ main .container .search-results {
     background: linear-gradient(to left, rgba(6, 11, 101, 1) 50%, rgba(66, 12, 119, 1) 100%);
 }
 
-.sectorcontent .sectorinfo .box:hover .right img{
+.sectorcontent .sectorinfo .box:hover .right img {
     -webkit-filter: brightness(0) invert(1);
     filter: brightness(0) invert(1);
 }
@@ -2138,7 +2138,7 @@ input[type=checkbox]:checked:before {
 .iwaainfosection .jeha .bottom .right .middle,
 .iwaainfosection .jeha .bottom .right .bottom,
 .iwaainfosection .jeha .bottom .middle .title {
-    padding: 3px 15px;
+    padding: 3px;
     margin-bottom: 10px;
 }
 
@@ -2189,7 +2189,6 @@ input[type=checkbox]:checked:before {
 .iwaainfosection .jeha .bottom .left .email {
     display: flex;
     align-items: flex-start;
-    gap: 10px;
 }
 
 
@@ -2234,6 +2233,8 @@ input[type=checkbox]:checked:before {
     line-height: 2.5;
     padding-top: 10px;
     padding-bottom: 10px;
+    padding-right: 30px;
+    margin-left: -23px;
 
 }
 

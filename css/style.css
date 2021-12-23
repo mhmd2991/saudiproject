@@ -261,7 +261,6 @@ main .container .search-results {
 }
 
 @media(max-width: 375px) {
-
     main .container .input-form i,
     main .container .input-form-2 i {
         left: 50px;
@@ -1236,7 +1235,6 @@ input[type=checkbox]:checked:before {
     margin-right: 30px;
     color: #451c9f;
     cursor: pointer;
-    transition: all .3s ease;
     border: 1px solid #b3b3b3;
     border-radius: 5px;
 }
@@ -1855,6 +1853,7 @@ input[type=checkbox]:checked:before {
     opacity: 0;
     visibility: hidden;
     max-height: 0;
+    transition: all .3s ease-in-out;
 }
 
 .container .iwaainfo .progrss .head .nav li:hover {
@@ -1902,7 +1901,6 @@ input[type=checkbox]:checked:before {
 
 .container .iwaainfo .progrss .head .nav li + .box .steps .top {
     padding: 10px;
-
 }
 
 .container .iwaainfo .progrss .head .nav li + .box .steps .top div {

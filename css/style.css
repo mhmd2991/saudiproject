@@ -190,7 +190,8 @@ main .container .searchbar::placeholder {
     text-align: right;
 }
 
-main .container .searchbar:focus::placeholder {
+main .container .searchbar:focus::placeholder,
+main .container .searchbar-2:focus::placeholder{
     opacity: 0;
 }
 
@@ -199,7 +200,6 @@ main .container .search-results {
     grid-template-columns: repeat(auto-fill, minmax(265px, 1fr));
     gap: 39px;
     padding: 50px 30px;
-    background-color: #140567;
     border-radius: 0 0 10px 10px;
 }
 
@@ -222,6 +222,11 @@ main .container .search-results {
     background-size: cover;
     background-position: center;
     opacity: 1;
+}
+
+.container .search-results .search-result-item:hover .search-item img{
+     -webkit-filter: brightness(0) invert(1);
+  filter: brightness(0) invert(1);
 }
 
 .container .search-results a {
@@ -1916,7 +1921,7 @@ input[type=checkbox]:checked:before {
     display: list-item;
     list-style-type: disc;
     list-style-position: inside;
-    color: var(--vintageGray);
+    color: #808080;
 }
 
 .container .iwaainfo .iwaainfosection .section h2 {

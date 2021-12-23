@@ -1858,11 +1858,8 @@ input[type=checkbox]:checked:before {
 }
 
 .container .iwaainfo .progrss .head .nav li:hover {
-    height: auto;
     background: linear-gradient(to left, rgba(6, 11, 101, 1) 50%, rgba(66, 12, 119, 1) 100%);
 }
-
-
 
 .container .iwaainfo .progrss .head .nav li:hover + .box {
     opacity: 1;
@@ -1904,7 +1901,6 @@ input[type=checkbox]:checked:before {
 }
 
 .container .iwaainfo .progrss .head .nav li + .box .steps .top {
-
     padding: 10px;
 
 }

@@ -133,7 +133,6 @@ main .container .input-form {
     position: relative;
     padding: 20px 0;
     border-radius: 10px;
-
 }
 
 .input-form-2 {
@@ -350,6 +349,7 @@ main .container .search-results {
 
 .sectorcontent .sectorinfo .box {
     display: flex;
+    align-items: center;
     width: 90%;
     margin-bottom: 30px;
     background: linear-gradient(to left, rgba(234, 236, 244, 1) 50%, rgba(252, 252, 252, 1) 100%);
@@ -392,7 +392,6 @@ main .container .search-results {
 .sectorcontent .sectorinfo .box .left .top h3 {
     color: #5f2e8d;
     font-size: 23px;
-    margin-top: 16px;
 }
 
 .sectorcontent .sectorinfo .box .left .top p {
@@ -420,7 +419,7 @@ main .container .search-results {
     color: var(--mediumDarkGray);
     font-weight: 500;
     font-size: 16px;
-    margin-top: 26px;
+    margin-top: 15px;
     max-width: 600px;
 }
 
@@ -1238,6 +1237,7 @@ input[type=checkbox]:checked:before {
     cursor: pointer;
     border: 1px solid #b3b3b3;
     border-radius: 5px;
+    transition: all .3s ease-in-out;
 }
 
 .container .iwaainfo .progrss .head .nav li::before {
@@ -1854,7 +1854,7 @@ input[type=checkbox]:checked:before {
     opacity: 0;
     visibility: hidden;
     max-height: 0;
-    transition: all .3s ease-in-out;
+    transition: visibility 0s linear 0s, opacity 300ms;
 }
 
 .container .iwaainfo .progrss .head .nav li:hover {

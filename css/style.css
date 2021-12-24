@@ -350,10 +350,10 @@ main .container .search-results {
 .sectorcontent .sectorinfo .box {
     display: flex;
     align-items: center;
-    width: 90%;
+    width: 93%;
     margin-bottom: 30px;
     background: linear-gradient(to left, rgba(234, 236, 244, 1) 50%, rgba(252, 252, 252, 1) 100%);
-    padding: 10px 5px;
+    padding: 10px;
     border-radius: 25px;
     min-height: 150px;
 }
@@ -382,11 +382,7 @@ main .container .search-results {
 }
 
 .sectorcontent .sectorinfo .box .left .top {
-    display: flex;
-    align-items: flex-start;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    flex-direction: column;
+ 
 }
 
 .sectorcontent .sectorinfo .box .left .top h3 {
@@ -420,7 +416,7 @@ main .container .search-results {
     font-weight: 500;
     font-size: 16px;
     margin-top: 15px;
-    max-width: 600px;
+    max-width: 635px;
 }
 
 .sectorcontent .sectorinfo .box .right {

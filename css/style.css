@@ -1979,7 +1979,6 @@ input[type=checkbox]:checked:before {
 .iwaainfosection .box .top .inner-right {
     display: flex;
     align-items: center;
-    gap: 25px;
     flex-basis: 218px;
 }
 
@@ -1987,6 +1986,7 @@ input[type=checkbox]:checked:before {
     color: #606061;
     font-weight: 500;
     font-size: 20px;
+    margin-right: 25px;
 }
 
 .iwaainfosection .box .top i {
@@ -2073,7 +2073,6 @@ input[type=checkbox]:checked:before {
 .iwaainfosection .money .inner-money {
     display: flex;
     align-items: center;
-    gap: 20px;
     color: var(--mediumDarkGray);
     font-weight: 500;
     margin-right: -10px;
@@ -2083,6 +2082,7 @@ input[type=checkbox]:checked:before {
 .iwaainfosection .money .inner-money img {
     width: 43px;
     height: 43px;
+    margin-left: 20px;
 }
 
 .iwaainfosection .money .inner-money p span {
@@ -2170,13 +2170,13 @@ input[type=checkbox]:checked:before {
 .iwaainfosection .jeha .bottom .middle .title {
     display: flex;
     align-items: center;
-    gap: 25px;
 }
 
 .iwaainfosection .jeha .bottom .middle .title p {
     color: #451c9f;
     font-weight: 700;
     font-size: 24px;
+    margin-right: 25px;
 }
 
 .iwaainfosection .jeha .bottom .middle iframe {

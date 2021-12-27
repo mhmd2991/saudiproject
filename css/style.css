@@ -1225,7 +1225,7 @@ input[type=checkbox]:checked:before {
 .container .iwaainfo .progrss .head .nav li {
     position: relative;
     min-height: 30px;
-    width: 89%;
+    width: 91%;
     font-size: 14px;
     font-weight: 500;
     margin-right: 30px;
@@ -1841,7 +1841,7 @@ input[type=checkbox]:checked:before {
     gap: 20px;
     align-items: center;
     border-radius: 5px;
-    width: 89%;
+    width: 91%;
     padding: 10px;
     position: relative;
     z-index: 1;
@@ -1893,7 +1893,7 @@ input[type=checkbox]:checked:before {
 .container .iwaainfo .progrss .head .nav li + .box .steps {
     min-width: 300px;
     font-weight: 300;
-    font-size: 13px;
+    font-size: 12.5px;
 }
 
 .container .iwaainfo .progrss .head .nav li + .box .steps .top {

@@ -1972,6 +1972,12 @@ input[type=checkbox]:checked:before {
     cursor: pointer;
 }
 
+.iwaainfosection .box:nth-child(3) .top,
+.iwaainfosection .money:nth-child(4) .top,
+.iwaainfosection .money:nth-child(5) .top{
+    cursor:auto;
+}
+
 .iwaainfosection .box .top .inner-right {
     display: flex;
     align-items: center;

@@ -1951,6 +1951,7 @@ input[type=checkbox]:checked:before {
     transition: opacity 1s ease-out;
     opacity: 0;
     height: 0;
+    overflow: hidden;
 }
 
 .container .iwaainfo .iwaainfosection .section.active {
@@ -2031,7 +2032,7 @@ input[type=checkbox]:checked:before {
 .iwaainfosection .box.active .bottom {
     opacity: 1;
     visibility: visible;
-    max-height: 800px;
+    max-height: 850px;
 }
 
 .iwaainfosection .box .bottom .middle .title img {

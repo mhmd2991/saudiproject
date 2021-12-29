@@ -118,8 +118,12 @@ a {
 main .container {}
 
 .bg {
-    background: url(../images/background.png) no-repeat;
+    background: url(../images/background-2.png) no-repeat;
     background-size: cover;
+}
+
+.bg-2 {
+       background: linear-gradient(to left, rgba(6, 11, 101, 1) 50%, rgba(66, 12, 119, 1) 100%);
 }
 
 .last-bg {
@@ -447,7 +451,7 @@ main .container .search-results {
     max-height: 0;
     visibility: hidden;
     opacity: 0;
-    transition: all .3s ease-in-out;
+    transition: all .3s ease;
 }
 
 .allsector .box .sectordetails p {

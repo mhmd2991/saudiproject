@@ -123,7 +123,7 @@ main .container {}
 }
 
 .bg-2 {
-       background: linear-gradient(to left, rgba(6, 11, 101, 1) 50%, rgba(66, 12, 119, 1) 100%);
+    background: linear-gradient(to left, rgba(6, 11, 101, 1) 50%, rgba(66, 12, 119, 1) 100%);
 }
 
 .last-bg {
@@ -190,6 +190,10 @@ main .container .searchbar::placeholder {
     color: var(--vintageGray);
     font-weight: 500;
     text-align: right;
+}
+
+.searchbar-2::placeholder {
+    color: var(--vintageGray);
 }
 
 main .container .searchbar:focus::placeholder,
@@ -265,6 +269,7 @@ main .container .search-results {
 }
 
 @media(max-width: 375px) {
+
     main .container .input-form i,
     main .container .input-form-2 i {
         left: 50px;
@@ -306,8 +311,8 @@ main .container .search-results {
     width: 70%;
     height: 1px;
     background-color: #5f2e8d;
-    bottom: -5px;
-    left: 0;
+    bottom: -4px;
+    left: 6px;
 }
 
 @media(max-width: 1399px) {
@@ -385,9 +390,7 @@ main .container .search-results {
     width: 100%;
 }
 
-.sectorcontent .sectorinfo .box .left .top {
- 
-}
+.sectorcontent .sectorinfo .box .left .top {}
 
 .sectorcontent .sectorinfo .box .left .top h3 {
     color: #5f2e8d;
@@ -1978,8 +1981,8 @@ input[type=checkbox]:checked:before {
 
 .iwaainfosection .box:nth-child(3) .top,
 .iwaainfosection .money:nth-child(4) .top,
-.iwaainfosection .money:nth-child(5) .top{
-    cursor:auto;
+.iwaainfosection .money:nth-child(5) .top {
+    cursor: auto;
 }
 
 .iwaainfosection .box .top .inner-right {

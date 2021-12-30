@@ -1236,10 +1236,9 @@ input[type=checkbox]:checked:before {
     font-size: 14px;
     font-weight: 500;
     margin-right: 30px;
-    color: #451c9f;
+    
     cursor: pointer;
-    border: 1px solid #b3b3b3;
-    border-radius: 5px;
+    
     transition: all .3s ease-in-out;
 }
 
@@ -1268,8 +1267,11 @@ input[type=checkbox]:checked:before {
     text-align: center;
 }
 
-.container .iwaainfo .progrss .head .nav li p {
-    padding-right: 5px;
+.container .iwaainfo .progrss .head .nav li .nav-title {
+    padding: 5px;
+    border: 1px solid #b3b3b3;
+    border-radius: 5px;
+    color: #451c9f;
 }
 
 .container .iwaainfo .progrss .head .nav li:first-of-type::after {
@@ -1360,9 +1362,10 @@ input[type=checkbox]:checked:before {
     background-color: #0f0b68;
 }
 
-.container .iwaainfo .progrss .head .nav li.active {
+.container .iwaainfo .progrss .head .nav li.active .nav-title {
     color: var(--whiteColor);
     background: linear-gradient(to left, rgba(6, 11, 101, 1) 50%, rgba(66, 12, 119, 1) 100%);
+    padding: 5px;
 }
 
 .container .iwaainfo .progrss .head .line {
@@ -1842,13 +1845,13 @@ input[type=checkbox]:checked:before {
     color: var(--darkBlue) !important;
 }
 
-.container .iwaainfo .progrss .head .nav li + .box {
+.container .iwaainfo .progrss .head .nav li .box {
     background: linear-gradient(to left, rgba(234, 236, 244, 1) 50%, rgba(252, 252, 252, 1) 100%);
     display: flex;
     gap: 20px;
     align-items: center;
     border-radius: 5px;
-    width: 91%;
+    width: 100%;
     padding: 10px;
     position: relative;
     z-index: 1;
@@ -1861,68 +1864,69 @@ input[type=checkbox]:checked:before {
 }
 
 .container .iwaainfo .progrss .head .nav li:hover {
-    background: linear-gradient(to left, rgba(6, 11, 101, 1) 50%, rgba(66, 12, 119, 1) 100%);
+    
 }
 
-.container .iwaainfo .progrss .head .nav li:hover + .box {
+.container .iwaainfo .progrss .head .nav li:hover .box {
     opacity: 1;
     visibility: visible;
     min-height: 150px;
     position: relative;
-    margin-right: 30px;
 }
 
-.container .iwaainfo .progrss .head .nav li:hover + .special {
+.container .iwaainfo .progrss .head .nav li:hover .special {
     min-height: 240px;
 }
 
-.container .iwaainfo .progrss .head .nav li:hover p {
+.container .iwaainfo .progrss .head .nav li:hover .nav-title {
+    background: linear-gradient(to left, rgba(6, 11, 101, 1) 50%, rgba(66, 12, 119, 1) 100%);
     color: var(--whiteColor);
+    padding: 5px;
 }
 
-.container .iwaainfo .progrss .head .nav li + .box .logo {
+.container .iwaainfo .progrss .head .nav li .box .logo {
     width: 50px;
     height: 50px;
     position: absolute;
     left: -22px;
 }
 
-.container .iwaainfo .progrss .head .nav li + .box .multiple {
+.container .iwaainfo .progrss .head .nav li .box .multiple {
     top: 15px;
 }
 
-.container .iwaainfo .progrss .head .nav li + .box .logo img {
+.container .iwaainfo .progrss .head .nav li .box .logo img {
     width: 100%;
     border-radius: 50%;
     border: 1px solid #0f0b68;
 }
 
-.container .iwaainfo .progrss .head .nav li + .box .steps {
+.container .iwaainfo .progrss .head .nav li .box .steps {
     min-width: 300px;
     font-weight: 300;
     font-size: 12.5px;
 }
 
-.container .iwaainfo .progrss .head .nav li + .box .steps .top {
+.container .iwaainfo .progrss .head .nav li .box .steps .top {
     padding: 10px;
 }
 
-.container .iwaainfo .progrss .head .nav li + .box .steps .top div {
+.container .iwaainfo .progrss .head .nav li .box .steps .top div {
     display: flex;
     align-items: center;
     gap: 5px;
 }
 
-.container .iwaainfo .progrss .head .nav li + .box .steps .top div img {
+.container .iwaainfo .progrss .head .nav li .box .steps .top div img {
     width: 15px;
     height: 15px;
 }
 
-.container .iwaainfo .progrss .head .nav li + .box .steps .top div p {
+.container .iwaainfo .progrss .head .nav li .box .steps .top div p {
     margin-bottom: 5px;
 }
 
-.container .iwaainfo .progrss .head .nav li + .box .steps .bottom {
+.container .iwaainfo .progrss .head .nav li .box .steps .bottom {
     border-style: dotted;
     border-radius: 10px;
     border-color: var(--vintageGray);
@@ -1930,18 +1934,18 @@ input[type=checkbox]:checked:before {
     min-height: 150px;
 }
 
-.container .iwaainfo .progrss .head .nav li + .box .steps .bottom div {
+.container .iwaainfo .progrss .head .nav li .box .steps .bottom div {
     display: flex;
     align-items: center;
     gap: 5px;
 }
 
-.container .iwaainfo .progrss .head .nav li + .box .steps .bottom div img {
+.container .iwaainfo .progrss .head .nav li .box .steps .bottom div img {
     width: 17px;
     height: 17px;
 }
 
-.container .iwaainfo .progrss .head .nav li + .box .steps div p {
+.container .iwaainfo .progrss .head .nav li .box .steps div p {
     margin-bottom: 5px;
     display: list-item;
     list-style-type: disc;

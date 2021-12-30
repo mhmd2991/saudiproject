@@ -2144,6 +2144,7 @@ input[type=checkbox]:checked:before {
 
 .iwaainfosection .jeha .bottom .right .right-img,
 .iwaainfosection .jeha .bottom .right .middle,
+.iwaainfosection .jeha .bottom .right .middles,
 .iwaainfosection .jeha .bottom .right .bottom,
 .iwaainfosection .jeha .bottom .middle .title {
     padding: 3px;
@@ -2159,11 +2160,13 @@ input[type=checkbox]:checked:before {
     width: 70px;
 }
 
-.iwaainfosection .jeha .bottom .right .middle {
+.iwaainfosection .jeha .bottom .right .middle,
+.iwaainfosection .jeha .bottom .right .middles{
     min-height: 30px;
 }
 
-.iwaainfosection .jeha .bottom .right .middle p {
+.iwaainfosection .jeha .bottom .right .middle p,
+.iwaainfosection .jeha .bottom .right .middles p{
     font-weight: bold;
     color: #451c9f;
     font-size: 14px;

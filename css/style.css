@@ -212,15 +212,12 @@ main .container .search-results {
 .container .search-results .search-result-item {
     padding: 35px 10px;
     background: linear-gradient(to top, rgba(163, 71, 250, .3) 50%, rgba(109, 45, 252, .3) 100%);
-    /*background: url(../images/rectangular-2-33.png) no-repeat;
-    background-position: center;
-    background-size: cover;*/
     border: 2px solid #793699;
     text-align: center;
     border-radius: 6px;
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
+    justify-content: space-around;
     transition: var(--mainTransition);
     height: 279px;
 }

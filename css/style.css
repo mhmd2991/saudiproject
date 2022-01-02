@@ -1998,6 +1998,10 @@ input[type=checkbox]:checked:before {
     flex-basis: 218px;
 }
 
+.iwaainfosection .box .top .inner-link{
+    flex-basis: 340px;
+}
+
 .iwaainfosection .box .top .inner-right p {
     color: #606061;
     font-weight: 500;

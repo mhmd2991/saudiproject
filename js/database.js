@@ -1,6 +1,6 @@
 const database = [
     {
-        sectorName: "قطاع السياحة",
+        sectorName: "السياحة",
         sectorCode: "t102",
         sectorIcon: "icon-1.png",
         sectorN: "tourism",
@@ -8,7 +8,7 @@ const database = [
         desc: "شرح تفصيلي",
     },
     {
-        sectorName: "قطاع التعليم",
+        sectorName: "التعليم",
         sectorCode: "K503",
         sectorIcon: "icon-2.png",
         sectorN: "education",
@@ -16,7 +16,7 @@ const database = [
         desc: "شرح تفصيلي",
     },
     {
-        sectorName: "قطاع الصحة",
+        sectorName: "الصحة",
         sectorCode: "B201",
         sectorIcon: "icon-3.png",
         sectorN: "health",
@@ -32,7 +32,7 @@ const database = [
         desc: "شرح تفصيلي",
     },
     {
-        sectorName: "قطاع الطاقة",
+        sectorName: "الطاقة",
         sectorCode: "B201",
         sectorIcon: "icon-14.png",
         sectorN: "power",
@@ -40,7 +40,7 @@ const database = [
         desc: "شرح تفصيلي",
     },
     {
-        sectorName: "قطاع النقل<br/> والخدمات اللوجستية",
+        sectorName: "النقل<br/> والخدمات اللوجستية",
         sectorCode: "m907",
         sectorIcon: "icon-4.png",
         sectorN: "transport",
@@ -49,7 +49,7 @@ const database = [
     },
 
     {
-        sectorName: "قطاع البلدية",
+        sectorName: "البلدية",
         sectorCode: "P001",
         sectorIcon: "icon-5.png",
         sectorN: "municipality",
@@ -57,7 +57,7 @@ const database = [
         desc: "شرح تفصيلي",
     },
     {
-        sectorName: "قطاع الاتصالات<br/> وتقنية المعلومات",
+        sectorName: "الاتصالات<br/> وتقنية المعلومات",
         sectorCode: "P001",
         sectorIcon: "icon-6.png",
         sectorN: "telecom",
@@ -65,7 +65,7 @@ const database = [
         desc: "شرح تفصيلي",
     },
     {
-        sectorName: "قطاع الترفيه",
+        sectorName: "الترفيه",
         sectorCode: "P001",
         sectorIcon: "icon-7.png",
         sectorN: "media",
@@ -73,7 +73,7 @@ const database = [
         desc: "شرح تفصيلي",
     },
     {
-        sectorName: "قطاع الإعلام",
+        sectorName: "الإعلام",
         sectorCode: "P001",
         sectorIcon: "icon-8.png",
         sectorN: "media",
@@ -81,7 +81,7 @@ const database = [
         desc: "شرح تفصيلي",
     },
     {
-        sectorName: "قطاع <br>الصناعات العسكرية",
+        sectorName: "الصناعات العسكرية",
         sectorCode: "P001",
         sectorIcon: "icon-9.png",
         sectorN: "media",
@@ -89,7 +89,7 @@ const database = [
         desc: "شرح تفصيلي",
     },
     {
-        sectorName: "قطاع<br> الغذاء والدواء",
+        sectorName: "الغذاء والدواء",
         sectorCode: "P001",
         sectorIcon: "icon-10.png",
         sectorN: "media",
@@ -97,7 +97,7 @@ const database = [
         desc: "شرح تفصيلي",
     },
     {
-        sectorName: "قطاع الصناعة",
+        sectorName: "الصناعة",
         sectorCode: "P001",
         sectorIcon: "icon-11.png",
         sectorN: "trade",
@@ -105,7 +105,7 @@ const database = [
         desc: "شرح تفصيلي",
     },
     {
-        sectorName: "قطاع الرياضة",
+        sectorName: "الرياضة",
         sectorCode: "P001",
         sectorIcon: "icon-12.png",
         sectorN: "media",

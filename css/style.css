@@ -203,7 +203,7 @@ main .container .searchbar-2:focus::placeholder {
 
 main .container .search-results {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(265px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(234px, 1fr));
     gap: 39px;
     padding: 50px 0px;
     border-radius: 0 0 10px 10px;
@@ -211,16 +211,16 @@ main .container .search-results {
 
 .container .search-results .search-result-item {
     padding: 35px 10px;
-    background: linear-gradient(to top, rgba(133, 93, 252, 1) 50%, rgba(189, 71, 250, 1) 100%);
+    background: linear-gradient(to top, #A347FA 50%, #6D2DFC 100%);
     border: 2px solid #793699;
-    opacity: .6;
+    opacity: .5;
     text-align: center;
     border-radius: 6px;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     transition: var(--mainTransition);
-    height: 250px;
+    height: 279px;
 }
 
 .container .search-results .search-result-item:hover {

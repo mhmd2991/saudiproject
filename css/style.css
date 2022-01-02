@@ -1239,9 +1239,9 @@ input[type=checkbox]:checked:before {
     font-size: 14px;
     font-weight: 500;
     margin-right: 30px;
-    
+
     cursor: pointer;
-    
+
     transition: all .3s ease-in-out;
 }
 
@@ -1866,9 +1866,7 @@ input[type=checkbox]:checked:before {
     transition: visibility 0s linear 0s, opacity 300ms;
 }
 
-.container .iwaainfo .progrss .head .nav li:hover {
-    
-}
+.container .iwaainfo .progrss .head .nav li:hover {}
 
 .container .iwaainfo .progrss .head .nav li:hover .box {
     opacity: 1;
@@ -1998,7 +1996,7 @@ input[type=checkbox]:checked:before {
     flex-basis: 218px;
 }
 
-.iwaainfosection .box .top .inner-link{
+.iwaainfosection .box .top .inner-link {
     flex-basis: 340px;
 }
 
@@ -2172,12 +2170,12 @@ input[type=checkbox]:checked:before {
 }
 
 .iwaainfosection .jeha .bottom .right .middle,
-.iwaainfosection .jeha .bottom .right .middles{
+.iwaainfosection .jeha .bottom .right .middles {
     min-height: 30px;
 }
 
 .iwaainfosection .jeha .bottom .right .middle p,
-.iwaainfosection .jeha .bottom .right .middles p{
+.iwaainfosection .jeha .bottom .right .middles p {
     font-weight: bold;
     color: #451c9f;
     font-size: 14px;
@@ -2316,4 +2314,35 @@ main .container .generlaTitle img {
     .iwaainfosection .box.active .bottom {
         max-height: 1400px;
     }
+}
+
+.buttons{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 20px;
+}
+
+.next {
+    background: url(../images/next.png) no-repeat;
+}
+
+.previous{
+    background: url(../images/previous.png) no-repeat;
+}
+
+.next,
+.previous {
+    background-size: cover;
+    background-position: center;
+    outline: none;
+    cursor: pointer;
+    width: 50px;
+    height: 50px;
+}
+
+.next.disable,
+.previous.disable {
+    cursor: auto;
+    opacity: .5;
 }

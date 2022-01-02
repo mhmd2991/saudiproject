@@ -1232,7 +1232,7 @@ input[type=checkbox]:checked:before {
     width: 100%;
 }
 
-.container .iwaainfo .progrss .head .nav li {
+.container .iwaainfo .progrss .head .nav > li {
     position: relative;
     min-height: 30px;
     width: 91%;
@@ -1245,7 +1245,7 @@ input[type=checkbox]:checked:before {
     transition: all .3s ease-in-out;
 }
 
-.container .iwaainfo .progrss .head .nav li::before {
+.container .iwaainfo .progrss .head .nav > li::before {
     content: "";
     position: absolute;
     width: 32px;
@@ -1256,7 +1256,7 @@ input[type=checkbox]:checked:before {
     display: block;
 }
 
-.container .iwaainfo .progrss .head .nav li::after {
+.container .iwaainfo .progrss .head .nav > li::after {
     content: "";
     position: absolute;
     width: 24px;
@@ -1277,91 +1277,91 @@ input[type=checkbox]:checked:before {
     color: #451c9f;
 }
 
-.container .iwaainfo .progrss .head .nav li:first-of-type::after {
+.container .iwaainfo .progrss .head .nav > li:first-of-type::after {
     content: "1";
 }
 
-.container .iwaainfo .progrss .head .nav li:nth-of-type(2)::after {
+.container .iwaainfo .progrss .head .nav > li:nth-of-type(2)::after {
     content: "2";
 }
 
-.container .iwaainfo .progrss .head .nav li:nth-of-type(3)::after {
+.container .iwaainfo .progrss .head .nav > li:nth-of-type(3)::after {
     content: "3";
 }
 
-.container .iwaainfo .progrss .head .nav li:nth-of-type(4)::after {
+.container .iwaainfo .progrss .head .nav > li:nth-of-type(4)::after {
     content: "4";
 }
 
-.container .iwaainfo .progrss .head .nav li:nth-of-type(5)::after {
+.container .iwaainfo .progrss .head .nav > li:nth-of-type(5)::after {
     content: "5";
 }
 
-.container .iwaainfo .progrss .head .nav li:nth-of-type(6)::after {
+.container .iwaainfo .progrss .head .nav > li:nth-of-type(6)::after {
     content: "6";
 }
 
-.container .iwaainfo .progrss .head .nav li:nth-of-type(7)::after {
+.container .iwaainfo .progrss .head .nav > li:nth-of-type(7)::after {
     content: "7";
 }
 
-.container .iwaainfo .progrss .head .nav li:nth-of-type(8)::after {
+.container .iwaainfo .progrss .head .nav > li:nth-of-type(8)::after {
     content: "8";
 }
 
-.container .iwaainfo .progrss .head .nav li:nth-of-type(9)::after {
+.container .iwaainfo .progrss .head .nav > li:nth-of-type(9)::after {
     content: "9";
 }
 
-.container .iwaainfo .progrss .head .nav li:nth-of-type(10)::after {
+.container .iwaainfo .progrss .head .nav > li:nth-of-type(10)::after {
     content: "10";
 }
 
-.container .iwaainfo .progrss .head .nav li:nth-of-type(11)::after {
+.container .iwaainfo .progrss .head .nav > li:nth-of-type(11)::after {
     content: "11";
 }
 
-.container .iwaainfo .progrss .head .nav li:nth-of-type(12)::after {
+.container .iwaainfo .progrss .head .nav > li:nth-of-type(12)::after {
     content: "12";
 }
 
-.container .iwaainfo .progrss .head .nav li:nth-of-type(13)::after {
+.container .iwaainfo .progrss .head .nav > li:nth-of-type(13)::after {
     content: "13";
 }
 
-.container .iwaainfo .progrss .head .nav li:nth-of-type(14)::after {
+.container .iwaainfo .progrss .head .nav > li:nth-of-type(14)::after {
     content: "14";
 }
 
-.container .iwaainfo .progrss .head .nav li:nth-of-type(15)::after {
+.container .iwaainfo .progrss .head .nav > li:nth-of-type(15)::after {
     content: "15";
 }
 
-.container .iwaainfo .progrss .head .nav li:nth-of-type(16)::after {
+.container .iwaainfo .progrss .head .nav > li:nth-of-type(16)::after {
     content: "16";
 }
 
-.container .iwaainfo .progrss .head .nav li:nth-of-type(17)::after {
+.container .iwaainfo .progrss .head .nav > li:nth-of-type(17)::after {
     content: "17";
 }
 
-.container .iwaainfo .progrss .head .nav li:nth-of-type(18)::after {
+.container .iwaainfo .progrss .head .nav > li:nth-of-type(18)::after {
     content: "18";
 }
 
-.container .iwaainfo .progrss .head .nav li:nth-of-type(19)::after {
+.container .iwaainfo .progrss .head .nav > li:nth-of-type(19)::after {
     content: "19";
 }
 
-.container .iwaainfo .progrss .head .nav li:nth-of-type(20)::after {
+.container .iwaainfo .progrss .head .nav > li:nth-of-type(20)::after {
     content: "20";
 }
 
-.container .iwaainfo .progrss .head .nav li:hover::after {
+.container .iwaainfo .progrss .head .nav > li:hover::after {
     background-color: #0f0b68;
 }
 
-.container .iwaainfo .progrss .head .nav li.active::after {
+.container .iwaainfo .progrss .head .nav > li.active::after {
     background-color: #0f0b68;
 }
 
@@ -1372,7 +1372,7 @@ input[type=checkbox]:checked:before {
 }
 
 .container .iwaainfo .progrss .head .line {
-    height: 95%;
+    height: 99%;
     background-color: #eee;
     width: 2px;
     position: absolute;
@@ -1954,6 +1954,15 @@ input[type=checkbox]:checked:before {
     color: #808080;
 }
 
+.container .iwaainfo .progrss .head .nav li .box .steps .steps-list li {
+    list-style: disc outside none;
+    display: list-item;
+    margin-bottom: 5px;
+    margin-right: 15px;
+    color: #808080;
+}
+
+
 .container .iwaainfo .iwaainfosection .section h2 {
     color: #451c9f;
     margin-bottom: 10px;
@@ -2316,7 +2325,7 @@ main .container .generlaTitle img {
     }
 }
 
-.buttons{
+.buttons {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -2327,7 +2336,7 @@ main .container .generlaTitle img {
     background: url(../images/next.png) no-repeat;
 }
 
-.previous{
+.previous {
     background: url(../images/previous.png) no-repeat;
 }
 
